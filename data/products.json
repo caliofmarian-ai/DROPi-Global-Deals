@@ -21,7 +21,9 @@
           "price": 36.27,
           "availability": "in_stock",
           "comparisonEligible": true,
-          "checkedAt": "2026-07-15",
+          "checkedAt": null,
+          "observedAt": "2026-09-15",
+          "evidenceFreshness": "unknown",
           "url": "https://www.electricalwholesaler.ie/en/brands/knipex?page=4"
         },
         {
@@ -30,8 +32,10 @@
           "price": 36.55,
           "availability": "in_stock",
           "comparisonEligible": true,
-          "checkedAt": "2026-09-08",
-          "url": "https://www.careytools.com/hand-tools/pliers-strippers-snips-croppers/waterpump-multi-slip-joint-pliers"
+          "checkedAt": null,
+          "observedAt": "2026-09-15",
+          "evidenceFreshness": "unknown",
+          "url": "https://www.careytools.com/products/cobra-water-pump-pliers-multi-component-grip-250mm-46mm-capacity/"
         },
         {
           "seller": "AUTODOC Ireland",
@@ -39,24 +43,27 @@
           "price": 43.99,
           "availability": "unknown",
           "comparisonEligible": true,
-          "checkedAt": "2026-05-15",
+          "checkedAt": null,
+          "observedAt": "2026-09-15",
+          "evidenceFreshness": "unknown",
           "url": "https://www.auto-doc.ie/knipex/10349777"
         }
       ],
-      "sourcePrice": 25.19,
-      "sourceCheckedAt": "2026-09-15",
+      "sourcePrice": 24.03,
+      "sourceCheckedAt": "2026-08-10",
+      "sourceObservedAt": "2026-09-15",
       "shippingToIreland": null,
       "adminFee": 0,
       "qualityStatus": "verified",
       "qualityTier": "same_sku",
-      "qualityBasis": "Exact manufacturer part number 87 02 250 and EAN 4003773040316.",
+      "qualityBasis": "Exact manufacturer part number 87 02 250; the German comparison snapshot and Irish offers refer to the same KNIPEX Cobra configuration.",
       "checkedAt": "2026-09-15",
       "freshForDays": 7,
       "evidence": {
         "source": {
-          "label": "Idealo Germany",
+          "label": "Idealo Germany — dated snapshot",
           "url": "https://www.idealo.de/preisvergleich/OffersOfProduct/889717_-cobra-250-mm-87-02-250-knipex.html",
-          "note": "Best listed price €25.19 plus delivery; Ireland delivery still needs verification."
+          "note": "Snapshot shows €24.03 plus delivery; page data states 10 Aug 2026 and is stale for publishing. Ireland delivery is not evidenced."
         }
       }
     },
@@ -73,13 +80,15 @@
       "irelandPrice": 37.40,
       "irelandOffers": [
         {
-          "seller": "Brown Thomas",
-          "label": "Brown Thomas — Bialetti Express Stove Coffee Maker 6 Cup",
+          "seller": "Brown Thomas / Arnotts",
+          "label": "Brown Thomas / Arnotts — Bialetti Express Stove Coffee Maker 6 Cup",
           "price": 37.40,
           "availability": "unknown",
           "comparisonEligible": true,
-          "checkedAt": "2026-06-15",
-          "url": "https://www.brownthomas.com/home/drinkware/tea-coffee-accessories/"
+          "checkedAt": null,
+          "observedAt": "2026-09-15",
+          "evidenceFreshness": "unknown",
+          "url": "https://www.brownthomas.com/home/drinkware/tea-coffee-accessories/express-stove-coffee-maker-6-cup/2000024835.html"
         },
         {
           "seller": "Heavins",
@@ -87,33 +96,27 @@
           "price": 39.99,
           "availability": "unknown",
           "comparisonEligible": true,
-          "checkedAt": "2026-09-01",
+          "checkedAt": null,
+          "observedAt": "2026-09-15",
+          "evidenceFreshness": "unknown",
           "url": "https://www.heavins.ie/products/bialetti-moka-express-6-cup-coffer-maker-me6"
-        },
-        {
-          "seller": "Joyces",
-          "label": "Joyces — Bialetti ME6",
-          "price": 43.99,
-          "availability": "in_stock",
-          "comparisonEligible": true,
-          "checkedAt": "2026-09-10",
-          "url": "https://www.joyces.ie/small-appliances/coffee-maker/filter-coffee/"
         }
       ],
-      "sourcePrice": 26.90,
-      "sourceCheckedAt": "2026-09-15",
+      "sourcePrice": 28.49,
+      "sourceCheckedAt": "2026-08-09",
+      "sourceObservedAt": "2026-09-15",
       "shippingToIreland": null,
       "adminFee": 0,
-      "qualityStatus": "needs_verification",
-      "qualityTier": "model_family_match",
-      "qualityBasis": "Irish listings identify the 6-cup / ME6 product. The German best-price seller listing must be matched to the exact sellable SKU before publication.",
+      "qualityStatus": "verified",
+      "qualityTier": "same_model",
+      "qualityBasis": "German comparison identifies Bialetti model 0001163, 6 cups; Irish reference is the Bialetti Moka Express 6 Cup. Price freshness and Ireland delivery still require rechecking.",
       "checkedAt": "2026-09-15",
       "freshForDays": 7,
       "evidence": {
         "source": {
-          "label": "Geizhals Germany",
+          "label": "Geizhals Germany — dated snapshot",
           "url": "https://geizhals.de/bialetti-moka-express-6-tassen-espressokanne-1163-a1017252.html",
-          "note": "€26.90 best listed price, excluding shipping; Ireland delivery still needs verification."
+          "note": "€28.49 snapshot, last price update 9 Aug 2026. The page warns prices may now be higher and most listed sellers ship only inside Germany."
         }
       }
     },
