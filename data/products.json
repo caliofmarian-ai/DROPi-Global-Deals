@@ -1,6 +1,7 @@
 {
   "generatedAt": "2026-09-15",
   "currency": "EUR",
+  "freshnessPolicyDays": 7,
   "products": [
     {
       "id": "knipex-8702250",
@@ -8,16 +9,30 @@
       "category": "Professional tools",
       "tradition": "German engineering",
       "originCountry": "Germany",
+      "dispatchCountry": "Germany",
       "shipsFrom": "Germany",
+      "dispatchInEu": true,
       "sourceInEu": true,
       "irelandPrice": 43.99,
       "sourcePrice": 25.19,
       "shippingToIreland": null,
-      "qualityBasis": "Identical manufacturer part number / EAN",
-      "status": "needs_shipping_quote",
+      "adminFee": 0,
+      "qualityStatus": "verified",
+      "qualityTier": "same_sku",
+      "qualityBasis": "Exact manufacturer part number 87 02 250 and EAN 4003773040316.",
+      "checkedAt": "2026-09-15",
+      "freshForDays": 7,
       "evidence": {
-        "ireland": "https://www.auto-doc.ie/knipex/10349777",
-        "source": "https://www.idealo.de/preisvergleich/OffersOfProduct/889717_-cobra-250-mm-87-02-250-knipex.html"
+        "ireland": {
+          "label": "AUTODOC Ireland",
+          "url": "https://www.auto-doc.ie/knipex/10349777",
+          "note": "€43.99 incl. 23% VAT; exact part number and EAN shown."
+        },
+        "source": {
+          "label": "Idealo Germany",
+          "url": "https://www.idealo.de/preisvergleich/OffersOfProduct/889717_-cobra-250-mm-87-02-250-knipex.html",
+          "note": "Best listed price €25.19 plus delivery; Ireland delivery still needs verification."
+        }
       }
     },
     {
@@ -26,31 +41,70 @@
       "category": "Kitchen & coffee",
       "tradition": "Italian coffee",
       "originCountry": "Italy",
+      "dispatchCountry": "Germany",
       "shipsFrom": "Germany / EU seller to verify",
+      "dispatchInEu": true,
       "sourceInEu": true,
       "irelandPrice": 39.99,
       "sourcePrice": 26.90,
       "shippingToIreland": null,
-      "qualityBasis": "Same 6-cup Moka Express product family; exact seller SKU must be matched before publishing a deal",
-      "status": "needs_shipping_quote",
+      "adminFee": 0,
+      "qualityStatus": "needs_verification",
+      "qualityTier": "model_family_match",
+      "qualityBasis": "Irish listing is ME6/6-cup. The German best-price seller listing must be matched to the exact sellable SKU before publication.",
+      "checkedAt": "2026-09-15",
+      "freshForDays": 7,
       "evidence": {
-        "ireland": "https://www.electrocity.ie/category/appliances/coffee-machines/stovetop-coffee-makers/",
-        "source": "https://geizhals.de/bialetti-moka-express-6-tassen-espressokanne-1163-a1017252.html"
+        "ireland": {
+          "label": "Heavins Ireland",
+          "url": "https://www.heavins.ie/products/bialetti-moka-express-6-cup-coffer-maker-me6",
+          "note": "€39.99 for Moka Express 6 Cup / ME6."
+        },
+        "source": {
+          "label": "Geizhals Germany",
+          "url": "https://geizhals.de/bialetti-moka-express-6-tassen-espressokanne-1163-a1017252.html",
+          "note": "€26.90 best listed price, excluding shipping; last visible price update 11 Sep 2026."
+        }
       }
     },
     {
-      "id": "romanian-natural-honey",
-      "name": "Romanian natural honey",
+      "id": "romanian-organic-acacia-honey",
+      "name": "Romanian certified organic acacia honey",
       "category": "Natural food",
       "tradition": "Romanian pantry",
       "originCountry": "Romania",
-      "shipsFrom": "EU supplier required",
+      "dispatchCountry": "Romania",
+      "shipsFrom": "Romania — legal Ireland parcel fulfilment to verify",
+      "dispatchInEu": true,
       "sourceInEu": true,
       "irelandPrice": null,
       "sourcePrice": null,
       "shippingToIreland": null,
-      "qualityBasis": "Producer, origin, ingredients, harvest/processing claims and food-business compliance must be verified",
-      "status": "research_queue"
+      "qualityStatus": "candidate",
+      "qualityTier": "organic_monofloral_acacia",
+      "qualityBasis": "Compare only against organic acacia honey or a clearly equivalent premium tier. The Romanian source must retain valid organic certification and compliant consumer labelling.",
+      "checkedAt": "2026-09-15",
+      "freshForDays": 7,
+      "researchReason": "The source is priced in RON and Ireland shipping/consumer fulfilment is not verified yet; no EUR saving is published.",
+      "benchmarks": [
+        {
+          "market": "Ireland",
+          "label": "Rowse Organic Acacia 340g at Holland & Barrett Ireland",
+          "amount": 6.89,
+          "currency": "EUR",
+          "unitPrice": 20.26,
+          "unit": "kg",
+          "url": "https://www.hollandandbarrett.ie/shop/product/rowse-squeezy-organic-acacia-60061366"
+        },
+        {
+          "market": "Romania",
+          "label": "Certified organic acacia honey 950g",
+          "amount": 45,
+          "currency": "RON",
+          "pack": "950g",
+          "url": "https://www.agriculturaecologica.ro/produse/mierea-de-salcam-950-gr/"
+        }
+      ]
     },
     {
       "id": "spanish-evoo",
@@ -58,13 +112,18 @@
       "category": "Natural food",
       "tradition": "Spanish pantry",
       "originCountry": "Spain",
+      "dispatchCountry": "Spain",
       "shipsFrom": "Spain",
+      "dispatchInEu": true,
       "sourceInEu": true,
       "irelandPrice": null,
       "sourcePrice": null,
       "shippingToIreland": null,
-      "qualityBasis": "Compare EVOO with EVOO using harvest, extraction, origin and packaging evidence — never generic oil vs premium oil",
-      "status": "research_queue"
+      "qualityStatus": "research",
+      "qualityTier": "evoo_like_for_like",
+      "qualityBasis": "Compare EVOO with EVOO using harvest, extraction method, origin, acidity/specification and packaging evidence — never generic oil versus premium oil.",
+      "checkedAt": "2026-09-15",
+      "researchReason": "A quality-matched Irish reference and an Ireland delivery quote must be selected before comparison."
     },
     {
       "id": "polish-household",
@@ -72,13 +131,17 @@
       "category": "Home & household",
       "tradition": "Polish favourites",
       "originCountry": "Poland",
+      "dispatchCountry": "Poland",
       "shipsFrom": "Poland",
+      "dispatchInEu": true,
       "sourceInEu": true,
       "irelandPrice": null,
       "sourcePrice": null,
       "shippingToIreland": null,
-      "qualityBasis": "Exact SKU or measurable specification match required",
-      "status": "research_queue"
+      "qualityStatus": "research",
+      "qualityTier": "exact_sku_or_spec",
+      "qualityBasis": "Exact SKU or measurable specification match required.",
+      "checkedAt": "2026-09-15"
     },
     {
       "id": "portuguese-textiles",
@@ -86,13 +149,17 @@
       "category": "Home & textiles",
       "tradition": "Portuguese-made",
       "originCountry": "Portugal",
+      "dispatchCountry": "Portugal",
       "shipsFrom": "Portugal",
+      "dispatchInEu": true,
       "sourceInEu": true,
       "irelandPrice": null,
       "sourcePrice": null,
       "shippingToIreland": null,
-      "qualityBasis": "Material composition, GSM/thread count, dimensions and manufacturer origin required",
-      "status": "research_queue"
+      "qualityStatus": "research",
+      "qualityTier": "material_spec_match",
+      "qualityBasis": "Material composition, GSM/thread count, dimensions and manufacturer origin required.",
+      "checkedAt": "2026-09-15"
     },
     {
       "id": "filipino-pantry-eu",
@@ -100,13 +167,17 @@
       "category": "International food",
       "tradition": "Filipino pantry",
       "originCountry": "Philippines",
+      "dispatchCountry": "EU warehouse required",
       "shipsFrom": "Netherlands / Germany / other EU warehouse",
+      "dispatchInEu": true,
       "sourceInEu": true,
       "irelandPrice": null,
       "sourcePrice": null,
       "shippingToIreland": null,
-      "qualityBasis": "Prefer established EU food distributors; verify labels, ingredients, allergens and legal sale in the EU",
-      "status": "research_queue"
+      "qualityStatus": "research",
+      "qualityTier": "authentic_product_eu_compliant",
+      "qualityBasis": "Origin may be Philippines while dispatch is EU. Verify labels, ingredients, allergens, importer and legal EU sale before listing.",
+      "checkedAt": "2026-09-15"
     },
     {
       "id": "indian-spices-eu",
@@ -114,13 +185,17 @@
       "category": "International food",
       "tradition": "Indian pantry",
       "originCountry": "India",
-      "shipsFrom": "EU warehouse required for MVP",
+      "dispatchCountry": "EU warehouse required",
+      "shipsFrom": "Netherlands / Germany / France",
+      "dispatchInEu": true,
       "sourceInEu": true,
       "irelandPrice": null,
       "sourcePrice": null,
       "shippingToIreland": null,
-      "qualityBasis": "Ingredient purity, origin, pack size, allergens and EU food compliance required",
-      "status": "research_queue"
+      "qualityStatus": "research",
+      "qualityTier": "ingredient_spec_match",
+      "qualityBasis": "Ingredient purity, origin, pack size, allergens and EU food compliance required.",
+      "checkedAt": "2026-09-15"
     }
   ]
 }

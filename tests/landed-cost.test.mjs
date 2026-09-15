@@ -10,6 +10,12 @@ test("EU shipment has no import customs or import VAT added by the engine", () =
   assert.equal(result.savings, 13);
 });
 
+test("dispatchInEu is the clearer alias for sourceInEu", () => {
+  const result = calculateLandedCost({ sourcePrice: 30, shipping: 7, dispatchInEu: true, localIrelandPrice: 50 });
+  assert.equal(result.landedCost, 37);
+  assert.equal(result.dispatchInEu, true);
+});
+
 test("non-EU <= €150 adds €3 per distinct line item and VAT when IOSS is not used", () => {
   const result = calculateLandedCost({ sourcePrice: 100, shipping: 10, sourceInEu: false, distinctLineItems: 1, vatRate: 0.23 });
   assert.equal(result.customsDuty, 3);

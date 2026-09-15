@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
 import { calculateLandedCost } from "./lib/landed-cost.mjs";
+import { enrichCatalog } from "./lib/catalog.mjs";
 
 const root = fileURLToPath(new URL(".", import.meta.url));
 const port = Number(process.env.PORT || 3000);
@@ -19,17 +20,25 @@ const send = (res, status, body, type = "application/json; charset=utf-8") => {
   res.end(body);
 };
 
+async function readJson(relativePath) {
+  return JSON.parse(await readFile(join(root, relativePath), "utf8"));
+}
+
 http.createServer(async (req, res) => {
   try {
     const url = new URL(req.url, `http://${req.headers.host || "localhost"}`);
 
     if (url.pathname === "/health") {
-      return send(res, 200, JSON.stringify({ ok: true, service: "dropi-global-deals" }));
+      return send(res, 200, JSON.stringify({ ok: true, service: "dropi-global-deals", catalogVersion: 2 }));
     }
 
-    if (url.pathname === "/api/products") {
-      const body = await readFile(join(root, "data/products.json"), "utf8");
-      return send(res, 200, body);
+    if (url.pathname === "/api/products" && req.method === "GET") {
+      const catalog = enrichCatalog(await readJson("data/products.json"));
+      return send(res, 200, JSON.stringify(catalog));
+    }
+
+    if (url.pathname === "/api/research-categories" && req.method === "GET") {
+      return send(res, 200, JSON.stringify(await readJson("data/research-categories.json")));
     }
 
     if (url.pathname === "/api/calculate" && req.method === "POST") {

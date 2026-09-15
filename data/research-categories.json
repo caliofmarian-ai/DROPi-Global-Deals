@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-09-15",
+  "market": "Ireland",
+  "principle": "Search broadly, publish narrowly: a category is an opportunity map, not a claim that importing is always cheaper.",
+  "categories": [
+    {"id":"professional-tools","title":"Professional hand tools","sourceCountries":["Germany","Poland","Czechia"],"priority":"high","qualityRule":"Exact model/SKU/EAN","fulfilment":"EU-first"},
+    {"id":"tool-accessories","title":"Power-tool accessories & consumables","sourceCountries":["Germany","Poland"],"priority":"high","qualityRule":"Exact part number, dimensions and compatibility","fulfilment":"EU-first"},
+    {"id":"auto-parts","title":"Car parts & maintenance","sourceCountries":["Germany","Poland","Czechia"],"priority":"high","qualityRule":"OEM/OE number and vehicle compatibility","fulfilment":"EU-first"},
+    {"id":"bike-parts","title":"Bicycle parts & accessories","sourceCountries":["Germany","Netherlands"],"priority":"high","qualityRule":"Exact component standard and model","fulfilment":"EU-first"},
+    {"id":"coffee-equipment","title":"Coffee makers & accessories","sourceCountries":["Italy","Germany","Portugal"],"priority":"high","qualityRule":"Exact model/capacity/material","fulfilment":"EU-first"},
+    {"id":"cookware","title":"Cookware & kitchen tools","sourceCountries":["Italy","Spain","Portugal"],"priority":"medium","qualityRule":"Material, dimensions, coating and origin","fulfilment":"EU-first"},
+    {"id":"honey","title":"Natural & monofloral honey","sourceCountries":["Romania","Greece","Bulgaria","Poland"],"priority":"high","qualityRule":"Origin + floral type + organic/raw claims only when documented","fulfilment":"EU food suppliers only"},
+    {"id":"olive-oil","title":"Extra virgin olive oil","sourceCountries":["Spain","Greece","Italy","Portugal"],"priority":"high","qualityRule":"EVOO vs EVOO; harvest/extraction/origin/spec matched","fulfilment":"EU food suppliers only"},
+    {"id":"preserves","title":"Traditional preserves, jams & spreads","sourceCountries":["Romania","Poland","Bulgaria","Portugal"],"priority":"medium","qualityRule":"Ingredients, fruit/vegetable percentage, additives and origin","fulfilment":"EU food suppliers only"},
+    {"id":"coffee","title":"Roasted coffee","sourceCountries":["Italy","Portugal","Spain"],"priority":"medium","qualityRule":"Roast date, bean/blend, weight and format","fulfilment":"EU-first"},
+    {"id":"filipino-pantry","title":"Filipino pantry","sourceCountries":["Netherlands","Germany"],"priority":"high","qualityRule":"Authentic product + EU importer/labelling/allergens","fulfilment":"EU distributor required"},
+    {"id":"indian-pantry","title":"Indian spices, pulses & pantry","sourceCountries":["Netherlands","Germany","France"],"priority":"high","qualityRule":"Ingredient purity, origin, allergens, pack size","fulfilment":"EU distributor required"},
+    {"id":"brazilian-pantry","title":"Brazilian pantry","sourceCountries":["Portugal","Spain"],"priority":"medium","qualityRule":"Authentic product + compliant EU food label","fulfilment":"EU distributor required"},
+    {"id":"mena-pantry","title":"Middle Eastern & North African pantry","sourceCountries":["France","Belgium","Netherlands"],"priority":"medium","qualityRule":"Ingredients, origin, allergens and importer","fulfilment":"EU distributor required"},
+    {"id":"eastern-european-pantry","title":"Eastern European pantry","sourceCountries":["Poland","Romania","Lithuania"],"priority":"high","qualityRule":"Exact product or like-for-like ingredients/weight","fulfilment":"EU-first"},
+    {"id":"dermocosmetics","title":"Dermocosmetics & skincare","sourceCountries":["France","Spain","Germany"],"priority":"high","qualityRule":"Exact SKU, size, formulation and authorised seller","fulfilment":"EU-first"},
+    {"id":"kbeauty","title":"K-beauty via EU distributors","sourceCountries":["Netherlands","Germany","France"],"priority":"medium","qualityRule":"Exact SKU + EU Responsible Person / compliant labelling","fulfilment":"EU distributor required"},
+    {"id":"home-textiles","title":"Home textiles & bedding","sourceCountries":["Portugal","Poland","Romania"],"priority":"high","qualityRule":"Material, GSM/thread count, dimensions and maker origin","fulfilment":"EU-first"},
+    {"id":"small-furniture","title":"Flat-pack & small furniture","sourceCountries":["Poland","Romania","Portugal"],"priority":"medium","qualityRule":"Dimensions, material, load rating and shipping damage risk","fulfilment":"EU-first; landed freight critical"},
+    {"id":"home-organisation","title":"Home organisation","sourceCountries":["Poland","Germany","Czechia"],"priority":"high","qualityRule":"Dimensions/material/capacity","fulfilment":"EU-first"},
+    {"id":"garden","title":"Garden & irrigation","sourceCountries":["Germany","Poland","Czechia"],"priority":"medium","qualityRule":"Exact fittings/specification and warranty","fulfilment":"EU-first"},
+    {"id":"pet-supplies","title":"Pet accessories & supplies","sourceCountries":["Germany","Poland","Netherlands"],"priority":"medium","qualityRule":"Exact specification; pet food requires separate compliance review","fulfilment":"EU-first"},
+    {"id":"hobby-crafts","title":"Hobby & craft supplies","sourceCountries":["Germany","Poland","Czechia"],"priority":"medium","qualityRule":"Material, quantity and exact specification","fulfilment":"EU-first"},
+    {"id":"outdoor-sport","title":"Outdoor & sports accessories","sourceCountries":["Germany","Italy","Poland"],"priority":"medium","qualityRule":"Exact model, safety standard and size","fulfilment":"EU-first"},
+    {"id":"cultural-books","title":"Books & cultural media","sourceCountries":["Romania","Poland","Portugal","Spain"],"priority":"medium","qualityRule":"Exact edition/ISBN/language","fulfilment":"EU-first"}
+  ]
+}
