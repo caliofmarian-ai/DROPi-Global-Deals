@@ -3,6 +3,7 @@ const state = { products: [], researchCategories: [] };
 
 const statusLabels = {
   verified_deal: "VERIFIED DEAL",
+  needs_local_recheck: "RECHECK IRISH PRICE",
   needs_shipping_quote: "PRICE GAP — VERIFY DELIVERY",
   needs_quality_evidence: "NEEDS QUALITY EVIDENCE",
   needs_dispatch_evidence: "VERIFY DISPATCH",
@@ -14,13 +15,14 @@ const statusLabels = {
 
 const statusOrder = {
   verified_deal: 0,
-  needs_shipping_quote: 1,
-  needs_quality_evidence: 2,
-  needs_dispatch_evidence: 3,
-  needs_tax_evidence: 4,
-  cheaper_in_ireland: 5,
-  research_queue: 6,
-  stale: 7,
+  needs_local_recheck: 1,
+  needs_shipping_quote: 2,
+  needs_quality_evidence: 3,
+  needs_dispatch_evidence: 4,
+  needs_tax_evidence: 5,
+  cheaper_in_ireland: 6,
+  research_queue: 7,
+  stale: 8,
 };
 
 const unique = (list) => [...new Set(list.filter(Boolean))].sort();
@@ -43,7 +45,8 @@ function optionize(id, values, labelFn = value => value) {
 
 function evidenceLinks(product) {
   const entries = Object.values(product.evidence || {});
-  if (!entries.length) return "";
+  const localOffer = product.derived?.comparisonIrelandOffer;
+  if (localOffer?.url) entries.unshift({ label: `Ireland: ${localOffer.label}`, url: localOffer.url });
   const links = entries.map(item => {
     const url = safeUrl(item.url);
     return url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.label || "Source")}</a>` : "";
@@ -65,6 +68,7 @@ function card(product) {
   const label = statusLabels[d.status] || "RESEARCH";
   const pillClass = d.status === "verified_deal" ? "good" : d.status === "research_queue" || d.status === "stale" ? "neutral" : "warn";
   const gapText = d.rawGap == null ? "No publishable EUR comparison yet" : `${money.format(d.rawGap)} raw product-price gap before Ireland delivery`;
+  const localOffer = d.comparisonIrelandOffer;
   const outcome = d.status === "verified_deal"
     ? `<p class="verified-saving">Verified landed saving ${money.format(d.savings)} (${d.savingsPercent}%)</p>`
     : `<p class="fineprint">${escapeHtml(d.statusReason || "More evidence required.")}</p>`;
@@ -77,10 +81,11 @@ function card(product) {
       <div><dt>Dispatch</dt><dd>${escapeHtml(product.dispatchCountry || product.shipsFrom)}</dd></div>
     </dl>
     <p class="gap">${gapText}</p>
-    ${product.irelandPrice != null && product.sourcePrice != null ? `<div class="prices"><span>Ireland <b>${money.format(product.irelandPrice)}</b></span><span>Source <b>${money.format(product.sourcePrice)}</b></span></div>` : ""}
+    ${d.comparisonIrelandPrice != null && product.sourcePrice != null ? `<div class="prices"><span>Best Ireland reference <b>${money.format(d.comparisonIrelandPrice)}</b><small>${escapeHtml(localOffer?.seller || "Irish market")}</small></span><span>Source <b>${money.format(product.sourcePrice)}</b></span></div>` : ""}
     ${benchmarkBlock(product)}
     <p class="quality"><b>Quality check:</b> ${escapeHtml(product.qualityBasis)}</p>
-    <div class="freshness"><span>Checked ${escapeHtml(formatDate(product.checkedAt))}</span><span>${d.freshness === "fresh" ? "Fresh" : d.freshness === "stale" ? "Expired" : "Undated"}</span></div>
+    <div class="freshness"><span>Source checked ${escapeHtml(formatDate(product.sourceCheckedAt || product.checkedAt))}</span><span>Irish best: ${escapeHtml(d.comparisonIrelandFreshness || "unknown")}</span></div>
+    ${Array.isArray(d.blockers) && d.blockers.length ? `<div class="blockers">Blocked by: ${d.blockers.map(escapeHtml).join(" · ")}</div>` : ""}
     ${outcome}
     ${evidenceLinks(product)}
   </article>`;
