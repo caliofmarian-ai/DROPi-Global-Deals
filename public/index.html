@@ -1,85 +1,10 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="DROPi Global compares Irish prices with the real landed cost of buying from trusted sellers abroad." />
-  <title>DROPi Global — Better products. Lower landed cost.</title>
-  <link rel="stylesheet" href="/styles.css" />
-</head>
-<body>
-  <header class="topbar">
-    <a class="brand" href="/">DROP<span>i</span> Global</a>
-    <nav><a href="#deals">Deals</a><a href="#scan">What we scan</a><a href="#calculator">Calculator</a><a href="#method">How it works</a></nav>
-  </header>
-
-  <main>
-    <section class="hero">
-      <div>
-        <p class="eyebrow">Ireland-first global shopping</p>
-        <h1>Better products.<br><em>Lower landed cost.</em></h1>
-        <p class="lede">Compare the Irish price with the real cost delivered to your door: product, delivery, customs, VAT and fees. We separate country of origin from dispatch country and never turn a shelf-price gap into a fake saving.</p>
-        <div class="hero-actions"><a class="button primary" href="#deals">Explore candidates</a><a class="button" href="#calculator">Calculate landed cost</a></div>
-      </div>
-      <aside class="hero-card">
-        <span class="pill good">REAL COST FIRST</span>
-        <h2>Price gap ≠ saving</h2>
-        <p><strong>Country of origin</strong> tells you where the product comes from. <strong>Dispatch country</strong> determines much of the border, tax and delivery reality.</p>
-        <div class="route"><span>Origin</span><b>→</b><span>Warehouse</span><b>→</b><span>Ireland</span></div>
-      </aside>
-    </section>
-
-    <section class="metrics" aria-label="principles">
-      <div><strong>EU-first</strong><span>where practical, especially for food and regulated categories</span></div>
-      <div><strong>€3</strong><span>customs duty per distinct product type for most ≤€150 non-EU e-commerce parcels since 1 Jul 2026</span></div>
-      <div><strong>Fresh</strong><span>dated evidence expires automatically instead of living forever on the site</span></div>
-    </section>
-
-    <section id="deals" class="section">
-      <div class="section-head"><div><p class="eyebrow">Opportunity engine</p><h2>Candidates, not hype</h2></div><p>A product becomes a verified deal only after fresh evidence, quality matching and the full Ireland landed cost agree.</p></div>
-      <div class="filters">
-        <select id="category"><option value="all">All categories</option></select>
-        <select id="origin"><option value="all">All origins</option></select>
-        <select id="status"><option value="all">All statuses</option></select>
-      </div>
-      <div id="products" class="grid" aria-live="polite"></div>
-    </section>
-
-    <section id="scan" class="section scan-section">
-      <div class="section-head"><div><p class="eyebrow">Research map</p><h2>What DROPi scans</h2></div><p><strong id="researchCount">Loading category pipelines…</strong><br />Search broadly, publish narrowly. A category is an opportunity to investigate, not a promise that import is cheaper.</p></div>
-      <div id="researchCategories" class="research-grid" aria-live="polite"></div>
-    </section>
-
-    <section id="calculator" class="section calculator-wrap">
-      <div><p class="eyebrow">Landed-cost calculator</p><h2>Would importing actually save money?</h2><p>Use the values shown by the seller and courier. For non-EU goods over €150, add the applicable TARIC customs rate. For parcels ≤€150, distinct product types matter for the current €3 customs charge.</p></div>
-      <form id="calculatorForm" class="calculator">
-        <label>Irish comparison price (€)<input name="localIrelandPrice" type="number" min="0" step="0.01" required value="50" /></label>
-        <label>Foreign product price (€)<input name="sourcePrice" type="number" min="0" step="0.01" required value="30" /></label>
-        <label>Delivery to Ireland (€)<input name="shipping" type="number" min="0" step="0.01" required value="7" /></label>
-        <label>Dispatched from<select name="dispatchInEu"><option value="true">EU country</option><option value="false">Outside EU</option></select></label>
-        <label>Intrinsic value (€)<input name="intrinsicValue" type="number" min="0" step="0.01" value="30" /></label>
-        <label>Courier/admin fee (€)<input name="adminFee" type="number" min="0" step="0.01" value="0" /></label>
-        <label>Distinct product types<input name="distinctLineItems" type="number" min="1" step="1" value="1" /></label>
-        <label>VAT rate (%)<input name="vatRate" type="number" min="0" step="0.1" value="23" /></label>
-        <label>Customs rate over €150 (%)<input name="customsRate" type="number" min="0" step="0.1" placeholder="Only when required" /></label>
-        <label class="check"><input name="iossVatCollected" type="checkbox" /> Seller already collected Irish VAT via IOSS</label>
-        <button class="button primary" type="submit">Compare total cost</button>
-        <div id="calcResult" class="result" aria-live="polite"></div>
-      </form>
-    </section>
-
-    <section id="method" class="section method">
-      <p class="eyebrow">Quality before hype</p><h2>What counts as “better”?</h2>
-      <div class="method-grid">
-        <article><b>Same product</b><p>Match SKU, EAN, model, quantity and specification. Cheapest is meaningless if the products differ.</p></article>
-        <article><b>Food quality</b><p>Use ingredients, origin, organic/PDO/PGI evidence, harvest/processing information and compliant EU labels — not marketing adjectives.</p></article>
-        <article><b>Full cost</b><p>Product + Ireland delivery + customs + VAT + courier fees. A low foreign shelf price alone is not a deal.</p></article>
-        <article><b>Fresh evidence</b><p>Publishable comparisons carry a check date. Old evidence automatically drops out of verified status.</p></article>
-      </div>
-    </section>
-  </main>
-
-  <footer><strong>DROPi Global</strong><span>Better products. Lower landed cost. Delivered to Ireland.</span></footer>
-  <script type="module" src="/app.js"></script>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="description" content="DROPi Global compares Irish prices with the real landed cost of buying from trusted sellers abroad."/><title>DROPi Global — Better products. Lower landed cost.</title><link rel="stylesheet" href="/styles.css"/></head>
+<body><header class="topbar"><a class="brand" href="/">DROP<span>i</span> Global</a><nav><a href="#deals">Deals</a><a href="#scan">What we scan</a><a href="#calculator">Basket calculator</a><a href="#method">How it works</a></nav></header>
+<main><section class="hero"><div><p class="eyebrow">Ireland-first global shopping</p><h1>Better products.<br><em>Lower landed cost.</em></h1><p class="lede">Compare the Irish price with the real cost delivered to your door: product, delivery, customs, VAT, fees and currency conversion. We separate country of origin from dispatch country and never turn a shelf-price gap into a fake saving.</p><div class="hero-actions"><a class="button primary" href="#deals">Explore candidates</a><a class="button" href="#calculator">Calculate a basket</a></div></div><aside class="hero-card"><span class="pill good">REAL COST FIRST</span><h2>Price gap ≠ saving</h2><p><strong>Country of origin</strong> tells you where the product comes from. <strong>Dispatch country</strong> determines much of the border, tax and delivery reality.</p><div class="route"><span>Origin</span><b>→</b><span>Warehouse</span><b>→</b><span>Ireland</span></div></aside></section>
+<section class="metrics" aria-label="principles"><div><strong>EU-first</strong><span>where practical, especially for food and regulated categories</span></div><div><strong>Basket-aware</strong><span>fixed delivery can be amortised across several units</span></div><div><strong>ECB FX</strong><span>original-currency prices are normalised using dated reference rates</span></div></section>
+<section id="deals" class="section"><div class="section-head"><div><p class="eyebrow">Opportunity engine</p><h2>Candidates, not hype</h2></div><p>A product becomes a verified deal only after fresh evidence, quality matching and the full Ireland landed cost agree.</p></div><div class="filters"><select id="category"><option value="all">All categories</option></select><select id="origin"><option value="all">All origins</option></select><select id="status"><option value="all">All statuses</option></select></div><div id="products" class="grid" aria-live="polite"></div></section>
+<section id="scan" class="section scan-section"><div class="section-head"><div><p class="eyebrow">Research map</p><h2>What DROPi scans</h2></div><p><strong id="researchCount">Loading category pipelines…</strong><br/>Search broadly, publish narrowly. A category is an opportunity to investigate, not a promise that import is cheaper.</p></div><div id="researchCategories" class="research-grid" aria-live="polite"></div></section>
+<section id="calculator" class="section calculator-wrap"><div><p class="eyebrow">Basket economics</p><h2>When does importing actually win?</h2><p>A fixed delivery charge can make one unit expensive and a multi-item basket attractive. Enter per-unit prices and total delivery. DROPi converts supported source currencies with a dated ECB reference snapshot and shows landed cost per unit plus the minimum EU-basket quantity needed to break even.</p><p class="fx-note" id="fxNote">Loading ECB FX snapshot…</p></div><form id="calculatorForm" class="calculator"><label>Irish price per unit (€)<input name="localIrelandUnitPrice" type="number" min="0" step="0.01" required value="20.26"/></label><label>Source unit price<input name="sourceUnitPrice" type="number" min="0" step="0.01" required value="45"/></label><label>Source currency<select name="sourceCurrency" id="sourceCurrency"><option value="EUR">EUR</option><option value="RON" selected>RON</option><option value="PLN">PLN</option><option value="CZK">CZK</option><option value="GBP">GBP</option><option value="BRL">BRL</option><option value="INR">INR</option><option value="PHP">PHP</option><option value="KRW">KRW</option><option value="CNY">CNY</option></select></label><label>Quantity<input name="quantity" type="number" min="1" step="1" value="6" required/></label><label>Total delivery to Ireland (€)<input name="shipping" type="number" min="0" step="0.01" required value="25"/></label><label>Dispatched from<select name="dispatchInEu"><option value="true">EU country</option><option value="false">Outside EU</option></select></label><label>Courier/admin fee (€)<input name="adminFee" type="number" min="0" step="0.01" value="0"/></label><label>Distinct product types<input name="distinctLineItems" type="number" min="1" step="1" value="1"/></label><label>VAT rate (%)<input name="vatRate" type="number" min="0" step="0.1" value="23"/></label><label>Customs rate over €150 (%)<input name="customsRate" type="number" min="0" step="0.1" placeholder="Only when required"/></label><label class="check"><input name="iossVatCollected" type="checkbox"/> Seller already collected Irish VAT via IOSS</label><button class="button primary" type="submit">Compare basket</button><div id="calcResult" class="result" aria-live="polite"></div></form></section>
+<section id="method" class="section method"><p class="eyebrow">Quality before hype</p><h2>What counts as “better”?</h2><div class="method-grid"><article><b>Same product</b><p>Match SKU, EAN, model, quantity and specification. Cheapest is meaningless if the products differ.</p></article><article><b>Food quality</b><p>Use ingredients, origin, organic/PDO/PGI evidence, harvest/processing information and compliant EU labels — not marketing adjectives.</p></article><article><b>Full basket cost</b><p>Product + Ireland delivery + customs + VAT + courier and FX costs. A low foreign shelf price alone is not a deal.</p></article><article><b>Fresh evidence</b><p>Publishable comparisons carry a check date. Old evidence automatically drops out of verified status.</p></article></div></section></main>
+<footer><strong>DROPi Global</strong><span>Better products. Lower landed cost. Delivered to Ireland.</span></footer><script type="module" src="/app.js"></script></body></html>
