@@ -12,60 +12,35 @@
       "dispatchCountry": "Germany",
       "shipsFrom": "Germany",
       "dispatchInEu": true,
-      "sourceInEu": true,
       "irelandPrice": 36.55,
       "irelandOffers": [
+        {"seller":"Carey Tools","label":"Carey Tools — KPX8702250","price":36.55,"availability":"in_stock","comparisonEligible":true,"checkedAt":"2026-08-18","observedAt":"2026-09-15","url":"https://www.careytools.com/products/cobra-water-pump-pliers-multi-component-grip-250mm-46mm-capacity/"},
+        {"seller":"Hunt Office Ireland","label":"Hunt Office — 87 02 250 SB","price":51.60,"availability":"unknown","comparisonEligible":true,"checkedAt":"2026-08-25","observedAt":"2026-09-15","url":"https://www.huntoffice.ie/cobra-water-pump-pliers-multi-component-grip-250mm-87-02-250-sb"}
+      ],
+      "sourceOffers": [
         {
-          "seller": "Electrical Wholesaler Ireland",
-          "label": "Electrical Wholesaler Ireland — 87 02 250",
-          "price": 36.27,
-          "availability": "in_stock",
-          "comparisonEligible": true,
-          "checkedAt": null,
-          "observedAt": "2026-09-15",
-          "evidenceFreshness": "unknown",
-          "url": "https://www.electricalwholesaler.ie/en/brands/knipex?page=4"
-        },
-        {
-          "seller": "Carey Tools",
-          "label": "Carey Tools — KPX8702250",
-          "price": 36.55,
-          "availability": "in_stock",
-          "comparisonEligible": true,
-          "checkedAt": null,
-          "observedAt": "2026-09-15",
-          "evidenceFreshness": "unknown",
-          "url": "https://www.careytools.com/products/cobra-water-pump-pliers-multi-component-grip-250mm-46mm-capacity/"
-        },
-        {
-          "seller": "AUTODOC Ireland",
-          "label": "AUTODOC Ireland — 87 02 250",
-          "price": 43.99,
-          "availability": "unknown",
-          "comparisonEligible": true,
-          "checkedAt": null,
-          "observedAt": "2026-09-15",
-          "evidenceFreshness": "unknown",
-          "url": "https://www.auto-doc.ie/knipex/10349777"
+          "id":"idealo-manomano-aug-snapshot",
+          "seller":"ManoMano.de via Idealo",
+          "label":"Idealo snapshot — ManoMano.de",
+          "productPrice":24.03,
+          "shippingToIreland":null,
+          "shipsToIreland":null,
+          "dispatchCountry":"Germany",
+          "dispatchInEu":true,
+          "availability":"unknown",
+          "comparisonEligible":true,
+          "qualityStatus":"verified",
+          "checkedAt":"2026-08-10",
+          "observedAt":"2026-09-15",
+          "url":"https://www.idealo.de/preisvergleich/OffersOfProduct/889717_-cobra-250-mm-87-02-250-knipex.html",
+          "evidenceUrl":"https://www.idealo.de/preisvergleich/OffersOfProduct/889717_-cobra-250-mm-87-02-250-knipex.html"
         }
       ],
-      "sourcePrice": 24.03,
-      "sourceCheckedAt": "2026-08-10",
-      "sourceObservedAt": "2026-09-15",
-      "shippingToIreland": null,
-      "adminFee": 0,
       "qualityStatus": "verified",
       "qualityTier": "same_sku",
-      "qualityBasis": "Exact manufacturer part number 87 02 250; the German comparison snapshot and Irish offers refer to the same KNIPEX Cobra configuration.",
-      "checkedAt": "2026-09-15",
+      "qualityBasis": "Exact manufacturer part number 87 02 250 and EAN 4003773040316.",
       "freshForDays": 7,
-      "evidence": {
-        "source": {
-          "label": "Idealo Germany — dated snapshot",
-          "url": "https://www.idealo.de/preisvergleich/OffersOfProduct/889717_-cobra-250-mm-87-02-250-knipex.html",
-          "note": "Snapshot shows €24.03 plus delivery; page data states 10 Aug 2026 and is stale for publishing. Ireland delivery is not evidenced."
-        }
-      }
+      "evidence": {"source":{"label":"Idealo Germany — dated snapshot","url":"https://www.idealo.de/preisvergleich/OffersOfProduct/889717_-cobra-250-mm-87-02-250-knipex.html","note":"Snapshot dated 10 Aug 2026; German domestic delivery is not Ireland delivery evidence."}}
     },
     {
       "id": "bialetti-moka-6",
@@ -74,51 +49,38 @@
       "tradition": "Italian coffee",
       "originCountry": "Italy",
       "dispatchCountry": "Germany",
-      "shipsFrom": "Germany / EU seller to verify",
+      "shipsFrom": "Germany / EU seller",
       "dispatchInEu": true,
-      "sourceInEu": true,
-      "irelandPrice": 37.40,
+      "irelandPrice": 39.99,
       "irelandOffers": [
+        {"seller":"Heavins","label":"Heavins — Bialetti ME6","price":39.99,"availability":"in_stock","comparisonEligible":true,"checkedAt":"2026-09-01","observedAt":"2026-09-15","url":"https://www.heavins.ie/products/bialetti-moka-express-6-cup-coffer-maker-me6"},
+        {"seller":"Joyces","label":"Joyces — Bialetti ME6","price":43.99,"availability":"in_stock","comparisonEligible":true,"checkedAt":"2026-09-10","observedAt":"2026-09-15","url":"https://www.joyces.ie/bialetti-moka-express-6-cup-espresso-coffee-maker-silver-me6"},
+        {"seller":"Brown Thomas","label":"Brown Thomas — Express Stove Coffee Maker 6 Cup","price":44.00,"availability":"unknown","comparisonEligible":true,"checkedAt":"2026-09-14","observedAt":"2026-09-15","url":"https://www.brownthomas.com/brands/bialetti/"}
+      ],
+      "sourceOffers": [
         {
-          "seller": "Brown Thomas / Arnotts",
-          "label": "Brown Thomas / Arnotts — Bialetti Express Stove Coffee Maker 6 Cup",
-          "price": 37.40,
-          "availability": "unknown",
-          "comparisonEligible": true,
-          "checkedAt": null,
-          "observedAt": "2026-09-15",
-          "evidenceFreshness": "unknown",
-          "url": "https://www.brownthomas.com/home/drinkware/tea-coffee-accessories/express-stove-coffee-maker-6-cup/2000024835.html"
-        },
-        {
-          "seller": "Heavins",
-          "label": "Heavins — Bialetti ME6",
-          "price": 39.99,
-          "availability": "unknown",
-          "comparisonEligible": true,
-          "checkedAt": null,
-          "observedAt": "2026-09-15",
-          "evidenceFreshness": "unknown",
-          "url": "https://www.heavins.ie/products/bialetti-moka-express-6-cup-coffer-maker-me6"
+          "id":"aromatico-geizhals-2026-09-11",
+          "seller":"Aromatico",
+          "label":"Aromatico — Bialetti Moka Express 6 Cup",
+          "productPrice":26.90,
+          "shippingToIreland":19.90,
+          "shipsToIreland":true,
+          "dispatchCountry":"Germany",
+          "dispatchInEu":true,
+          "availability":"unknown",
+          "comparisonEligible":true,
+          "qualityStatus":"verified",
+          "checkedAt":"2026-09-11",
+          "observedAt":"2026-09-15",
+          "url":"https://www.aromatico.de/en/p/bialetti-moka-express",
+          "evidenceUrl":"https://geizhals.de/bialetti-moka-express-6-tassen-espressokanne-1163-a1017252.html"
         }
       ],
-      "sourcePrice": 28.49,
-      "sourceCheckedAt": "2026-08-09",
-      "sourceObservedAt": "2026-09-15",
-      "shippingToIreland": null,
-      "adminFee": 0,
       "qualityStatus": "verified",
       "qualityTier": "same_model",
-      "qualityBasis": "German comparison identifies Bialetti model 0001163, 6 cups; Irish reference is the Bialetti Moka Express 6 Cup. Price freshness and Ireland delivery still require rechecking.",
-      "checkedAt": "2026-09-15",
+      "qualityBasis": "Exact 6-cup Bialetti Moka Express family; Geizhals identifies 0001163 and the Aromatico seller route, while current Irish listings identify ME6/6 cup.",
       "freshForDays": 7,
-      "evidence": {
-        "source": {
-          "label": "Geizhals Germany — dated snapshot",
-          "url": "https://geizhals.de/bialetti-moka-express-6-tassen-espressokanne-1163-a1017252.html",
-          "note": "€28.49 snapshot, last price update 9 Aug 2026. The page warns prices may now be higher and most listed sellers ship only inside Germany."
-        }
-      }
+      "evidence": {"source":{"label":"Geizhals Germany — Aromatico route","url":"https://geizhals.de/bialetti-moka-express-6-tassen-espressokanne-1163-a1017252.html","note":"Aromatico offer €26.90, price timestamp 11 Sep 2026. Aromatico Ireland shipping tariff €19.90."}}
     },
     {
       "id": "romanian-organic-acacia-honey",
@@ -140,115 +102,14 @@
       "freshForDays": 7,
       "researchReason": "The source is priced in RON and Ireland shipping/consumer fulfilment is not verified yet; no EUR saving is published.",
       "benchmarks": [
-        {
-          "market": "Ireland",
-          "label": "Rowse Organic Acacia 340g at Holland & Barrett Ireland",
-          "amount": 6.89,
-          "currency": "EUR",
-          "unitPrice": 20.26,
-          "unit": "kg",
-          "url": "https://www.hollandandbarrett.ie/shop/product/rowse-squeezy-organic-acacia-60061366"
-        },
-        {
-          "market": "Romania",
-          "label": "Certified organic acacia honey 950g",
-          "amount": 45,
-          "currency": "RON",
-          "pack": "950g",
-          "url": "https://www.agriculturaecologica.ro/produse/mierea-de-salcam-950-gr/"
-        }
+        {"market":"Ireland","label":"Rowse Organic Acacia 340g at Holland & Barrett Ireland","amount":6.89,"currency":"EUR","unitPrice":20.26,"unit":"kg","url":"https://www.hollandandbarrett.ie/shop/product/rowse-squeezy-organic-acacia-60061366"},
+        {"market":"Romania","label":"Certified organic acacia honey 950g","amount":45,"currency":"RON","pack":"950g","url":"https://www.agriculturaecologica.ro/produse/mierea-de-salcam-950-gr/"}
       ]
     },
-    {
-      "id": "spanish-evoo",
-      "name": "Spanish extra virgin olive oil",
-      "category": "Natural food",
-      "tradition": "Spanish pantry",
-      "originCountry": "Spain",
-      "dispatchCountry": "Spain",
-      "shipsFrom": "Spain",
-      "dispatchInEu": true,
-      "sourceInEu": true,
-      "irelandPrice": null,
-      "sourcePrice": null,
-      "shippingToIreland": null,
-      "qualityStatus": "research",
-      "qualityTier": "evoo_like_for_like",
-      "qualityBasis": "Compare EVOO with EVOO using harvest, extraction method, origin, acidity/specification and packaging evidence — never generic oil versus premium oil.",
-      "checkedAt": "2026-09-15",
-      "researchReason": "A quality-matched Irish reference and an Ireland delivery quote must be selected before comparison."
-    },
-    {
-      "id": "polish-household",
-      "name": "Polish household essentials",
-      "category": "Home & household",
-      "tradition": "Polish favourites",
-      "originCountry": "Poland",
-      "dispatchCountry": "Poland",
-      "shipsFrom": "Poland",
-      "dispatchInEu": true,
-      "sourceInEu": true,
-      "irelandPrice": null,
-      "sourcePrice": null,
-      "shippingToIreland": null,
-      "qualityStatus": "research",
-      "qualityTier": "exact_sku_or_spec",
-      "qualityBasis": "Exact SKU or measurable specification match required.",
-      "checkedAt": "2026-09-15"
-    },
-    {
-      "id": "portuguese-textiles",
-      "name": "Portuguese home textiles",
-      "category": "Home & textiles",
-      "tradition": "Portuguese-made",
-      "originCountry": "Portugal",
-      "dispatchCountry": "Portugal",
-      "shipsFrom": "Portugal",
-      "dispatchInEu": true,
-      "sourceInEu": true,
-      "irelandPrice": null,
-      "sourcePrice": null,
-      "shippingToIreland": null,
-      "qualityStatus": "research",
-      "qualityTier": "material_spec_match",
-      "qualityBasis": "Material composition, GSM/thread count, dimensions and manufacturer origin required.",
-      "checkedAt": "2026-09-15"
-    },
-    {
-      "id": "filipino-pantry-eu",
-      "name": "Filipino pantry products via EU distributors",
-      "category": "International food",
-      "tradition": "Filipino pantry",
-      "originCountry": "Philippines",
-      "dispatchCountry": "EU warehouse required",
-      "shipsFrom": "Netherlands / Germany / other EU warehouse",
-      "dispatchInEu": true,
-      "sourceInEu": true,
-      "irelandPrice": null,
-      "sourcePrice": null,
-      "shippingToIreland": null,
-      "qualityStatus": "research",
-      "qualityTier": "authentic_product_eu_compliant",
-      "qualityBasis": "Origin may be Philippines while dispatch is EU. Verify labels, ingredients, allergens, importer and legal EU sale before listing.",
-      "checkedAt": "2026-09-15"
-    },
-    {
-      "id": "indian-spices-eu",
-      "name": "Traditional Indian spices via EU distributors",
-      "category": "International food",
-      "tradition": "Indian pantry",
-      "originCountry": "India",
-      "dispatchCountry": "EU warehouse required",
-      "shipsFrom": "Netherlands / Germany / France",
-      "dispatchInEu": true,
-      "sourceInEu": true,
-      "irelandPrice": null,
-      "sourcePrice": null,
-      "shippingToIreland": null,
-      "qualityStatus": "research",
-      "qualityTier": "ingredient_spec_match",
-      "qualityBasis": "Ingredient purity, origin, pack size, allergens and EU food compliance required.",
-      "checkedAt": "2026-09-15"
-    }
+    {"id":"spanish-evoo","name":"Spanish extra virgin olive oil","category":"Natural food","tradition":"Spanish pantry","originCountry":"Spain","dispatchCountry":"Spain","shipsFrom":"Spain","dispatchInEu":true,"sourceInEu":true,"irelandPrice":null,"sourcePrice":null,"shippingToIreland":null,"qualityStatus":"research","qualityTier":"evoo_like_for_like","qualityBasis":"Compare EVOO with EVOO using harvest, extraction method, origin, acidity/specification and packaging evidence — never generic oil versus premium oil.","checkedAt":"2026-09-15","researchReason":"A quality-matched Irish reference and an Ireland delivery quote must be selected before comparison."},
+    {"id":"polish-household","name":"Polish household essentials","category":"Home & household","tradition":"Polish favourites","originCountry":"Poland","dispatchCountry":"Poland","shipsFrom":"Poland","dispatchInEu":true,"sourceInEu":true,"irelandPrice":null,"sourcePrice":null,"shippingToIreland":null,"qualityStatus":"research","qualityTier":"exact_sku_or_spec","qualityBasis":"Exact SKU or measurable specification match required.","checkedAt":"2026-09-15"},
+    {"id":"portuguese-textiles","name":"Portuguese home textiles","category":"Home & textiles","tradition":"Portuguese-made","originCountry":"Portugal","dispatchCountry":"Portugal","shipsFrom":"Portugal","dispatchInEu":true,"sourceInEu":true,"irelandPrice":null,"sourcePrice":null,"shippingToIreland":null,"qualityStatus":"research","qualityTier":"material_spec_match","qualityBasis":"Material composition, GSM/thread count, dimensions and manufacturer origin required.","checkedAt":"2026-09-15"},
+    {"id":"filipino-pantry-eu","name":"Filipino pantry products via EU distributors","category":"International food","tradition":"Filipino pantry","originCountry":"Philippines","dispatchCountry":"EU warehouse required","shipsFrom":"Netherlands / Germany / other EU warehouse","dispatchInEu":true,"sourceInEu":true,"irelandPrice":null,"sourcePrice":null,"shippingToIreland":null,"qualityStatus":"research","qualityTier":"authentic_product_eu_compliant","qualityBasis":"Origin may be Philippines while dispatch is EU. Verify labels, ingredients, allergens, importer and legal EU sale before listing.","checkedAt":"2026-09-15"},
+    {"id":"indian-spices-eu","name":"Traditional Indian spices via EU distributors","category":"International food","tradition":"Indian pantry","originCountry":"India","dispatchCountry":"EU warehouse required","shipsFrom":"Netherlands / Germany / France","dispatchInEu":true,"sourceInEu":true,"irelandPrice":null,"sourcePrice":null,"shippingToIreland":null,"qualityStatus":"research","qualityTier":"ingredient_spec_match","qualityBasis":"Ingredient purity, origin, pack size, allergens and EU food compliance required.","checkedAt":"2026-09-15"}
   ]
 }
