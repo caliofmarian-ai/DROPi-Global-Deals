@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="DROPi Global compares Irish prices with the real landed cost of buying from trusted sellers abroad." />
+  <title>DROPi Global — Better value, properly compared</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/">DROP<span>i</span> Global</a>
+    <nav><a href="#deals">Deals</a><a href="#calculator">Calculator</a><a href="#method">How it works</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Built for people shopping in Ireland</p>
+        <h1>Imported can be cheaper.<br><em>We prove it first.</em></h1>
+        <p class="lede">Compare the Irish price with product price, delivery, customs, VAT and fees. Discover Irish alternatives and cross-border deals without fake savings.</p>
+        <div class="hero-actions"><a class="button primary" href="#deals">Explore candidates</a><a class="button" href="#calculator">Calculate landed cost</a></div>
+      </div>
+      <aside class="hero-card">
+        <span class="pill good">EU-FIRST</span>
+        <h2>Two countries matter</h2>
+        <p><strong>Country of origin</strong> tells you where the product comes from. <strong>Ships from</strong> tells you what border, tax and delivery reality you face.</p>
+        <div class="route"><span>Origin</span><b>→</b><span>Warehouse</span><b>→</b><span>Ireland</span></div>
+      </aside>
+    </section>
+
+    <section class="metrics" aria-label="principles">
+      <div><strong>€0</strong><span>customs duty on ordinary goods shipped from another EU country</span></div>
+      <div><strong>€3</strong><span>customs duty per distinct line item for most ≤€150 non-EU e-commerce consignments since 1 Jul 2026</span></div>
+      <div><strong>0 fake</strong><span>“better quality” claims without measurable evidence</span></div>
+    </section>
+
+    <section id="deals" class="section">
+      <div class="section-head"><div><p class="eyebrow">Opportunity engine</p><h2>Import candidates</h2></div><p>Only a product with enough evidence can become a verified deal.</p></div>
+      <div class="filters">
+        <select id="category"><option value="all">All categories</option></select>
+        <select id="origin"><option value="all">All origins</option></select>
+        <select id="status"><option value="all">All statuses</option><option value="needs_shipping_quote">Price gap found</option><option value="research_queue">Research queue</option></select>
+      </div>
+      <div id="products" class="grid" aria-live="polite"></div>
+    </section>
+
+    <section id="calculator" class="section calculator-wrap">
+      <div><p class="eyebrow">Landed-cost calculator</p><h2>Would importing actually save money?</h2><p>Use the values shown by the seller and courier. For non-EU goods over €150, add the applicable TARIC customs rate.</p></div>
+      <form id="calculatorForm" class="calculator">
+        <label>Irish comparison price (€)<input name="localIrelandPrice" type="number" min="0" step="0.01" required value="50" /></label>
+        <label>Foreign product price (€)<input name="sourcePrice" type="number" min="0" step="0.01" required value="30" /></label>
+        <label>Delivery to Ireland (€)<input name="shipping" type="number" min="0" step="0.01" required value="7" /></label>
+        <label>Ships from<select name="sourceInEu"><option value="true">EU country</option><option value="false">Outside EU</option></select></label>
+        <label>Intrinsic value (€)<input name="intrinsicValue" type="number" min="0" step="0.01" value="30" /></label>
+        <label>Courier/admin fee (€)<input name="adminFee" type="number" min="0" step="0.01" value="0" /></label>
+        <label>VAT rate (%)<input name="vatRate" type="number" min="0" step="0.1" value="23" /></label>
+        <label>Customs rate over €150 (%)<input name="customsRate" type="number" min="0" step="0.1" placeholder="Only when required" /></label>
+        <label class="check"><input name="iossVatCollected" type="checkbox" /> Seller already collected Irish VAT via IOSS</label>
+        <button class="button primary" type="submit">Compare total cost</button>
+        <div id="calcResult" class="result" aria-live="polite"></div>
+      </form>
+    </section>
+
+    <section id="method" class="section method">
+      <p class="eyebrow">Quality before hype</p><h2>What counts as “better”?</h2>
+      <div class="method-grid">
+        <article><b>Same product</b><p>Match SKU, EAN, model, quantity and specification. Cheapest is meaningless if the products differ.</p></article>
+        <article><b>Food quality</b><p>Use ingredients, origin, organic/PDO/PGI evidence, harvest/processing information and compliant EU labels — not marketing adjectives.</p></article>
+        <article><b>Full cost</b><p>Product + Ireland delivery + customs + VAT + courier fees. A low foreign shelf price alone is not a deal.</p></article>
+        <article><b>Fresh evidence</b><p>Every publishable deal needs dated source evidence. Expired prices are demoted until checked again.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer><strong>DROPi Global</strong><span>Comparison first. Commerce only when the economics and compliance are real.</span></footer>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

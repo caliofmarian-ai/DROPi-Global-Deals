@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-09-15",
+  "currency": "EUR",
+  "products": [
+    {
+      "id": "knipex-8702250",
+      "name": "KNIPEX Cobra 250 mm (87 02 250)",
+      "category": "Professional tools",
+      "tradition": "German engineering",
+      "originCountry": "Germany",
+      "shipsFrom": "Germany",
+      "sourceInEu": true,
+      "irelandPrice": 43.99,
+      "sourcePrice": 25.19,
+      "shippingToIreland": null,
+      "qualityBasis": "Identical manufacturer part number / EAN",
+      "status": "needs_shipping_quote",
+      "evidence": {
+        "ireland": "https://www.auto-doc.ie/knipex/10349777",
+        "source": "https://www.idealo.de/preisvergleich/OffersOfProduct/889717_-cobra-250-mm-87-02-250-knipex.html"
+      }
+    },
+    {
+      "id": "bialetti-moka-6",
+      "name": "Bialetti Moka Express 6 Cup",
+      "category": "Kitchen & coffee",
+      "tradition": "Italian coffee",
+      "originCountry": "Italy",
+      "shipsFrom": "Germany / EU seller to verify",
+      "sourceInEu": true,
+      "irelandPrice": 39.99,
+      "sourcePrice": 26.90,
+      "shippingToIreland": null,
+      "qualityBasis": "Same 6-cup Moka Express product family; exact seller SKU must be matched before publishing a deal",
+      "status": "needs_shipping_quote",
+      "evidence": {
+        "ireland": "https://www.electrocity.ie/category/appliances/coffee-machines/stovetop-coffee-makers/",
+        "source": "https://geizhals.de/bialetti-moka-express-6-tassen-espressokanne-1163-a1017252.html"
+      }
+    },
+    {
+      "id": "romanian-natural-honey",
+      "name": "Romanian natural honey",
+      "category": "Natural food",
+      "tradition": "Romanian pantry",
+      "originCountry": "Romania",
+      "shipsFrom": "EU supplier required",
+      "sourceInEu": true,
+      "irelandPrice": null,
+      "sourcePrice": null,
+      "shippingToIreland": null,
+      "qualityBasis": "Producer, origin, ingredients, harvest/processing claims and food-business compliance must be verified",
+      "status": "research_queue"
+    },
+    {
+      "id": "spanish-evoo",
+      "name": "Spanish extra virgin olive oil",
+      "category": "Natural food",
+      "tradition": "Spanish pantry",
+      "originCountry": "Spain",
+      "shipsFrom": "Spain",
+      "sourceInEu": true,
+      "irelandPrice": null,
+      "sourcePrice": null,
+      "shippingToIreland": null,
+      "qualityBasis": "Compare EVOO with EVOO using harvest, extraction, origin and packaging evidence — never generic oil vs premium oil",
+      "status": "research_queue"
+    },
+    {
+      "id": "polish-household",
+      "name": "Polish household essentials",
+      "category": "Home & household",
+      "tradition": "Polish favourites",
+      "originCountry": "Poland",
+      "shipsFrom": "Poland",
+      "sourceInEu": true,
+      "irelandPrice": null,
+      "sourcePrice": null,
+      "shippingToIreland": null,
+      "qualityBasis": "Exact SKU or measurable specification match required",
+      "status": "research_queue"
+    },
+    {
+      "id": "portuguese-textiles",
+      "name": "Portuguese home textiles",
+      "category": "Home & textiles",
+      "tradition": "Portuguese-made",
+      "originCountry": "Portugal",
+      "shipsFrom": "Portugal",
+      "sourceInEu": true,
+      "irelandPrice": null,
+      "sourcePrice": null,
+      "shippingToIreland": null,
+      "qualityBasis": "Material composition, GSM/thread count, dimensions and manufacturer origin required",
+      "status": "research_queue"
+    },
+    {
+      "id": "filipino-pantry-eu",
+      "name": "Filipino pantry products via EU distributors",
+      "category": "International food",
+      "tradition": "Filipino pantry",
+      "originCountry": "Philippines",
+      "shipsFrom": "Netherlands / Germany / other EU warehouse",
+      "sourceInEu": true,
+      "irelandPrice": null,
+      "sourcePrice": null,
+      "shippingToIreland": null,
+      "qualityBasis": "Prefer established EU food distributors; verify labels, ingredients, allergens and legal sale in the EU",
+      "status": "research_queue"
+    },
+    {
+      "id": "indian-spices-eu",
+      "name": "Traditional Indian spices via EU distributors",
+      "category": "International food",
+      "tradition": "Indian pantry",
+      "originCountry": "India",
+      "shipsFrom": "EU warehouse required for MVP",
+      "sourceInEu": true,
+      "irelandPrice": null,
+      "sourcePrice": null,
+      "shippingToIreland": null,
+      "qualityBasis": "Ingredient purity, origin, pack size, allergens and EU food compliance required",
+      "status": "research_queue"
+    }
+  ]
+}
