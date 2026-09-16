@@ -4,16 +4,21 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { extractSourceSnapshot } from "../lib/market-monitor-parser.mjs";
 import {
-  closeMonitorDb,
-  finishMonitorRun,
-  getSourceState,
-  recordMonitorResult,
-  startMonitorRun,
-} from "../lib/market-monitor-db.mjs";
+  appendRun,
+  applyMonitorResult,
+  emptyMarketState,
+  emptyPriceHistory,
+  emptyRunLog,
+  readJsonFile,
+  writeJsonFile,
+} from "../lib/market-monitor-state.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, "..");
 const USER_AGENT = "DROPiGlobalMonitor/1.0 (+https://dropi-global-deals-production.up.railway.app/)";
+const STATE_PATH = process.env.MONITOR_STATE_PATH || join(root, "data/live-state/market-state.json");
+const HISTORY_PATH = process.env.MONITOR_HISTORY_PATH || join(root, "data/live-state/price-history.json");
+const RUNS_PATH = process.env.MONITOR_RUNS_PATH || join(root, "data/live-state/monitor-runs.json");
 const robotsCache = new Map();
 const hostLastFetch = new Map();
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -28,14 +33,14 @@ function minutesSince(value, now = new Date()) {
   return Number.isNaN(date.getTime()) ? Infinity : (now.getTime() - date.getTime()) / 60_000;
 }
 
-function sourceDue(source, state, now = new Date()) {
+function sourceDue(source, sourceState, now = new Date()) {
   if (process.env.MONITOR_FORCE === "1") return true;
-  if (!state) return true;
+  if (!sourceState) return true;
   const normal = Number(source.refreshMinutes || 180);
-  const failures = Number(state.consecutive_failures || 0);
+  const failures = Number(sourceState.consecutiveFailures || 0);
   const retry = Math.min(normal, Math.max(30, 30 * (2 ** Math.min(failures, 3))));
-  const interval = state.monitor_status === "ok" ? normal : retry;
-  return minutesSince(state.last_checked_at, now) >= interval;
+  const interval = sourceState.monitorStatus === "ok" ? normal : retry;
+  return minutesSince(sourceState.lastCheckedAt, now) >= interval;
 }
 
 function parseRobots(text, path) {
@@ -54,7 +59,9 @@ function parseRobots(text, path) {
     }
     if (applies && (key === "allow" || key === "disallow")) rules.push({ type: key, value });
   }
-  const matches = rules.filter((rule) => rule.value && path.startsWith(rule.value)).sort((a, b) => b.value.length - a.value.length);
+  const matches = rules
+    .filter((rule) => rule.value && path.startsWith(rule.value))
+    .sort((a, b) => b.value.length - a.value.length);
   return !matches.length || matches[0].type === "allow";
 }
 
@@ -72,7 +79,7 @@ async function robotsAllows(url) {
       if (response.status === 401 || response.status === 403) result = { allowedByDefault: false, text: "" };
       else if (response.ok) result = { allowedByDefault: true, text: await response.text() };
     } catch {
-      // A missing/unreachable robots file is not treated as permission to bypass an explicit block.
+      // If robots.txt is temporarily unreachable, normal retrieval rules still apply.
     }
     robotsCache.set(key, result);
   }
@@ -145,24 +152,42 @@ async function checkSource(source) {
   }
 }
 
+async function persist(state, history, runLog) {
+  await Promise.all([
+    writeJsonFile(STATE_PATH, state),
+    writeJsonFile(HISTORY_PATH, history),
+    writeJsonFile(RUNS_PATH, runLog),
+  ]);
+}
+
 async function main() {
-  if (!process.env.DATABASE_URL) throw new Error("DATABASE_URL is required for the market monitor worker");
-  const registry = await readRegistry();
+  const [registry, state, history, runLog] = await Promise.all([
+    readRegistry(),
+    readJsonFile(STATE_PATH, emptyMarketState()),
+    readJsonFile(HISTORY_PATH, emptyPriceHistory()),
+    readJsonFile(RUNS_PATH, emptyRunLog()),
+  ]);
   const sources = (registry.sources || []).filter((source) => source.enabled !== false);
   const now = new Date();
-  const due = [];
-  for (const source of sources) {
-    const state = await getSourceState(source.id);
-    if (sourceDue(source, state, now)) due.push(source);
-  }
+  const due = sources.filter((source) => sourceDue(source, state.sources?.[source.id], now));
   due.sort((a, b) => (a.offerKind === "shipping_tariff" ? -1 : 0) - (b.offerKind === "shipping_tariff" ? -1 : 0));
 
-  const runId = await startMonitorRun(due.length);
-  const summary = { checked: 0, changed: 0, failed: 0, details: { due: due.map((source) => source.id), results: [] } };
+  const startedAt = new Date().toISOString();
+  const summary = {
+    status: "completed",
+    startedAt,
+    finishedAt: null,
+    sourcesDue: due.length,
+    checked: 0,
+    changed: 0,
+    failed: 0,
+    results: [],
+  };
+
   try {
     for (const source of due) {
       const result = await checkSource(source);
-      const recorded = await recordMonitorResult(source, result.snapshot, {
+      const recorded = applyMonitorResult(state, history, source, result.snapshot, {
         checkedAt: result.checkedAt,
         httpStatus: result.httpStatus,
         contentHash: result.contentHash,
@@ -171,25 +196,27 @@ async function main() {
       summary.checked += 1;
       if (recorded.changed) summary.changed += 1;
       if (!result.snapshot.ok) summary.failed += 1;
-      summary.details.results.push({
+      summary.results.push({
         sourceId: source.id,
         status: result.snapshot.monitorStatus,
         changed: recorded.changed,
         price: result.snapshot.price ?? null,
         shippingToIreland: result.snapshot.shippingToIreland ?? null,
+        error: result.snapshot.error || null,
       });
     }
-    summary.status = summary.failed === summary.checked && summary.checked > 0 ? "failed" : "completed";
-    await finishMonitorRun(runId, summary);
-    console.log(JSON.stringify({ runId, ...summary }, null, 2));
+    if (summary.checked > 0 && summary.failed === summary.checked) summary.status = "degraded";
   } catch (error) {
     summary.status = "failed";
-    summary.details.fatalError = error?.message || String(error);
-    await finishMonitorRun(runId, summary).catch(() => {});
-    throw error;
+    summary.fatalError = error?.message || String(error);
   } finally {
-    await closeMonitorDb().catch(() => {});
+    summary.finishedAt = new Date().toISOString();
+    appendRun(runLog, summary);
+    await persist(state, history, runLog);
   }
+
+  console.log(JSON.stringify(summary, null, 2));
+  if (summary.status === "failed") process.exitCode = 1;
 }
 
 main().catch((error) => {

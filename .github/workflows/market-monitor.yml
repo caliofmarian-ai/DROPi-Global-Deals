@@ -1,0 +1,76 @@
+name: Live Market Monitor
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dropi-live-market-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout canonical monitor code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Restore previous live state
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/dropi-live-state
+          git fetch origin market-monitor-state:refs/remotes/origin/market-monitor-state || true
+          for file in market-state.json price-history.json monitor-runs.json; do
+            if git show-ref --verify --quiet refs/remotes/origin/market-monitor-state; then
+              git show "origin/market-monitor-state:data/live-state/$file" > "/tmp/dropi-live-state/$file" 2>/dev/null || true
+            fi
+          done
+
+      - name: Check due market sources
+        env:
+          MONITOR_STATE_PATH: /tmp/dropi-live-state/market-state.json
+          MONITOR_HISTORY_PATH: /tmp/dropi-live-state/price-history.json
+          MONITOR_RUNS_PATH: /tmp/dropi-live-state/monitor-runs.json
+        run: npm run monitor
+
+      - name: Publish live state without changing main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "dropi-market-monitor"
+          git config user.email "actions@users.noreply.github.com"
+
+          if git show-ref --verify --quiet refs/remotes/origin/market-monitor-state; then
+            git checkout -B market-monitor-state origin/market-monitor-state
+          else
+            git checkout --orphan market-monitor-state
+            git rm -rf . || true
+          fi
+
+          mkdir -p data/live-state
+          cp /tmp/dropi-live-state/market-state.json data/live-state/market-state.json
+          cp /tmp/dropi-live-state/price-history.json data/live-state/price-history.json
+          cp /tmp/dropi-live-state/monitor-runs.json data/live-state/monitor-runs.json
+          git add -f data/live-state/*.json
+
+          if git diff --cached --quiet; then
+            echo "No live-state changes to publish."
+            exit 0
+          fi
+
+          git commit -m "chore: refresh live market state"
+          git push origin market-monitor-state
