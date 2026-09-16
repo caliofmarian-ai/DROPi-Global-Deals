@@ -12,6 +12,22 @@ test("extracts product price and availability from JSON-LD when identity markers
   assert.equal(result.currency, "EUR");
 });
 
+test("exact variant text price can override a generic/default JSON-LD offer", () => {
+  const html = `<!doctype html><html><body><h1>Shimano Ultegra CS-R8000 11-speed Cassette</h1>
+    <div>11-28 11S 77,99 €</div><div>11-30 11S 49,99 €</div><div>11-32 11S 65,99 €</div>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Product","name":"Shimano Ultegra CS-R8000","offers":{"@type":"Offer","price":"77.99","priceCurrency":"EUR"}}</script>
+  </body></html>`;
+  const result = extractSourceSnapshot(html, {
+    adapter:"jsonld_or_meta",
+    identityMarkers:["CS-R8000","11-30"],
+    priceRegex:"11-30 11S[\\s\\S]{0,40}?([0-9]+[.,][0-9]{2})\\s*€",
+    preferPriceRegex:true,
+    currency:"EUR",
+  });
+  assert.equal(result.ok, true);
+  assert.equal(result.price, 49.99);
+});
+
 test("identity mismatch blocks a price from being accepted", () => {
   const html = `<html><body><h1>Shimano different chain</h1><meta itemprop="price" content="10.00"></body></html>`;
   const result = extractSourceSnapshot(html, { adapter:"jsonld_or_meta", identityMarkers:["CN-HG701","116"], currency:"EUR" });
