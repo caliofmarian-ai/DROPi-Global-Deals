@@ -1,5 +1,79 @@
 {
   "generatedAt": "2026-09-16",
+  "discoveredProducts": [
+    {
+      "id": "continental-gp5000-25-622-black",
+      "name": "Continental Grand Prix 5000 Folding Tire — 25-622 / 700×25C — black",
+      "category": "Cycling components",
+      "tradition": "German cycling technology",
+      "originCountry": "Manufacturing origin not verified",
+      "dispatchCountry": "Germany",
+      "shipsFrom": "Germany",
+      "dispatchInEu": true,
+      "irelandPrice": 79.99,
+      "irelandOffers": [
+        {
+          "id": "2wheels-gp5000-700-25-black",
+          "seller": "2Wheels Dublin",
+          "label": "2Wheels Dublin — GP5000 700/25 BLACK",
+          "price": 79.99,
+          "availability": "listed",
+          "comparisonEligible": true,
+          "checkedAt": "2026-09-11",
+          "observedAt": "2026-09-16",
+          "url": "https://www.2wheels.ie/components",
+          "note": "Current indexed components page lists GP5000 700/25 BLACK at €79.99. Irish delivery is deliberately not added to the local comparison, making the import test conservative."
+        }
+      ],
+      "sourceOffers": [
+        {
+          "id": "bike24-gp5000-25-622-black-2026-09-15",
+          "seller": "BIKE24",
+          "label": "BIKE24 Ireland — Continental Grand Prix 5000 25-622 black",
+          "productPrice": 44.99,
+          "shippingToIreland": 9.99,
+          "shipsToIreland": true,
+          "dispatchCountry": "Germany",
+          "dispatchInEu": true,
+          "availability": "listed",
+          "comparisonEligible": true,
+          "qualityStatus": "verified",
+          "checkedAt": "2026-09-15",
+          "observedAt": "2026-09-16",
+          "url": "https://www.bike24.ie/p2305160.html?origin=CP",
+          "evidenceUrl": "https://www.bike24.com/shipping.html",
+          "note": "BIKE24 Ireland lists the exact 25-622 black GP5000 at €44.99; standard delivery to Ireland for orders up to €250 is €9.99. Bike24 GmbH is based in Dresden, Germany."
+        }
+      ],
+      "qualityStatus": "verified",
+      "qualityTier": "same_model_size_colour",
+      "qualityBasis": "Same Continental Grand Prix 5000 tube-type/folding tyre, black, 25-622 / 700×25C. BIKE24 identifies manufacturer item code 0101624; Continental identifies EAN/GTIN 4019238007824 for that exact size and black variant.",
+      "freshForDays": 7,
+      "evidence": {
+        "ireland": {
+          "label": "2Wheels Dublin — GP5000 700/25 BLACK",
+          "url": "https://www.2wheels.ie/components"
+        },
+        "source": {
+          "label": "BIKE24 Ireland — GP5000 25-622 black",
+          "url": "https://www.bike24.ie/p2305160.html?origin=CP",
+          "note": "€44.99 product + €9.99 standard Ireland delivery = €54.98 EU landed cost."
+        },
+        "shipping": {
+          "label": "BIKE24 — Ireland shipping tariff",
+          "url": "https://www.bike24.com/shipping.html"
+        },
+        "seller": {
+          "label": "BIKE24 — German seller identity",
+          "url": "https://www.bike24.com/imprint.html"
+        },
+        "manufacturer": {
+          "label": "Continental 2025/26 tyre range — article 0101624 / EAN 4019238007824",
+          "url": "https://www.continental-tyres.co.uk/content/dam/conti-tires-cms/continental/b2c/downloads/bicycle/TireRange-Bicycle.pdf.coredownload.pdf"
+        }
+      }
+    }
+  ],
   "products": [
     {
       "productId": "shimano-cnhg701-11-116",
