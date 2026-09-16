@@ -13,8 +13,20 @@
       "freshForDays": 7,
       "qualityStatus": "verified",
       "qualityTier": "exact_mpn_ean",
-      "qualityBasis": "Exact KNIPEX 86 03 250, 250 mm pliers wrench. Source seller identifies GTIN/EAN 4003773033837 and states Made in Germany.",
+      "qualityBasis": "Exact KNIPEX 86 03 250, 250 mm pliers wrench, EAN/GTIN 4003773033837.",
       "irelandOffers": [
+        {
+          "id": "autodoc-ie-knipex-8603250-static-2026-09-16",
+          "seller": "AUTODOC Ireland",
+          "label": "AUTODOC Ireland — KNIPEX 86 03 250",
+          "price": 75.49,
+          "availability": "in_stock",
+          "comparisonEligible": true,
+          "checkedAt": "2026-09-16",
+          "observedAt": "2026-09-16",
+          "url": "https://www.auto-doc.ie/knipex/20794875",
+          "note": "Exact article 86 03 250 / EAN 4003773033837 listed at €75.49 including 23% VAT. Automated crawling is blocked by robots.txt, so this observation expires under the normal freshness policy unless independently revalidated."
+        },
         {
           "id": "toolfix-ie-knipex-8603250",
           "seller": "Toolfix Ireland",
@@ -47,13 +59,13 @@
           "checkedAt": "2026-09-16",
           "observedAt": "2026-09-16",
           "url": "https://dtsupply.de/Knipex-Zangenschluessel-verchromt-mit-Kunststoff-ueberzogen-250-mm-86-03-250",
-          "note": "DTSupply lists exact HAN 86 03 250 / GTIN 4003773033837 at €48.25 including 19% German VAT. The engine uses a conservative €49.87 product estimate normalised to 23% Irish VAT (€48.25 / 1.19 × 1.23). Ireland delivery and checkout VAT treatment still require verification, so this route cannot be published as a deal."
+          "note": "DTSupply lists exact HAN 86 03 250 / GTIN 4003773033837 at €48.25 including 19% German VAT. The engine uses a conservative €49.87 product estimate normalised to 23% Irish VAT. Ireland delivery is not verified, so this route cannot be published as a deal."
         }
       ],
       "evidence": {
         "ireland": {
-          "label": "Toolfix Ireland — Knipex 86 03 250 SB €81.95",
-          "url": "https://www.toolfix.ie/c/knipex/185/perpage_240"
+          "label": "AUTODOC Ireland — exact 86 03 250 / EAN 4003773033837 at €75.49",
+          "url": "https://www.auto-doc.ie/knipex/20794875"
         },
         "source": {
           "label": "DTSupply — exact 86 03 250 / EAN 4003773033837",
