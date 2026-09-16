@@ -1,0 +1,66 @@
+{
+  "generatedAt": "2026-09-16",
+  "discoveredProducts": [
+    {
+      "id": "knipex-8603250",
+      "name": "KNIPEX Pliers Wrench 250 mm — 86 03 250",
+      "category": "Professional tools",
+      "tradition": "German professional hand tools",
+      "originCountry": "Germany",
+      "dispatchCountry": "Germany",
+      "shipsFrom": "Germany",
+      "dispatchInEu": true,
+      "freshForDays": 7,
+      "qualityStatus": "verified",
+      "qualityTier": "exact_mpn_ean",
+      "qualityBasis": "Exact KNIPEX 86 03 250, 250 mm pliers wrench. Source seller identifies GTIN/EAN 4003773033837 and states Made in Germany.",
+      "irelandOffers": [
+        {
+          "id": "toolfix-ie-knipex-8603250",
+          "seller": "Toolfix Ireland",
+          "label": "Toolfix Ireland — Knipex 86 03 250 SB",
+          "price": 81.95,
+          "availability": "listed",
+          "comparisonEligible": true,
+          "checkedAt": "2026-09-16",
+          "observedAt": "2026-09-16",
+          "url": "https://www.toolfix.ie/c/knipex/185/perpage_240",
+          "note": "Fresh Irish category listing shows Knipex 86 03 250 SB Pliers Wrench at €81.95 including VAT."
+        }
+      ],
+      "sourceOffers": [
+        {
+          "id": "dtsupply-de-knipex-8603250",
+          "seller": "DTSupply / MWK Shop GmbH",
+          "label": "DTSupply Germany — KNIPEX 86 03 250",
+          "productPrice": 49.87,
+          "displayedSourcePrice": 48.25,
+          "displayedVatRate": 0.19,
+          "destinationVatRateAssumption": 0.23,
+          "shippingToIreland": null,
+          "shipsToIreland": null,
+          "dispatchCountry": "Germany",
+          "dispatchInEu": true,
+          "availability": "in_stock",
+          "comparisonEligible": true,
+          "qualityStatus": "verified",
+          "checkedAt": "2026-09-16",
+          "observedAt": "2026-09-16",
+          "url": "https://dtsupply.de/Knipex-Zangenschluessel-verchromt-mit-Kunststoff-ueberzogen-250-mm-86-03-250",
+          "note": "DTSupply lists exact HAN 86 03 250 / GTIN 4003773033837 at €48.25 including 19% German VAT. The engine uses a conservative €49.87 product estimate normalised to 23% Irish VAT (€48.25 / 1.19 × 1.23). Ireland delivery and checkout VAT treatment still require verification, so this route cannot be published as a deal."
+        }
+      ],
+      "evidence": {
+        "ireland": {
+          "label": "Toolfix Ireland — Knipex 86 03 250 SB €81.95",
+          "url": "https://www.toolfix.ie/c/knipex/185/perpage_240"
+        },
+        "source": {
+          "label": "DTSupply — exact 86 03 250 / EAN 4003773033837",
+          "url": "https://dtsupply.de/Knipex-Zangenschluessel-verchromt-mit-Kunststoff-ueberzogen-250-mm-86-03-250"
+        }
+      }
+    }
+  ],
+  "products": []
+}
