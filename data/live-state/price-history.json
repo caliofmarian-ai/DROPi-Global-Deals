@@ -1,8 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T18:33:50.072Z",
+  "generatedAt": "2026-09-16T18:40:24.467Z",
   "products": {
     "__shipping__": [
+      {
+        "sourceId": "reichelt-shipping-ie-dhl-10kg",
+        "offerKind": "shipping_tariff",
+        "checkedAt": "2026-09-16T18:40:22.503Z",
+        "eventType": "first_observation",
+        "monitorStatus": "ok",
+        "price": null,
+        "currency": "EUR",
+        "availability": "n/a",
+        "shippingToIreland": 9.95,
+        "contentHash": "0c15192c91dab7cf2ff7b0e44e2a74480ea38f05a871c86f9352da25fdef3e53"
+      },
       {
         "sourceId": "canyon-shipping-ie-gear",
         "offerKind": "shipping_tariff",
@@ -83,6 +95,30 @@
       }
     ],
     "knipex-8603250": [
+      {
+        "sourceId": "reichelt-ie-knipex-8603250",
+        "offerKind": "source_offer",
+        "checkedAt": "2026-09-16T18:40:24.467Z",
+        "eventType": "first_observation",
+        "monitorStatus": "ok",
+        "price": 53.85,
+        "currency": "EUR",
+        "availability": "unknown",
+        "shippingToIreland": null,
+        "contentHash": "867409c721193ee79ddf05eb6db9c264e301f4a8349495f3ceed7d0faf3cd107"
+      },
+      {
+        "sourceId": "autodoc-ie-knipex-8603250",
+        "offerKind": "ireland_offer",
+        "checkedAt": "2026-09-16T18:40:24.361Z",
+        "eventType": "first_observation",
+        "monitorStatus": "robots_blocked",
+        "price": null,
+        "currency": "EUR",
+        "availability": null,
+        "shippingToIreland": null,
+        "contentHash": null
+      },
       {
         "sourceId": "dtsupply-de-knipex-8603250",
         "offerKind": "source_offer",
