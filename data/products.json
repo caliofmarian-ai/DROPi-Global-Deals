@@ -1,8 +1,87 @@
 {
-  "generatedAt": "2026-09-15",
+  "generatedAt": "2026-09-16",
   "currency": "EUR",
   "freshnessPolicyDays": 7,
   "products": [
+    {
+      "id": "shimano-cnhg701-11-116",
+      "name": "Shimano CN-HG701-11 Chain 11-speed — 116 links — Quick Link",
+      "category": "Cycling components",
+      "tradition": "Performance cycling",
+      "originCountry": "Manufacturing origin not verified",
+      "dispatchCountry": "Germany",
+      "shipsFrom": "Germany",
+      "dispatchInEu": true,
+      "irelandPrice": 43.99,
+      "irelandOffers": [
+        {
+          "seller": "The Bike Rack",
+          "label": "The Bike Rack — CN-HG701 116L Quick Link",
+          "price": 43.99,
+          "availability": "warehouse_in_stock",
+          "comparisonEligible": true,
+          "checkedAt": "2026-09-16",
+          "observedAt": "2026-09-16",
+          "url": "https://thebikerack.ie/products/shimano-cn-hg701-ultegra-xt-m8000-chain-with-quick-link-11-speed-116l"
+        },
+        {
+          "seller": "Joe Daly Cycles",
+          "label": "Joe Daly Cycles — CNHG701116Q",
+          "price": 45.00,
+          "availability": "in_stock",
+          "comparisonEligible": true,
+          "checkedAt": "2026-09-16",
+          "observedAt": "2026-09-16",
+          "url": "https://www.joedalycycles.com/shop/components/sub/chains/shimano-cn-hg701-ultegra-6800-xt-m8000-chain-hg-x11-11-speed-116l-sil-tec-30490/option/"
+        },
+        {
+          "seller": "LK Bikes",
+          "label": "LK Bikes — CNHG701116Q",
+          "price": 43.00,
+          "availability": "in_stock",
+          "comparisonEligible": false,
+          "checkedAt": "2026-09-16",
+          "observedAt": "2026-09-16",
+          "url": "https://www.lkbikes.com/11-speed-chain.html",
+          "note": "Listing identifies CNHG701116Q but its box-content text says rivet pin rather than Quick Link, so it is excluded until packaging is clarified."
+        }
+      ],
+      "sourceOffers": [
+        {
+          "id": "bike24-ie-2026-09-16",
+          "seller": "BIKE24",
+          "label": "BIKE24 Ireland — CN-HG701-11 116L Quick Link",
+          "productPrice": 26.99,
+          "shippingToIreland": 9.99,
+          "shipsToIreland": true,
+          "dispatchCountry": "Germany",
+          "dispatchInEu": true,
+          "availability": "available",
+          "comparisonEligible": true,
+          "qualityStatus": "verified",
+          "checkedAt": "2026-09-16",
+          "observedAt": "2026-09-16",
+          "url": "https://www.bike24.ie/p2231606.html?origin=CP",
+          "evidenceUrl": "https://www.bike24.ie/shipping.html",
+          "note": "BIKE24 Ireland lists the 116-link Quick Link chain at €26.99. Standard Ireland shipping for orders up to €250 is €9.99. BIKE24 is operated by Bike24 GmbH in Dresden, Germany."
+        }
+      ],
+      "qualityStatus": "verified",
+      "qualityTier": "same_gtin",
+      "qualityBasis": "Exact Shimano manufacturer item code ICNHG70111116Q / retailer code CNHG701116Q and GTIN 4524667906803; 116 links with SM-CN900 Quick Link.",
+      "freshForDays": 7,
+      "evidence": {
+        "ireland": {
+          "label": "The Bike Rack — exact 116L Quick Link product",
+          "url": "https://thebikerack.ie/products/shimano-cn-hg701-ultegra-xt-m8000-chain-with-quick-link-11-speed-116l"
+        },
+        "source": {
+          "label": "BIKE24 Ireland — exact product + Ireland shipping tariff",
+          "url": "https://www.bike24.ie/p2231606.html?origin=CP",
+          "note": "Product €26.99 + standard Ireland shipping €9.99 = €36.98 landed EU cost before optional extras."
+        }
+      }
+    },
     {
       "id": "knipex-8702250",
       "name": "KNIPEX Cobra 250 mm (87 02 250)",
