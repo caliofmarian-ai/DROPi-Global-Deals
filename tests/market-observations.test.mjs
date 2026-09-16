@@ -80,6 +80,42 @@ test("observation layer can introduce a newly discovered product without hardcod
   assert.equal(evaluated.derived.savingsPercent, 31.27);
 });
 
+test("complete fresh import route stays blocked when exact Irish price has no trusted timestamp", () => {
+  const merged = mergeMarketObservations({ products: [] }, {
+    discoveredProducts: [{
+      id: "rtcl900",
+      name: "Shimano RT-CL900 160 internal",
+      qualityStatus: "verified",
+      freshForDays: 7,
+      irelandOffers: [{
+        id: "garys",
+        seller: "Gary's Cycles",
+        price: 71.99,
+        availability: "supplier_warehouse",
+        comparisonEligible: true
+      }],
+      sourceOffers: [{
+        id: "bc",
+        seller: "bike-components",
+        productPrice: 49.60,
+        shippingToIreland: 11.99,
+        shipsToIreland: true,
+        dispatchCountry: "Germany",
+        dispatchInEu: true,
+        comparisonEligible: true,
+        qualityStatus: "verified",
+        checkedAt: "2026-09-11"
+      }]
+    }]
+  });
+  const evaluated = enrichCatalog(merged, now).products[0];
+  assert.equal(evaluated.derived.bestFreshIrelandPrice, null);
+  assert.equal(evaluated.derived.bestCompleteSourceRoute.landedCost, 61.59);
+  assert.equal(evaluated.derived.publishableDeal, false);
+  assert.equal(evaluated.derived.status, "needs_local_recheck");
+  assert.equal(evaluated.derived.sourceRoutes[0].status, "needs_local_recheck");
+});
+
 test("discovered product with same id enriches instead of duplicating a base product", () => {
   const merged = mergeMarketObservations({ products: [{
     id: "same",

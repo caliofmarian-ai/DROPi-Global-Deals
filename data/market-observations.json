@@ -121,6 +121,63 @@
         "source": {"label":"Canyon Ireland — exact 11-30T pricing","url":"https://www.canyon.com/en-ie/gear/bike-parts/drivetrain/cassettes/shimano-ultegra-cs-r8000-11-speed-cassette/9100584.html"},
         "shipping": {"label":"Canyon Ireland — gear-only delivery tariff","url":"https://www.canyon.com/en-ie/customer-service/shipping-delivery/shipping.html"}
       }
+    },
+    {
+      "id": "shimano-rtcl900-160-internal",
+      "name": "Shimano Dura-Ace RT-CL900 Center Lock Rotor — 160 mm — internal lockring",
+      "category": "Cycling components",
+      "tradition": "Performance cycling",
+      "originCountry": "Japan brand; manufacturing origin not verified",
+      "dispatchCountry": "Germany",
+      "shipsFrom": "Germany",
+      "dispatchInEu": true,
+      "freshForDays": 7,
+      "qualityStatus": "verified",
+      "qualityTier": "exact_mpn_gtin_variant",
+      "qualityBasis": "Exact 160 mm RT-CL900 Center Lock rotor with internally splined lockring: Shimano MPN IRTCL900SI and GTIN 4550170232764.",
+      "irelandOffers": [
+        {
+          "id": "garys-rtcl900si",
+          "seller": "Gary's Cycles",
+          "label": "Gary's Cycles — RT-CL900 160 mm internal lockring",
+          "price": 71.99,
+          "availability": "supplier_warehouse",
+          "comparisonEligible": true,
+          "observedAt": "2026-09-16",
+          "url": "https://www.garyscycles.com/product/210235796/shimano-rt-cl900-ice-tech-freeza-rotor-with-internal-lockring-160-mm/option/",
+          "note": "Exact MPN RTCL900SI / GTIN 4550170232764 is listed at €71.99, but the indexed page was last crawled roughly two weeks before this observation. checkedAt is intentionally omitted so the engine cannot treat the Irish price as fresh."
+        }
+      ],
+      "sourceOffers": [
+        {
+          "id": "bike-components-rtcl900si-2026-09-11",
+          "seller": "bike-components / bc GmbH",
+          "label": "bike-components — RT-CL900 160 mm internal teeth",
+          "productPrice": 49.60,
+          "displayedSourcePrice": 47.99,
+          "displayedVatRate": 0.19,
+          "destinationVatRate": 0.23,
+          "shippingToIreland": 11.99,
+          "shipsToIreland": true,
+          "dispatchCountry": "Germany",
+          "dispatchInEu": true,
+          "availability": "shipping_1_3_business_days",
+          "comparisonEligible": true,
+          "qualityStatus": "verified",
+          "checkedAt": "2026-09-11",
+          "observedAt": "2026-09-16",
+          "url": "https://www.bike-components.de/en/Shimano/RT-CL900-Center-Lock-Brake-Rotor-for-Dura-Ace-w-Internal-Teeth-p88964/",
+          "evidenceUrl": "https://www.bike-components.de/en/service/shipping/",
+          "note": "The product page lists 160 mm at €47.99 including 19% German VAT. bike-components states EU customers are charged destination-country VAT, so the Irish-VAT-normalised product price is €49.60 (= €47.99 / 1.19 × 1.23). Ireland standard delivery is €11.99, producing a candidate EU landed cost of €61.59. The route is not publishable until the exact Irish price is freshly rechecked."
+        }
+      ],
+      "evidence": {
+        "ireland": {"label":"Gary's Cycles — exact RTCL900SI / 4550170232764","url":"https://www.garyscycles.com/product/210235796/shimano-rt-cl900-ice-tech-freeza-rotor-with-internal-lockring-160-mm/option/"},
+        "source": {"label":"bike-components — exact 160 mm internal-teeth variant","url":"https://www.bike-components.de/en/Shimano/RT-CL900-Center-Lock-Brake-Rotor-for-Dura-Ace-w-Internal-Teeth-p88964/"},
+        "shipping": {"label":"bike-components — Ireland standard shipping €11.99","url":"https://www.bike-components.de/en/service/shipping/"},
+        "tax": {"label":"bike-components FAQ — EU destination-country VAT","url":"https://www.bike-components.de/en/service/faq/"},
+        "manufacturer": {"label":"Shimano packaging identification — IRTCL900SI / 4550170232764","url":"https://si.shimano.com/pdfs/compliance/pmi/Packaging%20Labelling%20Information_Italy_BC_20231016.pdf"}
+      }
     }
   ],
   "products": [
