@@ -1,6 +1,6 @@
 {
   "name": "dropi-global-deals",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "type": "module",
   "description": "Ireland-first landed-cost comparison engine for cross-border shopping.",
@@ -8,6 +8,6 @@
   "scripts": {
     "start": "node server.mjs",
     "test": "node --test",
-    "check": "node --check server.mjs && node --check public/app.js && node --check lib/landed-cost.mjs && node --check lib/catalog.mjs && node --check lib/fx.mjs && node --check lib/basket.mjs && node --check lib/market-observations.mjs"
+    "check": "node --check server.mjs && node --check public/app.js && node --check lib/landed-cost.mjs && node --check lib/catalog.mjs && node --check lib/fx.mjs && node --check lib/basket.mjs && node --check lib/market-observations.mjs && node --check lib/local-market-guards.mjs"
   }
 }

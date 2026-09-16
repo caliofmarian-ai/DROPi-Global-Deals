@@ -22,7 +22,7 @@
           "checkedAt": "2026-09-11",
           "observedAt": "2026-09-16",
           "url": "https://www.2wheels.ie/components",
-          "note": "Current indexed components page lists GP5000 700/25 BLACK at €79.99. Irish delivery is deliberately not added to the local comparison, making the import test conservative."
+          "note": "Older indexed observation retained in the discovered product; a newer market observation below supersedes this price."
         }
       ],
       "sourceOffers": [
@@ -50,27 +50,76 @@
       "qualityBasis": "Same Continental Grand Prix 5000 tube-type/folding tyre, black, 25-622 / 700×25C. BIKE24 identifies manufacturer item code 0101624; Continental identifies EAN/GTIN 4019238007824 for that exact size and black variant.",
       "freshForDays": 7,
       "evidence": {
-        "ireland": {
-          "label": "2Wheels Dublin — GP5000 700/25 BLACK",
-          "url": "https://www.2wheels.ie/components"
+        "ireland": {"label":"2Wheels Dublin — GP5000 700/25 BLACK","url":"https://www.2wheels.ie/components"},
+        "source": {"label":"BIKE24 Ireland — GP5000 25-622 black","url":"https://www.bike24.ie/p2305160.html?origin=CP","note":"€44.99 product + €9.99 standard Ireland delivery = €54.98 EU landed cost."},
+        "shipping": {"label":"BIKE24 — Ireland shipping tariff","url":"https://www.bike24.com/shipping.html"},
+        "seller": {"label":"BIKE24 — German seller identity","url":"https://www.bike24.com/imprint.html"},
+        "manufacturer": {"label":"Continental 2025/26 tyre range — article 0101624 / EAN 4019238007824","url":"https://www.continental-tyres.co.uk/content/dam/conti-tires-cms/continental/b2c/downloads/bicycle/TireRange-Bicycle.pdf.coredownload.pdf"}
+      }
+    },
+    {
+      "id": "shimano-csr8000-11-30",
+      "name": "Shimano Ultegra CS-R8000 11-speed Cassette — 11-30T",
+      "category": "Cycling components",
+      "tradition": "Performance cycling",
+      "originCountry": "Manufacturing origin not verified",
+      "dispatchCountry": "Germany",
+      "shipsFrom": "Germany",
+      "dispatchInEu": true,
+      "freshForDays": 7,
+      "qualityStatus": "verified",
+      "qualityTier": "same_model_variant",
+      "qualityBasis": "Same Shimano Ultegra CS-R8000 11-speed cassette in the exact 11-30T gradation. Variant-specific pricing is required; generic CS-R8000 family prices cannot be treated as exact without confirmation.",
+      "irelandOffers": [
+        {
+          "id": "thebikerack-csr8000-11-30",
+          "seller": "The Bike Rack",
+          "label": "The Bike Rack — Shimano Ultegra R8000 11-30T",
+          "price": 98.99,
+          "availability": "in_stock",
+          "comparisonEligible": true,
+          "checkedAt": "2026-09-16",
+          "observedAt": "2026-09-16",
+          "url": "https://thebikerack.ie/products/shimano-ultegra-r8000-11-spd-cassette",
+          "note": "The current product page exposes 11-30T as the selected variant at €98.99 and reports in-store and warehouse stock."
         },
-        "source": {
-          "label": "BIKE24 Ireland — GP5000 25-622 black",
-          "url": "https://www.bike24.ie/p2305160.html?origin=CP",
-          "note": "€44.99 product + €9.99 standard Ireland delivery = €54.98 EU landed cost."
-        },
-        "shipping": {
-          "label": "BIKE24 — Ireland shipping tariff",
-          "url": "https://www.bike24.com/shipping.html"
-        },
-        "seller": {
-          "label": "BIKE24 — German seller identity",
-          "url": "https://www.bike24.com/imprint.html"
-        },
-        "manufacturer": {
-          "label": "Continental 2025/26 tyre range — article 0101624 / EAN 4019238007824",
-          "url": "https://www.continental-tyres.co.uk/content/dam/conti-tires-cms/continental/b2c/downloads/bicycle/TireRange-Bicycle.pdf.coredownload.pdf"
+        {
+          "id": "halfords-csr8000-generic-guard",
+          "seller": "Halfords Ireland",
+          "label": "Halfords Ireland — generic CS-R8000 cached price",
+          "price": 58.20,
+          "availability": "unknown",
+          "comparisonEligible": false,
+          "guardPositiveVerdict": true,
+          "observedAt": "2026-09-16",
+          "url": "https://www.getlocal.ie/browse-category/outdoor-recreation/near/dublin-2/page-372.html",
+          "guardReason": "A cached Irish listing shows the CS-R8000 family at €58.20, but does not identify the cassette ratio. Because that is below Canyon's €59.94 delivered 11-30T route, the exact Halfords 11-30T price must be resolved before a positive import verdict can be published."
         }
+      ],
+      "sourceOffers": [
+        {
+          "id": "canyon-ie-csr8000-11-30-2026-09-16",
+          "seller": "Canyon Bicycles GmbH",
+          "label": "Canyon Ireland — CS-R8000 11-30T",
+          "productPrice": 49.99,
+          "shippingToIreland": 9.95,
+          "shipsToIreland": true,
+          "dispatchCountry": "Germany",
+          "dispatchInEu": true,
+          "availability": "available",
+          "comparisonEligible": true,
+          "qualityStatus": "verified",
+          "checkedAt": "2026-09-16",
+          "observedAt": "2026-09-16",
+          "url": "https://www.canyon.com/en-ie/gear/bike-parts/drivetrain/cassettes/shimano-ultegra-cs-r8000-11-speed-cassette/9100584.html",
+          "evidenceUrl": "https://www.canyon.com/en-ie/customer-service/shipping-delivery/shipping.html",
+          "note": "Canyon Ireland lists the exact 11-30 11S variant at €49.99. Gear-only delivery to Ireland is €9.95, yielding a €59.94 candidate landed EU cost. Canyon's Irish terms identify Canyon Bicycles GmbH as seller and its legal disclosure gives Koblenz, Germany."
+        }
+      ],
+      "evidence": {
+        "ireland": {"label":"The Bike Rack — exact 11-30T variant","url":"https://thebikerack.ie/products/shimano-ultegra-r8000-11-spd-cassette"},
+        "source": {"label":"Canyon Ireland — exact 11-30T pricing","url":"https://www.canyon.com/en-ie/gear/bike-parts/drivetrain/cassettes/shimano-ultegra-cs-r8000-11-speed-cassette/9100584.html"},
+        "shipping": {"label":"Canyon Ireland — gear-only delivery tariff","url":"https://www.canyon.com/en-ie/customer-service/shipping-delivery/shipping.html"}
       }
     }
   ],
@@ -89,6 +138,23 @@
           "observedAt": "2026-09-16",
           "url": "https://www.halfords.ie/cycling/gears-drivetrain-cables/shimano-xt%2Fultegra-cn-hg701-11-speed-chain%2C-116-links-730667.html",
           "note": "Current Halfords Ireland listing describes the 116-link CN-HG701 and explicitly states it comes complete with Quick Link. This local offer invalidates the earlier positive BIKE24 import verdict."
+        }
+      ]
+    },
+    {
+      "productId": "continental-gp5000-25-622-black",
+      "irelandOffers": [
+        {
+          "id": "2wheels-gp5000-700-25-black",
+          "seller": "2Wheels Dublin",
+          "label": "2Wheels Dublin — GP5000 700/25 BLACK",
+          "price": 29.99,
+          "availability": "listed",
+          "comparisonEligible": true,
+          "checkedAt": "2026-09-16",
+          "observedAt": "2026-09-16",
+          "url": "https://www.2wheels.ie/components",
+          "note": "Fresh local audit found the same GP5000 700/25 BLACK at €29.99. This supersedes the earlier €79.99 indexed observation and invalidates the BIKE24 import win."
         }
       ]
     }

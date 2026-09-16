@@ -6,6 +6,7 @@ import { calculateLandedCost } from "./lib/landed-cost.mjs";
 import { calculateBasketEconomics } from "./lib/basket.mjs";
 import { enrichCatalog } from "./lib/catalog.mjs";
 import { mergeMarketObservations } from "./lib/market-observations.mjs";
+import { applyLocalMarketGuards } from "./lib/local-market-guards.mjs";
 
 const root = fileURLToPath(new URL(".", import.meta.url));
 const port = Number(process.env.PORT || 3000);
@@ -27,10 +28,11 @@ async function readJson(relativePath){return JSON.parse(await readFile(join(root
 async function readOptionalJson(relativePath,fallback){try{return await readJson(relativePath)}catch(error){if(error?.code==="ENOENT")return fallback;throw error}}
 
 http.createServer(async(req,res)=>{try{const url=new URL(req.url,`http://${req.headers.host||"localhost"}`);
-  if(url.pathname==="/health")return send(res,200,JSON.stringify({ok:true,service:"dropi-global-deals",catalogVersion:5}));
+  if(url.pathname==="/health")return send(res,200,JSON.stringify({ok:true,service:"dropi-global-deals",catalogVersion:6}));
   if(url.pathname==="/api/products"&&req.method==="GET"){
     const [catalog,observations]=await Promise.all([readJson("data/products.json"),readOptionalJson("data/market-observations.json",{products:[],discoveredProducts:[]})]);
-    return send(res,200,JSON.stringify(enrichCatalog(mergeMarketObservations(catalog,observations))));
+    const merged=mergeMarketObservations(catalog,observations);
+    return send(res,200,JSON.stringify(applyLocalMarketGuards(enrichCatalog(merged))));
   }
   if(url.pathname==="/api/research-categories"&&req.method==="GET")return send(res,200,JSON.stringify(await readJson("data/research-categories.json")));
   if(url.pathname==="/api/fx"&&req.method==="GET")return send(res,200,JSON.stringify(await readJson("data/fx-rates.json")));
