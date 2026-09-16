@@ -1,7 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T19:25:00.999Z",
+  "generatedAt": "2026-09-16T20:28:46.108Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-09-16T20:28:44.163Z",
+      "finishedAt": "2026-09-16T20:28:46.108Z",
+      "sourcesDue": 1,
+      "checked": 1,
+      "changed": 1,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "canyon-ie-csr8000-11-30",
+          "status": "ok",
+          "changed": true,
+          "price": 65.99,
+          "shippingToIreland": null,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-09-16T19:25:00.998Z",

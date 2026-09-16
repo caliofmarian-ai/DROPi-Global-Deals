@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T18:42:23.019Z",
+  "generatedAt": "2026-09-16T20:28:44.163Z",
   "products": {
     "__shipping__": [
       {
@@ -81,6 +81,18 @@
       }
     ],
     "shimano-csr8000-11-30": [
+      {
+        "sourceId": "canyon-ie-csr8000-11-30",
+        "offerKind": "source_offer",
+        "checkedAt": "2026-09-16T20:28:44.163Z",
+        "eventType": "changed",
+        "monitorStatus": "ok",
+        "price": 65.99,
+        "currency": "EUR",
+        "availability": "out_of_stock",
+        "shippingToIreland": null,
+        "contentHash": "e051d3e15f7b1bc29b29b0203b6f0ee67e1bd032bf42a046e1b31504467f87b7"
+      },
       {
         "sourceId": "canyon-ie-csr8000-11-30",
         "offerKind": "source_offer",
