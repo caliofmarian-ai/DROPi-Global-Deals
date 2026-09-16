@@ -1,7 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T18:41:42.224Z",
+  "generatedAt": "2026-09-16T18:42:24.720Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-09-16T18:42:23.019Z",
+      "finishedAt": "2026-09-16T18:42:24.720Z",
+      "sourcesDue": 1,
+      "checked": 1,
+      "changed": 1,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "toolfix-ie-knipex-8603250",
+          "status": "ok",
+          "changed": true,
+          "price": 81.95,
+          "shippingToIreland": null,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-09-16T18:41:42.224Z",

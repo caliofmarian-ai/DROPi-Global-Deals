@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T18:40:24.467Z",
+  "generatedAt": "2026-09-16T18:42:23.019Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -436,6 +436,53 @@
         "gtin": null
       },
       "rawPrice": 53.85
+    },
+    "toolfix-ie-knipex-8603250": {
+      "sourceId": "toolfix-ie-knipex-8603250",
+      "productId": "knipex-8603250",
+      "offerKind": "ireland_offer",
+      "seller": "Toolfix Ireland",
+      "label": "Toolfix Ireland — Knipex 86 03 250 SB",
+      "sourceUrl": "https://www.toolfix.ie/c/knipex/185/perpage_240",
+      "sourceConfig": {
+        "id": "toolfix-ie-knipex-8603250",
+        "productId": "knipex-8603250",
+        "offerKind": "ireland_offer",
+        "seller": "Toolfix Ireland",
+        "label": "Toolfix Ireland — Knipex 86 03 250 SB",
+        "url": "https://www.toolfix.ie/c/knipex/185/perpage_240",
+        "adapter": "jsonld_or_meta",
+        "refreshMinutes": 180,
+        "identityMarkers": [
+          "Knipex 86 03 250 SB Pliers Wrench Pliers"
+        ],
+        "priceRegex": "Knipex 86 03 250 SB Pliers Wrench Pliers[\\s\\S]{0,120}?€\\s*([0-9]+[.,][0-9]{2})\\s*Inc",
+        "preferPriceRegex": true,
+        "currency": "EUR",
+        "comparisonEligible": true,
+        "enabled": true
+      },
+      "lastCheckedAt": "2026-09-16T18:42:23.019Z",
+      "lastSuccessAt": "2026-09-16T18:42:23.019Z",
+      "lastChangedAt": "2026-09-16T18:42:23.019Z",
+      "monitorStatus": "ok",
+      "price": 81.95,
+      "currency": "EUR",
+      "availability": "limited",
+      "shippingToIreland": null,
+      "shipsToIreland": null,
+      "identityStatus": "verified",
+      "httpStatus": 200,
+      "contentHash": "f0490cf288a9ee7d3b7a526409aa83a85ad33d10bc9986a21f274bf467fca4d7",
+      "consecutiveFailures": 0,
+      "errorText": null,
+      "responseUrl": "https://www.toolfix.ie/c/knipex/185/perpage_240",
+      "extracted": {
+        "sku": null,
+        "mpn": null,
+        "gtin": null
+      },
+      "rawPrice": 81.95
     }
   }
 }
