@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-09-16",
+  "products": [
+    {
+      "productId": "shimano-cnhg701-11-116",
+      "irelandOffers": [
+        {
+          "id": "halfords-ie-730667",
+          "seller": "Halfords Ireland",
+          "label": "Halfords Ireland — Shimano XT/Ultegra CN-HG701 116L",
+          "price": 25.17,
+          "availability": "available",
+          "comparisonEligible": true,
+          "checkedAt": "2026-09-16",
+          "observedAt": "2026-09-16",
+          "url": "https://www.halfords.ie/cycling/gears-drivetrain-cables/shimano-xt%2Fultegra-cn-hg701-11-speed-chain%2C-116-links-730667.html",
+          "note": "Current Halfords Ireland listing describes the 116-link CN-HG701 and explicitly states it comes complete with Quick Link. This local offer invalidates the earlier positive BIKE24 import verdict."
+        }
+      ]
+    }
+  ]
+}
