@@ -9,7 +9,19 @@ import { mergeMarketObservations } from "./lib/market-observations.mjs";
 
 const root = fileURLToPath(new URL(".", import.meta.url));
 const port = Number(process.env.PORT || 3000);
-const mime = { ".html":"text/html; charset=utf-8", ".css":"text/css; charset=utf-8", ".js":"text/javascript; charset=utf-8", ".json":"application/json; charset=utf-8", ".svg":"image/svg+xml" };
+const mime = {
+  ".html":"text/html; charset=utf-8",
+  ".css":"text/css; charset=utf-8",
+  ".js":"text/javascript; charset=utf-8",
+  ".json":"application/json; charset=utf-8",
+  ".svg":"image/svg+xml",
+  ".txt":"text/plain; charset=utf-8",
+  ".xml":"application/xml; charset=utf-8",
+  ".jpg":"image/jpeg",
+  ".jpeg":"image/jpeg",
+  ".png":"image/png",
+  ".webp":"image/webp"
+};
 const send=(res,status,body,type="application/json; charset=utf-8")=>{res.writeHead(status,{"content-type":type,"cache-control":"no-store"});res.end(body)};
 async function readJson(relativePath){return JSON.parse(await readFile(join(root,relativePath),"utf8"))}
 async function readOptionalJson(relativePath,fallback){try{return await readJson(relativePath)}catch(error){if(error?.code==="ENOENT")return fallback;throw error}}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DROPi Global">
+  <rect width="64" height="64" rx="16" fill="#162018"/>
+  <path d="M18 17h13c11 0 18 6 18 15s-7 15-18 15H18V17Zm13 23c6 0 10-3 10-8s-4-8-10-8h-5v16h5Z" fill="#fff"/>
+  <circle cx="49" cy="17" r="5" fill="#167d4b"/>
+</svg>
