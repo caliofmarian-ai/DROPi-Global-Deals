@@ -9,6 +9,8 @@ import { mergeMarketObservations } from "./lib/market-observations.mjs";
 import { applyLocalMarketGuards } from "./lib/local-market-guards.mjs";
 import { candidateFeed, dealFeed, summarizeCatalog } from "./lib/catalog-view.mjs";
 import { analyticsConfig, forwardAnalyticsEvent } from "./lib/analytics.mjs";
+import { liveMonitorStatus, liveProductHistory, loadLiveMarketObservations } from "./lib/live-market-layer.mjs";
+import { monitorDbEnabled } from "./lib/market-monitor-db.mjs";
 
 const root = fileURLToPath(new URL(".", import.meta.url));
 const port = Number(process.env.PORT || 3000);
@@ -23,6 +25,14 @@ async function observationLayers(){
     const names=(await readdir(join(root,"data/observations"))).filter((name)=>name.endsWith(".json")).sort();
     for(const name of names)layers.push(await readJson(`data/observations/${name}`));
   }catch(error){if(error?.code!=="ENOENT")throw error}
+  if(monitorDbEnabled()){
+    try{
+      const live=await loadLiveMarketObservations();
+      if(live)layers.push(live);
+    }catch(error){
+      console.error("Live market layer unavailable; using repository evidence only:",error?.message||error);
+    }
+  }
   return layers;
 }
 async function loadEvaluatedCatalog(){
@@ -32,11 +42,18 @@ async function loadEvaluatedCatalog(){
 }
 
 http.createServer(async(req,res)=>{try{const url=new URL(req.url,`http://${req.headers.host||"localhost"}`);
-  if(url.pathname==="/health")return send(res,200,JSON.stringify({ok:true,service:"dropi-global-deals",catalogVersion:9,analytics:analyticsConfig().enabled}));
+  if(url.pathname==="/health")return send(res,200,JSON.stringify({ok:true,service:"dropi-global-deals",catalogVersion:10,analytics:analyticsConfig().enabled,liveMarketMonitor:monitorDbEnabled()}));
   if(url.pathname==="/api/products"&&req.method==="GET")return send(res,200,JSON.stringify(await loadEvaluatedCatalog()));
   if(url.pathname==="/api/deals"&&req.method==="GET")return send(res,200,JSON.stringify(dealFeed(await loadEvaluatedCatalog())));
   if(url.pathname==="/api/candidates"&&req.method==="GET")return send(res,200,JSON.stringify(candidateFeed(await loadEvaluatedCatalog())));
   if(url.pathname==="/api/status"&&req.method==="GET")return send(res,200,JSON.stringify(summarizeCatalog(await loadEvaluatedCatalog())));
+  if(url.pathname==="/api/monitor/status"&&req.method==="GET")return send(res,200,JSON.stringify(await liveMonitorStatus()));
+  if(url.pathname==="/api/price-history"&&req.method==="GET"){
+    const productId=(url.searchParams.get("productId")||"").trim();
+    if(!productId||productId.length>160)return send(res,400,JSON.stringify({error:"Valid productId is required"}));
+    const limit=Math.min(500,Math.max(1,Number(url.searchParams.get("limit"))||100));
+    return send(res,200,JSON.stringify({productId,history:await liveProductHistory(productId,limit)}));
+  }
   if(url.pathname==="/api/research-categories"&&req.method==="GET")return send(res,200,JSON.stringify(await readJson("data/research-categories.json")));
   if(url.pathname==="/api/fx"&&req.method==="GET")return send(res,200,JSON.stringify(await readJson("data/fx-rates.json")));
   if(url.pathname==="/api/analytics/config"&&req.method==="GET")return send(res,200,JSON.stringify(analyticsConfig()));
