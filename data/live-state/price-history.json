@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-16T18:33:50.072Z",
+  "products": {
+    "__shipping__": [
+      {
+        "sourceId": "canyon-shipping-ie-gear",
+        "offerKind": "shipping_tariff",
+        "checkedAt": "2026-09-16T18:33:45.805Z",
+        "eventType": "first_observation",
+        "monitorStatus": "ok",
+        "price": null,
+        "currency": "EUR",
+        "availability": "n/a",
+        "shippingToIreland": 9.95,
+        "contentHash": "1e4dc71c991831f7fcb996725e1b10349c86be645d894caeeee2b5d1f254acdf"
+      },
+      {
+        "sourceId": "bike24-shipping-ie",
+        "offerKind": "shipping_tariff",
+        "checkedAt": "2026-09-16T18:33:44.969Z",
+        "eventType": "first_observation",
+        "monitorStatus": "http_403",
+        "price": null,
+        "currency": "EUR",
+        "availability": null,
+        "shippingToIreland": null,
+        "contentHash": null
+      }
+    ],
+    "shimano-cnhg701-11-116": [
+      {
+        "sourceId": "bike24-ie-cnhg701-116",
+        "offerKind": "source_offer",
+        "checkedAt": "2026-09-16T18:33:47.497Z",
+        "eventType": "first_observation",
+        "monitorStatus": "http_403",
+        "price": null,
+        "currency": "EUR",
+        "availability": null,
+        "shippingToIreland": null,
+        "contentHash": null
+      },
+      {
+        "sourceId": "halfords-ie-cnhg701-116",
+        "offerKind": "ireland_offer",
+        "checkedAt": "2026-09-16T18:33:46.668Z",
+        "eventType": "first_observation",
+        "monitorStatus": "ok",
+        "price": 25.17,
+        "currency": "EUR",
+        "availability": "in_stock",
+        "shippingToIreland": null,
+        "contentHash": "5511a320d212cc2a4435dfee1c26942697236d9096e346d6355f584d14c34ae3"
+      }
+    ],
+    "continental-gp5000-25-622-black": [
+      {
+        "sourceId": "bike24-ie-gp5000-25-622",
+        "offerKind": "source_offer",
+        "checkedAt": "2026-09-16T18:33:47.957Z",
+        "eventType": "first_observation",
+        "monitorStatus": "http_403",
+        "price": null,
+        "currency": "EUR",
+        "availability": null,
+        "shippingToIreland": null,
+        "contentHash": null
+      }
+    ],
+    "shimano-csr8000-11-30": [
+      {
+        "sourceId": "canyon-ie-csr8000-11-30",
+        "offerKind": "source_offer",
+        "checkedAt": "2026-09-16T18:33:49.473Z",
+        "eventType": "first_observation",
+        "monitorStatus": "price_missing",
+        "price": null,
+        "currency": "EUR",
+        "availability": null,
+        "shippingToIreland": null,
+        "contentHash": "b1d1c71ee65dca16e1c946e1bb683e7dec4c09811f631705bbc47822a8f78579"
+      }
+    ],
+    "knipex-8603250": [
+      {
+        "sourceId": "dtsupply-de-knipex-8603250",
+        "offerKind": "source_offer",
+        "checkedAt": "2026-09-16T18:33:50.072Z",
+        "eventType": "first_observation",
+        "monitorStatus": "identity_mismatch",
+        "price": null,
+        "currency": "EUR",
+        "availability": null,
+        "shippingToIreland": null,
+        "contentHash": "f400b3d3019554897b9280032ec79f1e56d602102d7284c32bab73225361df1b"
+      }
+    ]
+  }
+}
