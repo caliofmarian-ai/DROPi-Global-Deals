@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "generatedAt": "2026-09-17",
+  "policy": {
+    "rankingBasis": "verified_landed_cost_then_route_order",
+    "commissionInfluencesRanking": false,
+    "requireExplicitApproval": true,
+    "requireDisclosure": true,
+    "shopifyRequiresAssignedStore": true,
+    "researchOnlyIsMonetizable": false
+  },
+  "destinations": []
+}
