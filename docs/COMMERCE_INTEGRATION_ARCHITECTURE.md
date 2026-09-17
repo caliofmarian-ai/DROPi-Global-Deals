@@ -186,7 +186,7 @@ The adapter layer does not replace the existing landed-cost, freshness, product-
 
 ## 8. Monetization router
 
-The cheapest observed sticker price is not automatically the preferred path.
+The cheapest observed sticker price is not automatically the preferred path. The comparison engine first determines the verified routes and orders them by landed cost. Commercial eligibility is attached only afterwards.
 
 Routing must consider:
 
@@ -207,7 +207,9 @@ Supported monetization channels may include:
 - future promoted merchant placement, clearly disclosed;
 - future logistics or fulfillment revenue where legally and operationally supported.
 
-The system must not falsely label an offer as objectively best merely because it yields a higher DROPi commission.
+The system must not falsely label an offer as objectively best merely because it yields a higher DROPi commission. A more expensive monetizable route may be exposed as an alternative, but it must not replace a cheaper verified route as the selected customer route.
+
+Commercial destinations live in `data/commerce-destinations.json`, separate from `data/source-registry.json`. The default destination registry is empty and therefore activates no monetization implicitly.
 
 ## 9. Figma isolation
 
@@ -266,12 +268,27 @@ Still required:
 - production Klarna adapter only after access and terms are verified;
 - stronger cross-provider product deduplication and identity reconciliation.
 
-### Phase C — commercial routing — NEXT
+### Phase C — commercial routing — PARTIALLY IMPLEMENTED
 
-- maintain a registry of approved monetization destinations;
-- route verified deals to affiliate destinations or a dedicated vertical storefront;
-- track attribution without distorting comparison results;
-- prevent unverified/research-only offers from entering monetized routes.
+Implemented:
+
+- separate commercial-destination registry;
+- empty-by-default activation policy;
+- verified-landed-cost-first route selection;
+- explicit destination approval and enabled checks;
+- required commercial disclosure metadata;
+- research-only monetization block;
+- Shopify `UNASSIGNED` fail-closed behavior;
+- exact vertical/store-assignment verification for Shopify routing;
+- monetizable alternatives that cannot displace the cheaper selected verified route;
+- read-only `/api/commerce` inspection endpoint for product routing state.
+
+Still required:
+
+- approved live affiliate/referral destinations after commercial agreements exist;
+- attribution/event capture for outbound commercial actions;
+- customer-facing transaction controls and disclosure UI;
+- production Shopify destinations only after stores are explicitly assigned per vertical.
 
 ### Phase D — dedicated Shopify storefronts
 
@@ -300,4 +317,7 @@ The following are canonical project invariants:
 - provider market mismatch fails closed;
 - research-source data cannot self-promote into a verified deal;
 - missing shipping, tax, evidence or other material cost fields are not converted to zero;
+- monetization never changes comparison ranking;
+- an unapproved, disabled or research-only destination cannot produce a transaction URL;
+- Shopify routing requires an explicitly assigned store for the exact target vertical;
 - GitHub remains the source of truth for code and architecture.
