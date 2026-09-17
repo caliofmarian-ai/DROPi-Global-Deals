@@ -1,7 +1,42 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T06:45:13.352Z",
+  "generatedAt": "2026-09-17T07:33:11.541Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-09-17T07:33:06.072Z",
+      "finishedAt": "2026-09-17T07:33:11.541Z",
+      "sourcesDue": 3,
+      "checked": 3,
+      "changed": 0,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "canyon-shipping-ie-gear",
+          "status": "ok",
+          "changed": false,
+          "price": null,
+          "shippingToIreland": 9.95,
+          "error": null
+        },
+        {
+          "sourceId": "reichelt-shipping-ie-dhl-10kg",
+          "status": "ok",
+          "changed": false,
+          "price": null,
+          "shippingToIreland": 9.95,
+          "error": null
+        },
+        {
+          "sourceId": "canyon-ie-csr8000-11-30",
+          "status": "ok",
+          "changed": false,
+          "price": 65.99,
+          "shippingToIreland": null,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-09-17T06:45:13.352Z",
