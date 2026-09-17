@@ -53,6 +53,10 @@ Current implementation is informed by official Irish sources and must be reviewe
 
 See `docs/COMPLIANCE_IRELAND.md` and `docs/PRODUCT_STANDARD.md`.
 
+## Commerce architecture
+
+See `docs/COMMERCE_INTEGRATION_ARCHITECTURE.md` for the canonical integration model covering offer sources, provider market guards, adapter boundaries, Klarna research/production separation, monetization routing, Figma/Canva project separation, and the mandatory one-vertical/one-Shopify-store isolation rule.
+
 ## Commercial sequence
 
 1. Comparison/search engine
