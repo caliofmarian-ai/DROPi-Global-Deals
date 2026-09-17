@@ -9,6 +9,6 @@
     "start": "node server.mjs",
     "monitor": "node scripts/monitor-sources.mjs",
     "test": "node --test",
-    "check": "node --check server.mjs && node --check public/app.js && node --check lib/landed-cost.mjs && node --check lib/catalog.mjs && node --check lib/fx.mjs && node --check lib/basket.mjs && node --check lib/market-observations.mjs && node --check lib/local-market-guards.mjs && node --check lib/catalog-view.mjs && node --check lib/analytics.mjs && node --check lib/market-monitor-parser.mjs && node --check lib/market-monitor-state.mjs && node --check lib/live-market-layer.mjs && node --check scripts/monitor-sources.mjs"
+    "check": "node --check server.mjs && node --check public/app.js && node --check lib/landed-cost.mjs && node --check lib/catalog.mjs && node --check lib/fx.mjs && node --check lib/basket.mjs && node --check lib/market-observations.mjs && node --check lib/local-market-guards.mjs && node --check lib/catalog-view.mjs && node --check lib/analytics.mjs && node --check lib/market-monitor-parser.mjs && node --check lib/market-monitor-state.mjs && node --check lib/live-market-layer.mjs && node --check lib/provider-offers.mjs && node --check scripts/monitor-sources.mjs"
   }
 }
