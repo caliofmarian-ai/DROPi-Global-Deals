@@ -10,6 +10,7 @@ import { applyLocalMarketGuards } from "./lib/local-market-guards.mjs";
 import { candidateFeed, dealFeed, summarizeCatalog } from "./lib/catalog-view.mjs";
 import { analyticsConfig, forwardAnalyticsEvent } from "./lib/analytics.mjs";
 import { liveMonitorStatus, liveProductHistory, loadLiveMarketObservations } from "./lib/live-market-layer.mjs";
+import { commerceViewForProduct } from "./lib/commerce-view.mjs";
 
 const root = fileURLToPath(new URL(".", import.meta.url));
 const port = Number(process.env.PORT || 3000);
@@ -44,6 +45,18 @@ http.createServer(async(req,res)=>{try{const url=new URL(req.url,`http://${req.h
   if(url.pathname==="/api/deals"&&req.method==="GET")return send(res,200,JSON.stringify(dealFeed(await loadEvaluatedCatalog())));
   if(url.pathname==="/api/candidates"&&req.method==="GET")return send(res,200,JSON.stringify(candidateFeed(await loadEvaluatedCatalog())));
   if(url.pathname==="/api/status"&&req.method==="GET")return send(res,200,JSON.stringify(summarizeCatalog(await loadEvaluatedCatalog())));
+  if(url.pathname==="/api/commerce"&&req.method==="GET"){
+    const productId=(url.searchParams.get("productId")||"").trim();
+    const targetVertical=(url.searchParams.get("targetVertical")||"").trim()||null;
+    if(!productId||productId.length>160)return send(res,400,JSON.stringify({status:"invalid_request",reason:"Valid productId is required."}));
+    if(targetVertical&&targetVertical.length>160)return send(res,400,JSON.stringify({status:"invalid_request",reason:"targetVertical is too long."}));
+    const result=commerceViewForProduct(
+      await loadEvaluatedCatalog(),
+      await readJson("data/commerce-destinations.json"),
+      {productId,targetVertical},
+    );
+    return send(res,result.httpStatus,JSON.stringify(result));
+  }
   if(url.pathname==="/api/monitor/status"&&req.method==="GET")return send(res,200,JSON.stringify(await liveMonitorStatus()));
   if(url.pathname==="/api/price-history"&&req.method==="GET"){
     const productId=(url.searchParams.get("productId")||"").trim();
