@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-17T07:33:10.139Z",
+  "generatedAt": "2026-09-17T08:36:34.775Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -102,8 +102,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-17T06:03:11.938Z",
-      "lastSuccessAt": "2026-09-17T06:03:11.938Z",
+      "lastCheckedAt": "2026-09-17T08:36:31.644Z",
+      "lastSuccessAt": "2026-09-17T08:36:31.644Z",
       "lastChangedAt": "2026-09-16T18:33:46.668Z",
       "monitorStatus": "ok",
       "price": 25.17,
@@ -423,8 +423,8 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-17T05:29:17.977Z",
-      "lastSuccessAt": "2026-09-17T05:29:17.977Z",
+      "lastCheckedAt": "2026-09-17T08:36:34.775Z",
+      "lastSuccessAt": "2026-09-17T08:36:34.775Z",
       "lastChangedAt": "2026-09-16T18:40:24.467Z",
       "monitorStatus": "ok",
       "price": 53.85,
@@ -434,7 +434,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "980133977a66b526b967c95e317cc890d25a0a93c8f3fa9108b48721766e91a7",
+      "contentHash": "db7e5ebe115ff24a725ad35eb7ddb60d749befd010ac06566ad670d926f0039e",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233",
@@ -470,8 +470,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-17T05:29:16.223Z",
-      "lastSuccessAt": "2026-09-17T05:29:16.223Z",
+      "lastCheckedAt": "2026-09-17T08:36:32.725Z",
+      "lastSuccessAt": "2026-09-17T08:36:32.725Z",
       "lastChangedAt": "2026-09-16T18:42:23.019Z",
       "monitorStatus": "ok",
       "price": 81.95,
@@ -481,7 +481,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "f0490cf288a9ee7d3b7a526409aa83a85ad33d10bc9986a21f274bf467fca4d7",
+      "contentHash": "bf6a1b3b1a8df017067d516c6c03180024d289270f2157648053605dbc13da55",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.toolfix.ie/c/knipex/185/perpage_240",
