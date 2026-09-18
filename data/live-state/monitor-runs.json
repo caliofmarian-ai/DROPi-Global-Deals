@@ -1,7 +1,34 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-18T03:32:26.624Z",
+  "generatedAt": "2026-09-18T04:31:57.509Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-09-18T04:31:53.552Z",
+      "finishedAt": "2026-09-18T04:31:57.509Z",
+      "sourcesDue": 2,
+      "checked": 2,
+      "changed": 0,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "toolfix-ie-knipex-8603250",
+          "status": "ok",
+          "changed": false,
+          "price": 81.95,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "reichelt-ie-knipex-8603250",
+          "status": "ok",
+          "changed": false,
+          "price": 53.85,
+          "shippingToIreland": null,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-09-18T03:32:22.412Z",
