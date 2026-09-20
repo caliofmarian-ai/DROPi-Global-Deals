@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-20T16:27:24.750Z",
+  "generatedAt": "2026-09-20T17:23:49.292Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-09-20T17:23:49.291Z",
+      "finishedAt": "2026-09-20T17:23:49.292Z",
+      "sourcesDue": 0,
+      "checked": 0,
+      "changed": 0,
+      "failed": 0,
+      "results": []
+    },
     {
       "status": "completed",
       "startedAt": "2026-09-20T16:27:20.290Z",
@@ -2124,25 +2134,6 @@
       "changed": 0,
       "failed": 0,
       "results": []
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-09-16T18:42:23.019Z",
-      "finishedAt": "2026-09-16T18:42:24.720Z",
-      "sourcesDue": 1,
-      "checked": 1,
-      "changed": 1,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "toolfix-ie-knipex-8603250",
-          "status": "ok",
-          "changed": true,
-          "price": 81.95,
-          "shippingToIreland": null,
-          "error": null
-        }
-      ]
     }
   ]
 }
