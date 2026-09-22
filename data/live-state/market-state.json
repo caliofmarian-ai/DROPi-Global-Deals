@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T01:01:42.222Z",
+  "generatedAt": "2026-09-22T01:37:55.608Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -102,8 +102,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-21T23:26:38.433Z",
-      "lastSuccessAt": "2026-09-21T23:26:38.433Z",
+      "lastCheckedAt": "2026-09-22T01:37:51.828Z",
+      "lastSuccessAt": "2026-09-22T01:37:51.828Z",
       "lastChangedAt": "2026-09-16T18:33:46.668Z",
       "monitorStatus": "ok",
       "price": 25.17,
@@ -245,8 +245,8 @@
         "shippingSourceId": "canyon-shipping-ie-gear",
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-21T22:27:56.193Z",
-      "lastSuccessAt": "2026-09-21T22:27:56.193Z",
+      "lastCheckedAt": "2026-09-22T01:37:54.507Z",
+      "lastSuccessAt": "2026-09-22T01:37:54.507Z",
       "lastChangedAt": "2026-09-16T20:28:44.163Z",
       "monitorStatus": "ok",
       "price": 65.99,
@@ -423,8 +423,8 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-21T22:27:58.081Z",
-      "lastSuccessAt": "2026-09-21T22:27:58.081Z",
+      "lastCheckedAt": "2026-09-22T01:37:55.608Z",
+      "lastSuccessAt": "2026-09-22T01:37:55.608Z",
       "lastChangedAt": "2026-09-16T18:40:24.467Z",
       "monitorStatus": "ok",
       "price": 53.85,
@@ -434,7 +434,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "5514faf0c39d0d4158a498706917981b02d111ce3c8e3d5756e2491d1ff4b401",
+      "contentHash": "0812fc800431e4e640242cc4d92899fd6a058c54d2ebf75e344c19164ae6c228",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233",
@@ -470,8 +470,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-21T22:27:54.278Z",
-      "lastSuccessAt": "2026-09-21T22:27:54.278Z",
+      "lastCheckedAt": "2026-09-22T01:37:52.555Z",
+      "lastSuccessAt": "2026-09-22T01:37:52.555Z",
       "lastChangedAt": "2026-09-16T18:42:23.019Z",
       "monitorStatus": "ok",
       "price": 81.95,
