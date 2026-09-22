@@ -1,7 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T08:37:54.130Z",
+  "generatedAt": "2026-09-22T09:29:42.524Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-09-22T09:29:41.709Z",
+      "finishedAt": "2026-09-22T09:29:42.524Z",
+      "sourcesDue": 1,
+      "checked": 1,
+      "changed": 0,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "halfords-ie-cnhg701-116",
+          "status": "ok",
+          "changed": false,
+          "price": 25.17,
+          "shippingToIreland": null,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-09-22T08:37:48.722Z",
@@ -2192,25 +2211,6 @@
           "status": "ok",
           "changed": false,
           "price": 25.17,
-          "shippingToIreland": null,
-          "error": null
-        }
-      ]
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-09-18T05:27:55.448Z",
-      "finishedAt": "2026-09-18T05:27:56.543Z",
-      "sourcesDue": 1,
-      "checked": 1,
-      "changed": 0,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "canyon-ie-csr8000-11-30",
-          "status": "ok",
-          "changed": false,
-          "price": 65.99,
           "shippingToIreland": null,
           "error": null
         }
