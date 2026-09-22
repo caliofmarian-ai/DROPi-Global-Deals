@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-22T01:37:57.570Z",
+  "generatedAt": "2026-09-22T02:37:02.993Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-09-22T02:37:02.993Z",
+      "finishedAt": "2026-09-22T02:37:02.993Z",
+      "sourcesDue": 0,
+      "checked": 0,
+      "changed": 0,
+      "failed": 0,
+      "results": []
+    },
     {
       "status": "completed",
       "startedAt": "2026-09-22T01:37:51.827Z",
@@ -2196,25 +2206,6 @@
       "changed": 0,
       "failed": 0,
       "results": []
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-09-17T22:25:20.779Z",
-      "finishedAt": "2026-09-17T22:25:22.484Z",
-      "sourcesDue": 1,
-      "checked": 1,
-      "changed": 0,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "canyon-ie-csr8000-11-30",
-          "status": "ok",
-          "changed": false,
-          "price": 65.99,
-          "shippingToIreland": null,
-          "error": null
-        }
-      ]
     }
   ]
 }
