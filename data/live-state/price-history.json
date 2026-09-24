@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-16T20:28:44.163Z",
+  "generatedAt": "2026-09-24T08:37:41.556Z",
   "products": {
     "__shipping__": [
       {
@@ -107,6 +107,18 @@
       }
     ],
     "knipex-8603250": [
+      {
+        "sourceId": "toolfix-ie-knipex-8603250",
+        "offerKind": "ireland_offer",
+        "checkedAt": "2026-09-24T08:37:41.556Z",
+        "eventType": "changed",
+        "monitorStatus": "ok",
+        "price": 81.95,
+        "currency": "EUR",
+        "availability": "unknown",
+        "shippingToIreland": null,
+        "contentHash": "633bced072677f5445ad85d732900373efd8f97402366256e45fe9111c02655d"
+      },
       {
         "sourceId": "toolfix-ie-knipex-8603250",
         "offerKind": "ireland_offer",
