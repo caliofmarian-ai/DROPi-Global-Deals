@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-25T18:33:00.240Z",
+  "generatedAt": "2026-09-25T21:26:39.332Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -102,8 +102,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-25T18:32:55.982Z",
-      "lastSuccessAt": "2026-09-25T18:32:55.982Z",
+      "lastCheckedAt": "2026-09-25T21:26:39.332Z",
+      "lastSuccessAt": "2026-09-25T21:26:39.332Z",
       "lastChangedAt": "2026-09-16T18:33:46.668Z",
       "monitorStatus": "ok",
       "price": 25.17,
