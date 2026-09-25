@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-25T14:31:43.745Z",
+  "generatedAt": "2026-09-25T15:29:20.833Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -60,8 +60,8 @@
         "currency": "EUR",
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-25T08:37:16.608Z",
-      "lastSuccessAt": "2026-09-25T08:37:16.608Z",
+      "lastCheckedAt": "2026-09-25T15:29:18.350Z",
+      "lastSuccessAt": "2026-09-25T15:29:18.350Z",
       "lastChangedAt": "2026-09-16T18:33:45.805Z",
       "monitorStatus": "ok",
       "price": null,
@@ -71,7 +71,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "2b0bfff2f9ab8aafeac75d63243c16f282dcfeb7c9806a6d02b0d8180b34d24f",
+      "contentHash": "6c8bac7710368327236e258bb83819bf5159a5358e62cc2cafa4c998c155ecac",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.canyon.com/en-ie/customer-service/shipping-delivery/shipping.html",
@@ -102,8 +102,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-25T12:40:18.151Z",
-      "lastSuccessAt": "2026-09-25T12:40:18.151Z",
+      "lastCheckedAt": "2026-09-25T15:29:20.833Z",
+      "lastSuccessAt": "2026-09-25T15:29:20.833Z",
       "lastChangedAt": "2026-09-16T18:33:46.668Z",
       "monitorStatus": "ok",
       "price": 25.17,
@@ -336,8 +336,8 @@
         "currency": "EUR",
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-25T08:37:17.707Z",
-      "lastSuccessAt": "2026-09-25T08:37:17.707Z",
+      "lastCheckedAt": "2026-09-25T15:29:18.997Z",
+      "lastSuccessAt": "2026-09-25T15:29:18.997Z",
       "lastChangedAt": "2026-09-16T18:40:22.503Z",
       "monitorStatus": "ok",
       "price": null,
@@ -347,7 +347,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "0f931ecdbc54cc08624860a79d7a59fdd7f3978c4febf460068ab122b55440c8",
+      "contentHash": "1451d7c2c13e092a24c7a46bfc6145420de6cb724205cf08463b29a41567bdf7",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/service/-12_28",
