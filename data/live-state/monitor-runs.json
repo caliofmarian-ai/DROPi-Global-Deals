@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-26T12:36:33.805Z",
+  "generatedAt": "2026-09-26T13:24:51.872Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-09-26T13:24:51.872Z",
+      "finishedAt": "2026-09-26T13:24:51.872Z",
+      "sourcesDue": 0,
+      "checked": 0,
+      "changed": 0,
+      "failed": 0,
+      "results": []
+    },
     {
       "status": "completed",
       "startedAt": "2026-09-26T12:36:28.393Z",
@@ -2215,25 +2225,6 @@
       "changed": 0,
       "failed": 0,
       "results": []
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-09-22T09:29:41.709Z",
-      "finishedAt": "2026-09-22T09:29:42.524Z",
-      "sourcesDue": 1,
-      "checked": 1,
-      "changed": 0,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "halfords-ie-cnhg701-116",
-          "status": "ok",
-          "changed": false,
-          "price": 25.17,
-          "shippingToIreland": null,
-          "error": null
-        }
-      ]
     }
   ]
 }
