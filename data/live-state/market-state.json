@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-28T07:00:52.165Z",
+  "generatedAt": "2026-09-28T07:47:48.940Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -245,8 +245,8 @@
         "shippingSourceId": "canyon-shipping-ie-gear",
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-28T04:37:50.041Z",
-      "lastSuccessAt": "2026-09-28T04:37:50.041Z",
+      "lastCheckedAt": "2026-09-28T07:47:48.018Z",
+      "lastSuccessAt": "2026-09-28T07:47:48.018Z",
       "lastChangedAt": "2026-09-16T20:28:44.163Z",
       "monitorStatus": "ok",
       "price": 65.99,
@@ -256,7 +256,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "09f8244155305a7f498d1c7f3f758bdbe11f9750737cb0c6823211f82fd85a93",
+      "contentHash": "847dbbf8c6cb5501c3878de536dd8571fd3184a0e96e9367c63dc181adeab871",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.canyon.com/en-ie/gear/bike-parts/drivetrain/cassettes/shimano-ultegra-cs-r8000-11-speed-cassette/9100584.html?dwvar_9100584_pv_kassette=11-30+11S",
@@ -423,8 +423,8 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-28T04:37:50.973Z",
-      "lastSuccessAt": "2026-09-28T04:37:50.973Z",
+      "lastCheckedAt": "2026-09-28T07:47:48.940Z",
+      "lastSuccessAt": "2026-09-28T07:47:48.940Z",
       "lastChangedAt": "2026-09-16T18:40:24.467Z",
       "monitorStatus": "ok",
       "price": 53.85,
@@ -434,7 +434,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "8f3ae8d012cb8de7e933b9d393d6544df6563f5d55d74b90dda70bd750cbcd9e",
+      "contentHash": "11b7394a8d3174f1d2ead0e751feb9251ef0e1e69f69e58cbda082e27d84a90d",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233",
@@ -470,8 +470,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-09-28T04:37:47.922Z",
-      "lastSuccessAt": "2026-09-28T04:37:47.922Z",
+      "lastCheckedAt": "2026-09-28T07:47:46.166Z",
+      "lastSuccessAt": "2026-09-28T07:47:46.166Z",
       "lastChangedAt": "2026-09-24T08:37:41.556Z",
       "monitorStatus": "ok",
       "price": 81.95,
@@ -481,7 +481,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "a9ece7af55c795f0a896b9d24a74ba1e295099fd86fc697307ea4a993c91c242",
+      "contentHash": "a86cb8812dca483e682f13cf82823087d4812f827240131c0cf7392adcc61300",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.toolfix.ie/c/knipex/185/perpage_240",
