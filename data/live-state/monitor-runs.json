@@ -1,7 +1,42 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-02T03:35:47.738Z",
+  "generatedAt": "2026-10-02T04:35:08.185Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-10-02T04:35:04.205Z",
+      "finishedAt": "2026-10-02T04:35:08.185Z",
+      "sourcesDue": 3,
+      "checked": 3,
+      "changed": 0,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "toolfix-ie-knipex-8603250",
+          "status": "ok",
+          "changed": false,
+          "price": 81.95,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "canyon-ie-csr8000-11-30",
+          "status": "ok",
+          "changed": false,
+          "price": 65.99,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "reichelt-ie-knipex-8603250",
+          "status": "ok",
+          "changed": false,
+          "price": 53.85,
+          "shippingToIreland": null,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-10-02T03:35:46.893Z",
@@ -2189,41 +2224,6 @@
           "status": "ok",
           "changed": false,
           "price": 25.17,
-          "shippingToIreland": null,
-          "error": null
-        }
-      ]
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-09-28T01:11:44.987Z",
-      "finishedAt": "2026-09-28T01:11:49.233Z",
-      "sourcesDue": 3,
-      "checked": 3,
-      "changed": 0,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "toolfix-ie-knipex-8603250",
-          "status": "ok",
-          "changed": false,
-          "price": 81.95,
-          "shippingToIreland": null,
-          "error": null
-        },
-        {
-          "sourceId": "canyon-ie-csr8000-11-30",
-          "status": "ok",
-          "changed": false,
-          "price": 65.99,
-          "shippingToIreland": null,
-          "error": null
-        },
-        {
-          "sourceId": "reichelt-ie-knipex-8603250",
-          "status": "ok",
-          "changed": false,
-          "price": 53.85,
           "shippingToIreland": null,
           "error": null
         }
