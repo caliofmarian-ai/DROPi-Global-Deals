@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-06T06:48:49.404Z",
+  "generatedAt": "2026-10-06T07:39:34.112Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -245,8 +245,8 @@
         "shippingSourceId": "canyon-shipping-ie-gear",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-06T04:35:49.465Z",
-      "lastSuccessAt": "2026-10-06T04:35:49.465Z",
+      "lastCheckedAt": "2026-10-06T07:39:32.979Z",
+      "lastSuccessAt": "2026-10-06T07:39:32.979Z",
       "lastChangedAt": "2026-09-16T20:28:44.163Z",
       "monitorStatus": "ok",
       "price": 65.99,
@@ -423,27 +423,21 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-06T04:35:50.104Z",
+      "lastCheckedAt": "2026-10-06T07:39:34.112Z",
       "lastSuccessAt": "2026-10-06T04:35:50.104Z",
       "lastChangedAt": "2026-09-16T18:40:24.467Z",
-      "monitorStatus": "ok",
+      "monitorStatus": "http_503",
       "price": 53.85,
       "currency": "EUR",
       "availability": "unknown",
       "shippingToIreland": null,
       "shipsToIreland": true,
       "identityStatus": "verified",
-      "httpStatus": 200,
+      "httpStatus": 503,
       "contentHash": "3d6bbb5f81780b4452a26c601a4757e02d7fb8a28e79db23194e9c8e0f84db1a",
-      "consecutiveFailures": 0,
-      "errorText": null,
-      "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233",
-      "extracted": {
-        "sku": null,
-        "mpn": null,
-        "gtin": null
-      },
-      "rawPrice": 53.85
+      "consecutiveFailures": 1,
+      "errorText": "HTTP 503",
+      "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233"
     },
     "toolfix-ie-knipex-8603250": {
       "sourceId": "toolfix-ie-knipex-8603250",
@@ -470,8 +464,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-06T04:35:47.933Z",
-      "lastSuccessAt": "2026-10-06T04:35:47.933Z",
+      "lastCheckedAt": "2026-10-06T07:39:31.101Z",
+      "lastSuccessAt": "2026-10-06T07:39:31.101Z",
       "lastChangedAt": "2026-09-24T08:37:41.556Z",
       "monitorStatus": "ok",
       "price": 81.95,
@@ -481,7 +475,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "d88a59395d0bdb9172230a6925865e8dde0c7539063f588d9816f45af62f0d4d",
+      "contentHash": "623320a8ef4bda47cd03b8a025b381c3bdf4c6471468d3b5f132f1819194e13b",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.toolfix.ie/c/knipex/185/perpage_240",
