@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T01:10:06.112Z",
+  "generatedAt": "2026-10-07T01:48:31.479Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -102,8 +102,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-06T23:29:24.725Z",
-      "lastSuccessAt": "2026-10-06T23:29:24.725Z",
+      "lastCheckedAt": "2026-10-07T01:48:28.401Z",
+      "lastSuccessAt": "2026-10-07T01:48:28.401Z",
       "lastChangedAt": "2026-09-16T18:33:46.668Z",
       "monitorStatus": "ok",
       "price": 25.17,
@@ -245,8 +245,8 @@
         "shippingSourceId": "canyon-shipping-ie-gear",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-06T22:30:24.970Z",
-      "lastSuccessAt": "2026-10-06T22:30:24.970Z",
+      "lastCheckedAt": "2026-10-07T01:48:31.479Z",
+      "lastSuccessAt": "2026-10-07T01:48:31.479Z",
       "lastChangedAt": "2026-09-16T20:28:44.163Z",
       "monitorStatus": "ok",
       "price": 65.99,
@@ -256,7 +256,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "54ae30df51767c2868856186f44b5d6c766f769f8acfe39b6e8e6b5ba2b7ca59",
+      "contentHash": "2b6da29d913ca00e23fae97f1420c2653f4722939e8c06aae3a4b9aeae454caa",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.canyon.com/en-ie/gear/bike-parts/drivetrain/cassettes/shimano-ultegra-cs-r8000-11-speed-cassette/9100584.html?dwvar_9100584_pv_kassette=11-30+11S",
@@ -462,8 +462,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-06T22:30:23.435Z",
-      "lastSuccessAt": "2026-10-06T22:30:23.435Z",
+      "lastCheckedAt": "2026-10-07T01:48:29.680Z",
+      "lastSuccessAt": "2026-10-07T01:48:29.680Z",
       "lastChangedAt": "2026-09-24T08:37:41.556Z",
       "monitorStatus": "ok",
       "price": 81.95,
