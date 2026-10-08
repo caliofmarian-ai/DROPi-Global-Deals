@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-08T03:40:13.054Z",
+  "generatedAt": "2026-10-08T04:37:22.938Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -245,8 +245,8 @@
         "shippingSourceId": "canyon-shipping-ie-gear",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-08T01:09:43.643Z",
-      "lastSuccessAt": "2026-10-08T01:09:43.643Z",
+      "lastCheckedAt": "2026-10-08T04:37:21.505Z",
+      "lastSuccessAt": "2026-10-08T04:37:21.505Z",
       "lastChangedAt": "2026-09-16T20:28:44.163Z",
       "monitorStatus": "ok",
       "price": 65.99,
@@ -256,7 +256,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "c0cff80b528ee4d70792efb17eab435a7faea27057b75e104e0d4b676ccf66b2",
+      "contentHash": "5ea8c107b23d09f9957747e0d75ebd4c8b1674a1c6faf8cd9885607c0775cd9d",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.canyon.com/en-ie/gear/bike-parts/drivetrain/cassettes/shimano-ultegra-cs-r8000-11-speed-cassette/9100584.html?dwvar_9100584_pv_kassette=11-30+11S",
@@ -421,7 +421,7 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-08T01:09:45.178Z",
+      "lastCheckedAt": "2026-10-08T04:37:22.938Z",
       "lastSuccessAt": "2026-10-06T04:35:50.104Z",
       "lastChangedAt": "2026-09-16T18:40:24.467Z",
       "monitorStatus": "http_503",
@@ -433,7 +433,7 @@
       "identityStatus": "verified",
       "httpStatus": 503,
       "contentHash": "3d6bbb5f81780b4452a26c601a4757e02d7fb8a28e79db23194e9c8e0f84db1a",
-      "consecutiveFailures": 13,
+      "consecutiveFailures": 14,
       "errorText": "HTTP 503",
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233"
     },
@@ -462,8 +462,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-08T01:09:41.909Z",
-      "lastSuccessAt": "2026-10-08T01:09:41.909Z",
+      "lastCheckedAt": "2026-10-08T04:37:19.653Z",
+      "lastSuccessAt": "2026-10-08T04:37:19.653Z",
       "lastChangedAt": "2026-10-07T08:41:16.011Z",
       "monitorStatus": "ok",
       "price": 81.95,
