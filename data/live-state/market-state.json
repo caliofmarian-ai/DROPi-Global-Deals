@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-09T09:37:05.691Z",
+  "generatedAt": "2026-10-09T11:29:08.232Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -60,8 +60,8 @@
         "currency": "EUR",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-09T04:38:28.901Z",
-      "lastSuccessAt": "2026-10-09T04:38:28.901Z",
+      "lastCheckedAt": "2026-10-09T11:29:06.582Z",
+      "lastSuccessAt": "2026-10-09T11:29:06.582Z",
       "lastChangedAt": "2026-09-16T18:33:45.805Z",
       "monitorStatus": "ok",
       "price": null,
@@ -71,7 +71,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "fd1d468b33300d059c23837ba5f20f915c8eb789d80ff7345e18d05f2a1460a1",
+      "contentHash": "0a1e81a1db77d848bc2b840282d64493925f4ed0a0de6918ca5789256bcac009",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.canyon.com/en-ie/customer-service/shipping-delivery/shipping.html",
@@ -336,7 +336,7 @@
         "currency": "EUR",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-09T06:50:24.190Z",
+      "lastCheckedAt": "2026-10-09T11:29:08.232Z",
       "lastSuccessAt": "2026-10-06T03:36:49.118Z",
       "lastChangedAt": "2026-09-16T18:40:22.503Z",
       "monitorStatus": "http_503",
@@ -348,7 +348,7 @@
       "identityStatus": "verified",
       "httpStatus": 503,
       "contentHash": "abc44fb7b23ed0d86c888b8b69faea269eaadef242b96d133b419cb3a473b197",
-      "consecutiveFailures": 17,
+      "consecutiveFailures": 18,
       "errorText": "HTTP 503",
       "responseUrl": "https://www.reichelt.com/ie/en/shop/service/-12_28"
     },
