@@ -1,7 +1,42 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-10T07:34:53.057Z",
+  "generatedAt": "2026-10-10T08:36:09.191Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-10-10T08:36:04.836Z",
+      "finishedAt": "2026-10-10T08:36:09.191Z",
+      "sourcesDue": 3,
+      "checked": 3,
+      "changed": 0,
+      "failed": 1,
+      "results": [
+        {
+          "sourceId": "toolfix-ie-knipex-8603250",
+          "status": "ok",
+          "changed": false,
+          "price": 81.95,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "canyon-ie-csr8000-11-30",
+          "status": "ok",
+          "changed": false,
+          "price": 65.99,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "reichelt-ie-knipex-8603250",
+          "status": "http_503",
+          "changed": false,
+          "price": null,
+          "shippingToIreland": null,
+          "error": "HTTP 503"
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-10-10T07:34:52.393Z",
@@ -2261,41 +2296,6 @@
       "changed": 0,
       "failed": 0,
       "results": []
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-10-06T04:35:47.933Z",
-      "finishedAt": "2026-10-06T04:35:51.788Z",
-      "sourcesDue": 3,
-      "checked": 3,
-      "changed": 0,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "toolfix-ie-knipex-8603250",
-          "status": "ok",
-          "changed": false,
-          "price": 81.95,
-          "shippingToIreland": null,
-          "error": null
-        },
-        {
-          "sourceId": "canyon-ie-csr8000-11-30",
-          "status": "ok",
-          "changed": false,
-          "price": 65.99,
-          "shippingToIreland": null,
-          "error": null
-        },
-        {
-          "sourceId": "reichelt-ie-knipex-8603250",
-          "status": "ok",
-          "changed": false,
-          "price": 53.85,
-          "shippingToIreland": null,
-          "error": null
-        }
-      ]
     }
   ]
 }
