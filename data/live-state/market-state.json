@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-10T09:31:31.635Z",
+  "generatedAt": "2026-10-10T12:39:56.439Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -102,8 +102,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-10T09:31:31.635Z",
-      "lastSuccessAt": "2026-10-10T09:31:31.635Z",
+      "lastCheckedAt": "2026-10-10T12:39:52.529Z",
+      "lastSuccessAt": "2026-10-10T12:39:52.529Z",
       "lastChangedAt": "2026-09-16T18:33:46.668Z",
       "monitorStatus": "ok",
       "price": 25.17,
@@ -245,8 +245,8 @@
         "shippingSourceId": "canyon-shipping-ie-gear",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-10T08:36:06.580Z",
-      "lastSuccessAt": "2026-10-10T08:36:06.580Z",
+      "lastCheckedAt": "2026-10-10T12:39:55.287Z",
+      "lastSuccessAt": "2026-10-10T12:39:55.287Z",
       "lastChangedAt": "2026-09-16T20:28:44.163Z",
       "monitorStatus": "ok",
       "price": 65.99,
@@ -256,7 +256,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "9251be04551514a4d0affdaeb195825501289590cb71ce31956dbb92a359fbb0",
+      "contentHash": "a9eab084a078b7f633fb4ca14a8ade9053e8b0c6f3ffb9595d46a0d106b2d76c",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.canyon.com/en-ie/gear/bike-parts/drivetrain/cassettes/shimano-ultegra-cs-r8000-11-speed-cassette/9100584.html?dwvar_9100584_pv_kassette=11-30+11S",
@@ -421,7 +421,7 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-10T08:36:07.996Z",
+      "lastCheckedAt": "2026-10-10T12:39:56.439Z",
       "lastSuccessAt": "2026-10-06T04:35:50.104Z",
       "lastChangedAt": "2026-09-16T18:40:24.467Z",
       "monitorStatus": "http_503",
@@ -433,7 +433,7 @@
       "identityStatus": "verified",
       "httpStatus": 503,
       "contentHash": "3d6bbb5f81780b4452a26c601a4757e02d7fb8a28e79db23194e9c8e0f84db1a",
-      "consecutiveFailures": 28,
+      "consecutiveFailures": 29,
       "errorText": "HTTP 503",
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233"
     },
@@ -462,8 +462,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-10T08:36:04.836Z",
-      "lastSuccessAt": "2026-10-10T08:36:04.836Z",
+      "lastCheckedAt": "2026-10-10T12:39:53.519Z",
+      "lastSuccessAt": "2026-10-10T12:39:53.519Z",
       "lastChangedAt": "2026-10-07T08:41:16.011Z",
       "monitorStatus": "ok",
       "price": 81.95,
