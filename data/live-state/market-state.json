@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T15:29:00.636Z",
+  "generatedAt": "2026-10-11T16:32:15.946Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -60,8 +60,8 @@
         "currency": "EUR",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-11T09:31:37.673Z",
-      "lastSuccessAt": "2026-10-11T09:31:37.673Z",
+      "lastCheckedAt": "2026-10-11T16:32:12.252Z",
+      "lastSuccessAt": "2026-10-11T16:32:12.252Z",
       "lastChangedAt": "2026-09-16T18:33:45.805Z",
       "monitorStatus": "ok",
       "price": null,
@@ -71,7 +71,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "c4a6879d20ee66c56b4413f89dd00df7662fbf6cf70758d4243edbe34181a4ad",
+      "contentHash": "421ed94ab2122db53886bba84143aaa9cc984ec0eb9fcad95f0306c1f4120f44",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.canyon.com/en-ie/customer-service/shipping-delivery/shipping.html",
@@ -245,8 +245,8 @@
         "shippingSourceId": "canyon-shipping-ie-gear",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-11T12:41:33.846Z",
-      "lastSuccessAt": "2026-10-11T12:41:33.846Z",
+      "lastCheckedAt": "2026-10-11T16:32:14.732Z",
+      "lastSuccessAt": "2026-10-11T16:32:14.732Z",
       "lastChangedAt": "2026-09-16T20:28:44.163Z",
       "monitorStatus": "ok",
       "price": 65.99,
@@ -421,7 +421,7 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-11T12:41:34.644Z",
+      "lastCheckedAt": "2026-10-11T16:32:15.946Z",
       "lastSuccessAt": "2026-10-06T04:35:50.104Z",
       "lastChangedAt": "2026-09-16T18:40:24.467Z",
       "monitorStatus": "http_503",
@@ -433,7 +433,7 @@
       "identityStatus": "verified",
       "httpStatus": 503,
       "contentHash": "3d6bbb5f81780b4452a26c601a4757e02d7fb8a28e79db23194e9c8e0f84db1a",
-      "consecutiveFailures": 35,
+      "consecutiveFailures": 36,
       "errorText": "HTTP 503",
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233"
     },
@@ -462,8 +462,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-11T12:41:32.244Z",
-      "lastSuccessAt": "2026-10-11T12:41:32.244Z",
+      "lastCheckedAt": "2026-10-11T16:32:13.004Z",
+      "lastSuccessAt": "2026-10-11T16:32:13.004Z",
       "lastChangedAt": "2026-10-07T08:41:16.011Z",
       "monitorStatus": "ok",
       "price": 81.95,
