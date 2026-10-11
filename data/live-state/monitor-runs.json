@@ -1,7 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-11T17:27:20.854Z",
+  "generatedAt": "2026-10-11T18:36:03.838Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-10-11T18:36:03.050Z",
+      "finishedAt": "2026-10-11T18:36:03.838Z",
+      "sourcesDue": 1,
+      "checked": 1,
+      "changed": 0,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "halfords-ie-cnhg701-116",
+          "status": "ok",
+          "changed": false,
+          "price": 25.17,
+          "shippingToIreland": null,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "degraded",
       "startedAt": "2026-10-11T17:27:19.456Z",
@@ -2239,33 +2258,6 @@
           "price": 25.17,
           "shippingToIreland": null,
           "error": null
-        }
-      ]
-    },
-    {
-      "status": "degraded",
-      "startedAt": "2026-10-07T14:33:00.255Z",
-      "finishedAt": "2026-10-07T14:33:02.534Z",
-      "sourcesDue": 2,
-      "checked": 2,
-      "changed": 0,
-      "failed": 2,
-      "results": [
-        {
-          "sourceId": "reichelt-shipping-ie-dhl-10kg",
-          "status": "http_503",
-          "changed": false,
-          "price": null,
-          "shippingToIreland": null,
-          "error": "HTTP 503"
-        },
-        {
-          "sourceId": "reichelt-ie-knipex-8603250",
-          "status": "http_503",
-          "changed": false,
-          "price": null,
-          "shippingToIreland": null,
-          "error": "HTTP 503"
         }
       ]
     }
