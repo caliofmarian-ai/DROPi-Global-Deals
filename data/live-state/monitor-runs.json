@@ -1,7 +1,42 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12T03:49:38.478Z",
+  "generatedAt": "2026-10-12T04:46:26.066Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-10-12T04:46:21.995Z",
+      "finishedAt": "2026-10-12T04:46:26.066Z",
+      "sourcesDue": 3,
+      "checked": 3,
+      "changed": 0,
+      "failed": 1,
+      "results": [
+        {
+          "sourceId": "toolfix-ie-knipex-8603250",
+          "status": "ok",
+          "changed": false,
+          "price": 81.95,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "canyon-ie-csr8000-11-30",
+          "status": "ok",
+          "changed": false,
+          "price": 65.99,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "reichelt-ie-knipex-8603250",
+          "status": "http_503",
+          "changed": false,
+          "price": null,
+          "shippingToIreland": null,
+          "error": "HTTP 503"
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-10-12T03:49:38.477Z",
@@ -2240,25 +2275,6 @@
         },
         {
           "sourceId": "reichelt-ie-knipex-8603250",
-          "status": "http_503",
-          "changed": false,
-          "price": null,
-          "shippingToIreland": null,
-          "error": "HTTP 503"
-        }
-      ]
-    },
-    {
-      "status": "degraded",
-      "startedAt": "2026-10-07T23:27:46.029Z",
-      "finishedAt": "2026-10-07T23:27:47.234Z",
-      "sourcesDue": 1,
-      "checked": 1,
-      "changed": 0,
-      "failed": 1,
-      "results": [
-        {
-          "sourceId": "reichelt-shipping-ie-dhl-10kg",
           "status": "http_503",
           "changed": false,
           "price": null,
