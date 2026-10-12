@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-07T08:41:16.011Z",
+  "generatedAt": "2026-10-12T22:30:52.682Z",
   "products": {
     "__shipping__": [
       {
@@ -119,6 +119,18 @@
       }
     ],
     "knipex-8603250": [
+      {
+        "sourceId": "reichelt-ie-knipex-8603250",
+        "offerKind": "source_offer",
+        "checkedAt": "2026-10-12T22:30:52.682Z",
+        "eventType": "changed",
+        "monitorStatus": "ok",
+        "price": 53.85,
+        "currency": "EUR",
+        "availability": "unknown",
+        "shippingToIreland": null,
+        "contentHash": "b93325421faa71adca011de88b94da31c02b0ebb644771ca944871f2e570f2e3"
+      },
       {
         "sourceId": "toolfix-ie-knipex-8603250",
         "offerKind": "ireland_offer",
