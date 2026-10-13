@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T15:33:14.557Z",
+  "generatedAt": "2026-10-13T16:35:26.487Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -245,8 +245,8 @@
         "shippingSourceId": "canyon-shipping-ie-gear",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-13T12:47:27.669Z",
-      "lastSuccessAt": "2026-10-13T12:47:27.669Z",
+      "lastCheckedAt": "2026-10-13T16:35:25.459Z",
+      "lastSuccessAt": "2026-10-13T16:35:25.459Z",
       "lastChangedAt": "2026-09-16T20:28:44.163Z",
       "monitorStatus": "ok",
       "price": 65.99,
@@ -256,7 +256,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "6e6531ac14f3dc2059f51ad023552f5aaafdc6294e851bf008a39bb9cd4e50a9",
+      "contentHash": "ba670556f3a6ad24eb0e84e75989c2b8154b8bf3540eed291067d2cfc9ce3895",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.canyon.com/en-ie/gear/bike-parts/drivetrain/cassettes/shimano-ultegra-cs-r8000-11-speed-cassette/9100584.html?dwvar_9100584_pv_kassette=11-30+11S",
@@ -423,8 +423,8 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-13T12:47:28.673Z",
-      "lastSuccessAt": "2026-10-13T12:47:28.673Z",
+      "lastCheckedAt": "2026-10-13T16:35:26.487Z",
+      "lastSuccessAt": "2026-10-13T16:35:26.487Z",
       "lastChangedAt": "2026-10-12T22:30:52.682Z",
       "monitorStatus": "ok",
       "price": 53.85,
@@ -434,7 +434,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "222f116d6c602a9b6f409a336a740986f86d679b77408d8a74412cf0f6012cc5",
+      "contentHash": "011eeefb4309ee6f99347c28398dbea4e143da9643fd3ed022cc08617ed3c9e6",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233",
@@ -470,8 +470,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-13T12:47:26.080Z",
-      "lastSuccessAt": "2026-10-13T12:47:26.080Z",
+      "lastCheckedAt": "2026-10-13T16:35:23.894Z",
+      "lastSuccessAt": "2026-10-13T16:35:23.894Z",
       "lastChangedAt": "2026-10-07T08:41:16.011Z",
       "monitorStatus": "ok",
       "price": 81.95,
