@@ -1,7 +1,50 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-16T11:28:20.400Z",
+  "generatedAt": "2026-10-16T12:41:05.391Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-10-16T12:40:59.497Z",
+      "finishedAt": "2026-10-16T12:41:05.391Z",
+      "sourcesDue": 4,
+      "checked": 4,
+      "changed": 0,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "halfords-ie-cnhg701-116",
+          "status": "ok",
+          "changed": false,
+          "price": 25.17,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "toolfix-ie-knipex-8603250",
+          "status": "ok",
+          "changed": false,
+          "price": 81.95,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "canyon-ie-csr8000-11-30",
+          "status": "ok",
+          "changed": false,
+          "price": 65.99,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "reichelt-ie-knipex-8603250",
+          "status": "ok",
+          "changed": false,
+          "price": 53.85,
+          "shippingToIreland": null,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-10-16T11:28:20.400Z",
@@ -2197,16 +2240,6 @@
       "status": "completed",
       "startedAt": "2026-10-12T09:50:38.021Z",
       "finishedAt": "2026-10-12T09:50:38.022Z",
-      "sourcesDue": 0,
-      "checked": 0,
-      "changed": 0,
-      "failed": 0,
-      "results": []
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-10-12T08:56:04.163Z",
-      "finishedAt": "2026-10-12T08:56:04.163Z",
       "sourcesDue": 0,
       "checked": 0,
       "changed": 0,
