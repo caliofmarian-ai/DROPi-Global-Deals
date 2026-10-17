@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-17T16:27:57.424Z",
+  "generatedAt": "2026-10-17T18:30:36.496Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -102,8 +102,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-17T15:25:30.163Z",
-      "lastSuccessAt": "2026-10-17T15:25:30.163Z",
+      "lastCheckedAt": "2026-10-17T18:30:36.496Z",
+      "lastSuccessAt": "2026-10-17T18:30:36.496Z",
       "lastChangedAt": "2026-09-16T18:33:46.668Z",
       "monitorStatus": "ok",
       "price": 25.17,
@@ -336,23 +336,21 @@
         "currency": "EUR",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-17T11:25:13.442Z",
+      "lastCheckedAt": "2026-10-17T18:30:17.763Z",
       "lastSuccessAt": "2026-10-17T11:25:13.442Z",
       "lastChangedAt": "2026-10-13T01:13:16.832Z",
-      "monitorStatus": "ok",
+      "monitorStatus": "fetch_error",
       "price": null,
       "currency": "EUR",
       "availability": "n/a",
       "shippingToIreland": 9.95,
       "shipsToIreland": null,
       "identityStatus": "verified",
-      "httpStatus": 200,
+      "httpStatus": null,
       "contentHash": "0f751104c3d10e92da6767ac02da1074aa77b805e8a36d0510b385fab1c4f66b",
-      "consecutiveFailures": 0,
-      "errorText": null,
-      "responseUrl": "https://www.reichelt.com/ie/en/shop/service/-12_28",
-      "extracted": null,
-      "rawPrice": null
+      "consecutiveFailures": 1,
+      "errorText": "fetch failed",
+      "responseUrl": "https://www.reichelt.com/ie/en/shop/service/-12_28"
     },
     "autodoc-ie-knipex-8603250": {
       "sourceId": "autodoc-ie-knipex-8603250",
