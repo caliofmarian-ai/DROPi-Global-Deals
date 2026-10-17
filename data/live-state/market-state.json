@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-17T18:30:36.496Z",
+  "generatedAt": "2026-10-17T19:23:03.944Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -60,8 +60,8 @@
         "currency": "EUR",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-17T12:35:08.974Z",
-      "lastSuccessAt": "2026-10-17T12:35:08.974Z",
+      "lastCheckedAt": "2026-10-17T19:23:03.944Z",
+      "lastSuccessAt": "2026-10-17T19:23:03.944Z",
       "lastChangedAt": "2026-09-16T18:33:45.805Z",
       "monitorStatus": "ok",
       "price": null,
@@ -71,7 +71,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "4ab3ee4e55553dbc50e641ec5aa5f20ac03192846c4ce8c1b12ef5eb191e08f3",
+      "contentHash": "9a616db25348f3424b278e64511c9c5039589ad8e6a06ba5626a817d5a2d9b28",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.canyon.com/en-ie/customer-service/shipping-delivery/shipping.html",
