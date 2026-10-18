@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-17T20:27:32.469Z",
+  "generatedAt": "2026-10-18T20:27:33.135Z",
   "products": {
     "__shipping__": [
       {
@@ -155,6 +155,18 @@
       }
     ],
     "knipex-8603250": [
+      {
+        "sourceId": "reichelt-ie-knipex-8603250",
+        "offerKind": "source_offer",
+        "checkedAt": "2026-10-18T20:27:33.135Z",
+        "eventType": "changed",
+        "monitorStatus": "fetch_error",
+        "price": 53.85,
+        "currency": "EUR",
+        "availability": "unknown",
+        "shippingToIreland": null,
+        "contentHash": "e499b9d6bb8d2f95f6638ea14261b6542f3f9a6742a9d08516fa414bf1f1561c"
+      },
       {
         "sourceId": "reichelt-ie-knipex-8603250",
         "offerKind": "source_offer",
