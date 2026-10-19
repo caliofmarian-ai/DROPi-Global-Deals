@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-19T09:40:16.087Z",
+  "generatedAt": "2026-10-19T11:29:20.262Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -60,8 +60,8 @@
         "currency": "EUR",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-19T04:35:31.013Z",
-      "lastSuccessAt": "2026-10-19T04:35:31.013Z",
+      "lastCheckedAt": "2026-10-19T11:29:16.800Z",
+      "lastSuccessAt": "2026-10-19T11:29:16.800Z",
       "lastChangedAt": "2026-09-16T18:33:45.805Z",
       "monitorStatus": "ok",
       "price": null,
@@ -71,7 +71,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "5a707cd201bff1245f418465ef30a25f2d0a401e22f49bced72c57d69d929fd8",
+      "contentHash": "e5bd2b66c41423d631b2d11b40131c85fdb6df91b94b6e1fb14d162cd341fc9e",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.canyon.com/en-ie/customer-service/shipping-delivery/shipping.html",
@@ -245,8 +245,8 @@
         "shippingSourceId": "canyon-shipping-ie-gear",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-19T07:45:39.268Z",
-      "lastSuccessAt": "2026-10-19T07:45:39.268Z",
+      "lastCheckedAt": "2026-10-19T11:29:20.262Z",
+      "lastSuccessAt": "2026-10-19T11:29:20.262Z",
       "lastChangedAt": "2026-09-16T20:28:44.163Z",
       "monitorStatus": "ok",
       "price": 65.99,
@@ -256,7 +256,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "ac9fabdb2c798107a86c67845eeefffda497eb3e64f19efee80ee48483d9ac08",
+      "contentHash": "6c1fcf52bff220779e7b4c49f7245d4cd7707107c1a411e9bcb0cee3a392ac33",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.canyon.com/en-ie/gear/bike-parts/drivetrain/cassettes/shimano-ultegra-cs-r8000-11-speed-cassette/9100584.html?dwvar_9100584_pv_kassette=11-30+11S",
@@ -470,8 +470,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-19T07:45:37.393Z",
-      "lastSuccessAt": "2026-10-19T07:45:37.393Z",
+      "lastCheckedAt": "2026-10-19T11:29:18.280Z",
+      "lastSuccessAt": "2026-10-19T11:29:18.280Z",
       "lastChangedAt": "2026-10-07T08:41:16.011Z",
       "monitorStatus": "ok",
       "price": 81.95,
