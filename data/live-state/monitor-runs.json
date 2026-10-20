@@ -1,7 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T10:28:49.992Z",
+  "generatedAt": "2026-10-20T11:28:52.593Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-10-20T11:28:51.143Z",
+      "finishedAt": "2026-10-20T11:28:52.593Z",
+      "sourcesDue": 1,
+      "checked": 1,
+      "changed": 0,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "reichelt-ie-knipex-8603250",
+          "status": "ok",
+          "changed": false,
+          "price": 53.85,
+          "shippingToIreland": null,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-10-20T10:28:49.992Z",
@@ -2197,16 +2216,6 @@
           "error": null
         }
       ]
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-10-16T07:32:42.402Z",
-      "finishedAt": "2026-10-16T07:32:42.402Z",
-      "sourcesDue": 0,
-      "checked": 0,
-      "changed": 0,
-      "failed": 0,
-      "results": []
     }
   ]
 }
