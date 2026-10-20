@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T06:45:14.286Z",
+  "generatedAt": "2026-10-20T07:35:44.746Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -60,8 +60,8 @@
         "currency": "EUR",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-20T00:59:48.298Z",
-      "lastSuccessAt": "2026-10-20T00:59:48.298Z",
+      "lastCheckedAt": "2026-10-20T07:35:44.145Z",
+      "lastSuccessAt": "2026-10-20T07:35:44.145Z",
       "lastChangedAt": "2026-09-16T18:33:45.805Z",
       "monitorStatus": "ok",
       "price": null,
@@ -71,7 +71,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "18d61950a2e7879e6123cc99d7ec01c83a62bed2787c635e230bacb654475311",
+      "contentHash": "945a5ba60f0e5aa344ab6260dfa5694c36e249bcaea172b8b541397188c42393",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.canyon.com/en-ie/customer-service/shipping-delivery/shipping.html",
@@ -423,8 +423,8 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-20T04:32:56.165Z",
-      "lastSuccessAt": "2026-10-20T04:32:56.165Z",
+      "lastCheckedAt": "2026-10-20T07:35:44.746Z",
+      "lastSuccessAt": "2026-10-20T07:35:44.746Z",
       "lastChangedAt": "2026-10-18T22:25:47.826Z",
       "monitorStatus": "ok",
       "price": 53.85,
@@ -434,7 +434,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "19ac00623b2ee74db6b9f6bfaf92372dc9bcda111badbba361ac082763a259fd",
+      "contentHash": "04a728bc55cb7b4342cb68c268457ef9adf7267e12cc55fa1d1307aa9239c852",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233",
