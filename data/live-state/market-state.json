@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T21:28:33.065Z",
+  "generatedAt": "2026-10-20T22:27:31.959Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -336,8 +336,8 @@
         "currency": "EUR",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-20T15:29:38.273Z",
-      "lastSuccessAt": "2026-10-20T15:29:38.273Z",
+      "lastCheckedAt": "2026-10-20T22:27:30.653Z",
+      "lastSuccessAt": "2026-10-20T22:27:30.653Z",
       "lastChangedAt": "2026-10-17T20:27:32.469Z",
       "monitorStatus": "ok",
       "price": null,
@@ -347,7 +347,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "9567b4bd62de65d7c066f5824652a6a3b36b0bd27e96801b7fa0f0fdacf72e7a",
+      "contentHash": "8b8d8190c82f6ac7c951316aabd4b8a9cb7a13b4e649f4aca6e211739a7063f1",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/service/-12_28",
@@ -423,8 +423,8 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-20T18:35:02.089Z",
-      "lastSuccessAt": "2026-10-20T18:35:02.089Z",
+      "lastCheckedAt": "2026-10-20T22:27:31.959Z",
+      "lastSuccessAt": "2026-10-20T22:27:31.959Z",
       "lastChangedAt": "2026-10-18T22:25:47.826Z",
       "monitorStatus": "ok",
       "price": 53.85,
@@ -434,7 +434,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "87b47c7a7cb192f64a6259304e760561a5c8f9a67ed3fe6c6f5bc2c676ad1741",
+      "contentHash": "cf6ef179c192a17be45e0099c41a0444962993e3106d427f1ab915c2621ead37",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233",
