@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-20T16:32:18.379Z",
+  "generatedAt": "2026-10-20T18:35:02.089Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -102,8 +102,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-20T15:29:39.973Z",
-      "lastSuccessAt": "2026-10-20T15:29:39.973Z",
+      "lastCheckedAt": "2026-10-20T18:35:00.719Z",
+      "lastSuccessAt": "2026-10-20T18:35:00.719Z",
       "lastChangedAt": "2026-09-16T18:33:46.668Z",
       "monitorStatus": "ok",
       "price": 25.17,
@@ -113,7 +113,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "95d458b56a94c11eb5f9dd7bc26a1edc8c32ddab464fb5aec0ddfe06e647d316",
+      "contentHash": "1e7a9a2bd497a442de963ba51da0e34d8bec52a4bb24d5f4e738e925a8df6b9c",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.halfords.ie/cycling/gears-drivetrain-cables/shimano-xt%2Fultegra-cn-hg701-11-speed-chain%2C-116-links-730667.html",
@@ -423,8 +423,8 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-20T14:29:48.120Z",
-      "lastSuccessAt": "2026-10-20T14:29:48.120Z",
+      "lastCheckedAt": "2026-10-20T18:35:02.089Z",
+      "lastSuccessAt": "2026-10-20T18:35:02.089Z",
       "lastChangedAt": "2026-10-18T22:25:47.826Z",
       "monitorStatus": "ok",
       "price": 53.85,
@@ -434,7 +434,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "467ac76531f8f13f592fbfcbe4dfd316da1dc8e4971533d828ca4a4f1745cdc2",
+      "contentHash": "87b47c7a7cb192f64a6259304e760561a5c8f9a67ed3fe6c6f5bc2c676ad1741",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233",
