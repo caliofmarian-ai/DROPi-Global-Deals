@@ -1,7 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T01:38:55.939Z",
+  "generatedAt": "2026-10-21T02:38:45.629Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-10-21T02:38:43.871Z",
+      "finishedAt": "2026-10-21T02:38:45.629Z",
+      "sourcesDue": 1,
+      "checked": 1,
+      "changed": 0,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "canyon-shipping-ie-gear",
+          "status": "ok",
+          "changed": false,
+          "price": null,
+          "shippingToIreland": 9.95,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-10-21T01:38:54.449Z",
@@ -2191,25 +2210,6 @@
       "results": [
         {
           "sourceId": "canyon-shipping-ie-gear",
-          "status": "ok",
-          "changed": false,
-          "price": null,
-          "shippingToIreland": 9.95,
-          "error": null
-        }
-      ]
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-10-16T22:27:27.942Z",
-      "finishedAt": "2026-10-16T22:27:29.205Z",
-      "sourcesDue": 1,
-      "checked": 1,
-      "changed": 0,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "reichelt-shipping-ie-dhl-10kg",
           "status": "ok",
           "changed": false,
           "price": null,
