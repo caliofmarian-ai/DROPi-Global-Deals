@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-21T23:27:21.782Z",
+  "generatedAt": "2026-10-22T00:58:56.975Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -102,8 +102,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-21T21:28:36.190Z",
-      "lastSuccessAt": "2026-10-21T21:28:36.190Z",
+      "lastCheckedAt": "2026-10-22T00:58:56.107Z",
+      "lastSuccessAt": "2026-10-22T00:58:56.107Z",
       "lastChangedAt": "2026-09-16T18:33:46.668Z",
       "monitorStatus": "ok",
       "price": 25.17,
@@ -336,8 +336,8 @@
         "currency": "EUR",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-21T18:34:55.752Z",
-      "lastSuccessAt": "2026-10-21T18:34:55.752Z",
+      "lastCheckedAt": "2026-10-22T00:58:54.898Z",
+      "lastSuccessAt": "2026-10-22T00:58:54.898Z",
       "lastChangedAt": "2026-10-17T20:27:32.469Z",
       "monitorStatus": "ok",
       "price": null,
@@ -347,7 +347,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "57fabf6545dcf0fa3dd131a76e9b1652cfbc17d692c82d70f5c2b5f923f931a3",
+      "contentHash": "bddcd7f18a9f2f3180cedda38f3cccbb9d584a3ca444fb7981cf759890c6b3e0",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/service/-12_28",
@@ -423,8 +423,8 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-21T20:30:02.312Z",
-      "lastSuccessAt": "2026-10-21T20:30:02.312Z",
+      "lastCheckedAt": "2026-10-22T00:58:56.975Z",
+      "lastSuccessAt": "2026-10-22T00:58:56.975Z",
       "lastChangedAt": "2026-10-18T22:25:47.826Z",
       "monitorStatus": "ok",
       "price": 53.85,
@@ -434,7 +434,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "b8befc9fa595e4f3a3c72e093ffe4b1efa392897e386e351b38b71de476f8993",
+      "contentHash": "5dc29c0b92960a10d25e0b68ce7558a281a1284d87f89adc62c09b65a290a05b",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233",
