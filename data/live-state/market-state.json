@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-22T21:27:33.173Z",
+  "generatedAt": "2026-10-22T22:26:26.741Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -423,8 +423,8 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-22T18:34:27.674Z",
-      "lastSuccessAt": "2026-10-22T18:34:27.674Z",
+      "lastCheckedAt": "2026-10-22T22:26:26.741Z",
+      "lastSuccessAt": "2026-10-22T22:26:26.741Z",
       "lastChangedAt": "2026-10-18T22:25:47.826Z",
       "monitorStatus": "ok",
       "price": 53.85,
@@ -434,7 +434,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "b95768f4410085fee2e463916895dc4bad7c6d0e5105ce747250f5a9cee60101",
+      "contentHash": "036be90ba4d2756a503a8f3bd6a7d66cd84a75bc8e07cfc3597cbb44bc4f36f6",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233",
