@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T01:39:45.206Z",
+  "generatedAt": "2026-10-23T02:39:14.274Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-10-23T02:39:14.274Z",
+      "finishedAt": "2026-10-23T02:39:14.274Z",
+      "sourcesDue": 0,
+      "checked": 0,
+      "changed": 0,
+      "failed": 0,
+      "results": []
+    },
     {
       "status": "completed",
       "startedAt": "2026-10-23T01:39:42.374Z",
@@ -2219,33 +2229,6 @@
           "changed": false,
           "price": null,
           "shippingToIreland": 9.95,
-          "error": null
-        }
-      ]
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-10-18T22:25:45.812Z",
-      "finishedAt": "2026-10-18T22:25:49.871Z",
-      "sourcesDue": 2,
-      "checked": 2,
-      "changed": 1,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "canyon-shipping-ie-gear",
-          "status": "ok",
-          "changed": false,
-          "price": null,
-          "shippingToIreland": 9.95,
-          "error": null
-        },
-        {
-          "sourceId": "reichelt-ie-knipex-8603250",
-          "status": "ok",
-          "changed": true,
-          "price": 53.85,
-          "shippingToIreland": null,
           "error": null
         }
       ]
