@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-23T06:46:01.474Z",
+  "generatedAt": "2026-10-23T07:36:39.021Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -245,8 +245,8 @@
         "shippingSourceId": "canyon-shipping-ie-gear",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-23T04:34:08.582Z",
-      "lastSuccessAt": "2026-10-23T04:34:08.582Z",
+      "lastCheckedAt": "2026-10-23T07:36:39.021Z",
+      "lastSuccessAt": "2026-10-23T07:36:39.021Z",
       "lastChangedAt": "2026-09-16T20:28:44.163Z",
       "monitorStatus": "ok",
       "price": 65.99,
@@ -470,8 +470,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-23T04:34:07.025Z",
-      "lastSuccessAt": "2026-10-23T04:34:07.025Z",
+      "lastCheckedAt": "2026-10-23T07:36:36.938Z",
+      "lastSuccessAt": "2026-10-23T07:36:36.938Z",
       "lastChangedAt": "2026-10-07T08:41:16.011Z",
       "monitorStatus": "ok",
       "price": 81.95,
@@ -481,7 +481,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "3f9efd92f14819db9cf656c0a536305c7cfc1dfd493278e51a9100d218bc880b",
+      "contentHash": "fb9441824d8e481f4057e46d5e32a54cc4d03081a5f6c4275211366aef9f1c37",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.toolfix.ie/c/knipex/185/perpage_240",
