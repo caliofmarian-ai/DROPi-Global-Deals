@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T01:37:08.530Z",
+  "generatedAt": "2026-10-24T02:36:11.557Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-10-24T02:36:11.557Z",
+      "finishedAt": "2026-10-24T02:36:11.557Z",
+      "sourcesDue": 0,
+      "checked": 0,
+      "changed": 0,
+      "failed": 0,
+      "results": []
+    },
     {
       "status": "completed",
       "startedAt": "2026-10-24T01:37:06.264Z",
@@ -2222,33 +2232,6 @@
       "changed": 0,
       "failed": 0,
       "results": []
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-10-19T22:27:26.448Z",
-      "finishedAt": "2026-10-19T22:27:30.285Z",
-      "sourcesDue": 2,
-      "checked": 2,
-      "changed": 0,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "toolfix-ie-knipex-8603250",
-          "status": "ok",
-          "changed": false,
-          "price": 81.95,
-          "shippingToIreland": null,
-          "error": null
-        },
-        {
-          "sourceId": "canyon-ie-csr8000-11-30",
-          "status": "ok",
-          "changed": false,
-          "price": 65.99,
-          "shippingToIreland": null,
-          "error": null
-        }
-      ]
     }
   ]
 }
