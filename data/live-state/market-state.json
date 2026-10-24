@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T00:58:18.766Z",
+  "generatedAt": "2026-10-24T01:37:07.815Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -245,8 +245,8 @@
         "shippingSourceId": "canyon-shipping-ie-gear",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-23T22:27:48.020Z",
-      "lastSuccessAt": "2026-10-23T22:27:48.020Z",
+      "lastCheckedAt": "2026-10-24T01:37:07.815Z",
+      "lastSuccessAt": "2026-10-24T01:37:07.815Z",
       "lastChangedAt": "2026-09-16T20:28:44.163Z",
       "monitorStatus": "ok",
       "price": 65.99,
@@ -470,8 +470,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-23T22:27:46.083Z",
-      "lastSuccessAt": "2026-10-23T22:27:46.083Z",
+      "lastCheckedAt": "2026-10-24T01:37:06.264Z",
+      "lastSuccessAt": "2026-10-24T01:37:06.264Z",
       "lastChangedAt": "2026-10-07T08:41:16.011Z",
       "monitorStatus": "ok",
       "price": 81.95,
