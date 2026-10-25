@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-24T23:24:46.506Z",
+  "generatedAt": "2026-10-25T01:04:40.874Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-10-25T01:04:32.770Z",
+      "finishedAt": "2026-10-25T01:04:40.874Z",
+      "sourcesDue": 5,
+      "checked": 5,
+      "changed": 0,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "canyon-shipping-ie-gear",
+          "status": "ok",
+          "changed": false,
+          "price": null,
+          "shippingToIreland": 9.95,
+          "error": null
+        },
+        {
+          "sourceId": "halfords-ie-cnhg701-116",
+          "status": "ok",
+          "changed": false,
+          "price": 25.17,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "toolfix-ie-knipex-8603250",
+          "status": "ok",
+          "changed": false,
+          "price": 81.95,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "canyon-ie-csr8000-11-30",
+          "status": "ok",
+          "changed": false,
+          "price": 65.99,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "reichelt-ie-knipex-8603250",
+          "status": "ok",
+          "changed": false,
+          "price": 53.85,
+          "shippingToIreland": null,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-10-24T23:24:46.506Z",
@@ -2184,41 +2235,6 @@
           "status": "ok",
           "changed": false,
           "price": 25.17,
-          "shippingToIreland": null,
-          "error": null
-        }
-      ]
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-10-20T20:31:25.325Z",
-      "finishedAt": "2026-10-20T20:31:28.180Z",
-      "sourcesDue": 3,
-      "checked": 3,
-      "changed": 0,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "canyon-shipping-ie-gear",
-          "status": "ok",
-          "changed": false,
-          "price": null,
-          "shippingToIreland": 9.95,
-          "error": null
-        },
-        {
-          "sourceId": "toolfix-ie-knipex-8603250",
-          "status": "ok",
-          "changed": false,
-          "price": 81.95,
-          "shippingToIreland": null,
-          "error": null
-        },
-        {
-          "sourceId": "canyon-ie-csr8000-11-30",
-          "status": "ok",
-          "changed": false,
-          "price": 65.99,
           "shippingToIreland": null,
           "error": null
         }
