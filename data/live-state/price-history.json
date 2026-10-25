@@ -1,8 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-25T15:26:54.918Z",
+  "generatedAt": "2026-10-25T16:29:01.195Z",
   "products": {
     "__shipping__": [
+      {
+        "sourceId": "reichelt-shipping-ie-dhl-10kg",
+        "offerKind": "shipping_tariff",
+        "checkedAt": "2026-10-25T16:29:01.195Z",
+        "eventType": "changed",
+        "monitorStatus": "ok",
+        "price": null,
+        "currency": "EUR",
+        "availability": "n/a",
+        "shippingToIreland": 9.95,
+        "contentHash": "45dda356f10e9a4f41a8ba537fdaa15721ed705fcfb678c168ee389412856056"
+      },
       {
         "sourceId": "reichelt-shipping-ie-dhl-10kg",
         "offerKind": "shipping_tariff",
