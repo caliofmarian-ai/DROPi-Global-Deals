@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-26T05:34:01.837Z",
+  "generatedAt": "2026-10-26T06:59:52.863Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -102,8 +102,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-26T03:40:09.529Z",
-      "lastSuccessAt": "2026-10-26T03:40:09.529Z",
+      "lastCheckedAt": "2026-10-26T06:59:52.863Z",
+      "lastSuccessAt": "2026-10-26T06:59:52.863Z",
       "lastChangedAt": "2026-09-16T18:33:46.668Z",
       "monitorStatus": "ok",
       "price": 25.17,
@@ -113,7 +113,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "7df15b6527a4a9e5168a82dc33837b6e480a1f2747070f17dd9528acdb73130f",
+      "contentHash": "933954902d67c93711f2a9e6fdaa6a74548972e6ffc13a320fbf4b95293ea5ca",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.halfords.ie/cycling/gears-drivetrain-cables/shimano-xt%2Fultegra-cn-hg701-11-speed-chain%2C-116-links-730667.html",
