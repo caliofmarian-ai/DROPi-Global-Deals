@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-28T21:22:38.923Z",
+  "generatedAt": "2026-10-28T23:22:13.649Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -336,8 +336,8 @@
         "currency": "EUR",
         "enabled": true
       },
-      "lastCheckedAt": "2026-10-28T16:26:00.325Z",
-      "lastSuccessAt": "2026-10-28T16:26:00.325Z",
+      "lastCheckedAt": "2026-10-28T23:22:13.649Z",
+      "lastSuccessAt": "2026-10-28T23:22:13.649Z",
       "lastChangedAt": "2026-10-25T16:29:01.195Z",
       "monitorStatus": "ok",
       "price": null,
@@ -347,7 +347,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "1f9deb0093f8012a70c925409fc933b75b1ad4fabcc3f872bcecb59896c9f682",
+      "contentHash": "2296614d9eeb17ca2d2574d650f0641b586a5203e335dd260493c5a717640bad",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/service/-12_28",
