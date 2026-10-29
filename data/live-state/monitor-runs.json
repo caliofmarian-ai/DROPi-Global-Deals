@@ -1,7 +1,34 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-29T02:28:35.355Z",
+  "generatedAt": "2026-10-29T03:27:32.973Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-10-29T03:27:31.828Z",
+      "finishedAt": "2026-10-29T03:27:32.973Z",
+      "sourcesDue": 2,
+      "checked": 2,
+      "changed": 0,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "canyon-shipping-ie-gear",
+          "status": "ok",
+          "changed": false,
+          "price": null,
+          "shippingToIreland": 9.95,
+          "error": null
+        },
+        {
+          "sourceId": "halfords-ie-cnhg701-116",
+          "status": "ok",
+          "changed": false,
+          "price": 25.17,
+          "shippingToIreland": null,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-10-29T02:28:35.355Z",
@@ -2188,16 +2215,6 @@
       "status": "completed",
       "startedAt": "2026-10-24T23:24:46.506Z",
       "finishedAt": "2026-10-24T23:24:46.506Z",
-      "sourcesDue": 0,
-      "checked": 0,
-      "changed": 0,
-      "failed": 0,
-      "results": []
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-10-24T22:26:05.339Z",
-      "finishedAt": "2026-10-24T22:26:05.340Z",
       "sourcesDue": 0,
       "checked": 0,
       "changed": 0,
