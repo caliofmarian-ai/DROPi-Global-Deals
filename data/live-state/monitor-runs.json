@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-01T21:21:41.451Z",
+  "generatedAt": "2026-11-01T22:21:19.078Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-11-01T22:21:19.078Z",
+      "finishedAt": "2026-11-01T22:21:19.078Z",
+      "sourcesDue": 0,
+      "checked": 0,
+      "changed": 0,
+      "failed": 0,
+      "results": []
+    },
     {
       "status": "completed",
       "startedAt": "2026-11-01T21:21:36.354Z",
@@ -2214,16 +2224,6 @@
           "error": null
         }
       ]
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-10-28T17:22:50.140Z",
-      "finishedAt": "2026-10-28T17:22:50.140Z",
-      "sourcesDue": 0,
-      "checked": 0,
-      "changed": 0,
-      "failed": 0,
-      "results": []
     }
   ]
 }
