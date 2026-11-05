@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-05T04:23:34.390Z",
+  "generatedAt": "2026-11-05T05:22:11.614Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-11-05T05:22:11.614Z",
+      "finishedAt": "2026-11-05T05:22:11.614Z",
+      "sourcesDue": 0,
+      "checked": 0,
+      "changed": 0,
+      "failed": 0,
+      "results": []
+    },
     {
       "status": "completed",
       "startedAt": "2026-11-05T04:23:32.933Z",
@@ -2240,25 +2250,6 @@
           "changed": false,
           "price": 53.85,
           "shippingToIreland": null,
-          "error": null
-        }
-      ]
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-11-01T00:46:46.637Z",
-      "finishedAt": "2026-11-01T00:46:47.731Z",
-      "sourcesDue": 1,
-      "checked": 1,
-      "changed": 0,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "reichelt-shipping-ie-dhl-10kg",
-          "status": "ok",
-          "changed": false,
-          "price": null,
-          "shippingToIreland": 9.95,
           "error": null
         }
       ]
