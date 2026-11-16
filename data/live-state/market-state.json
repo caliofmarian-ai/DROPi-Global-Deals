@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-16T04:29:38.509Z",
+  "generatedAt": "2026-11-16T06:46:58.025Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -102,8 +102,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-11-16T04:29:38.509Z",
-      "lastSuccessAt": "2026-11-16T04:29:38.509Z",
+      "lastCheckedAt": "2026-11-16T06:46:54.295Z",
+      "lastSuccessAt": "2026-11-16T06:46:54.295Z",
       "lastChangedAt": "2026-09-16T18:33:46.668Z",
       "monitorStatus": "ok",
       "price": 25.17,
@@ -113,7 +113,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "f0f57e1304c4215f483f8369d6dc070d3dba7aad2f1449cda5ae6a8e26ef30af",
+      "contentHash": "27f194dab31c5548f70f3d32fc8cdd238cb7ed85a9ea9ef0f2801f1beb3a537e",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.halfords.ie/cycling/gears-drivetrain-cables/shimano-xt%2Fultegra-cn-hg701-11-speed-chain%2C-116-links-730667.html",
@@ -245,8 +245,8 @@
         "shippingSourceId": "canyon-shipping-ie-gear",
         "enabled": true
       },
-      "lastCheckedAt": "2026-11-16T02:27:38.307Z",
-      "lastSuccessAt": "2026-11-16T02:27:38.307Z",
+      "lastCheckedAt": "2026-11-16T06:46:57.053Z",
+      "lastSuccessAt": "2026-11-16T06:46:57.053Z",
       "lastChangedAt": "2026-11-15T23:26:06.659Z",
       "monitorStatus": "ok",
       "price": 49.99,
@@ -423,8 +423,8 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-11-16T02:27:39.130Z",
-      "lastSuccessAt": "2026-11-16T02:27:39.130Z",
+      "lastCheckedAt": "2026-11-16T06:46:58.025Z",
+      "lastSuccessAt": "2026-11-16T06:46:58.025Z",
       "lastChangedAt": "2026-10-18T22:25:47.826Z",
       "monitorStatus": "ok",
       "price": 53.85,
@@ -434,7 +434,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "4d9de0de57190b83e79279b40e89f91e79b81b31329d4434cc0d27a1903c0c44",
+      "contentHash": "72a61028782aaf1694dad71e3c844c8c915e9f3a986b4182c76ba4646528a745",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233",
@@ -470,8 +470,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-11-16T02:27:36.912Z",
-      "lastSuccessAt": "2026-11-16T02:27:36.912Z",
+      "lastCheckedAt": "2026-11-16T06:46:55.231Z",
+      "lastSuccessAt": "2026-11-16T06:46:55.231Z",
       "lastChangedAt": "2026-10-07T08:41:16.011Z",
       "monitorStatus": "ok",
       "price": 81.95,
@@ -481,7 +481,7 @@
       "shipsToIreland": null,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "b3322242ddb4828dcfb64c5ce70b6df55c6caf340a33dc2ff5fb9a070c07ac90",
+      "contentHash": "be95b74d9a2e7fb6d4010e882e19bd7235ccaf2c9281383bf613b409b5a08c23",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.toolfix.ie/c/knipex/185/perpage_240",
