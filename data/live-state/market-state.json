@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-21T08:23:47.076Z",
+  "generatedAt": "2026-11-21T09:22:30.086Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -336,20 +336,20 @@
         "currency": "EUR",
         "enabled": true
       },
-      "lastCheckedAt": "2026-11-21T06:29:56.351Z",
+      "lastCheckedAt": "2026-11-21T09:22:30.086Z",
       "lastSuccessAt": "2026-11-20T22:22:18.151Z",
       "lastChangedAt": "2026-10-25T16:29:01.195Z",
-      "monitorStatus": "http_500",
+      "monitorStatus": "fetch_error",
       "price": null,
       "currency": "EUR",
       "availability": "n/a",
       "shippingToIreland": 9.95,
       "shipsToIreland": null,
       "identityStatus": "verified",
-      "httpStatus": 500,
+      "httpStatus": null,
       "contentHash": "c19073f5da83ab05dc1aeb2dc2e0b10ab1bee01ed38a501c12fe01c4898bc89f",
-      "consecutiveFailures": 2,
-      "errorText": "HTTP 500",
+      "consecutiveFailures": 3,
+      "errorText": "The operation was aborted due to timeout",
       "responseUrl": "https://www.reichelt.com/ie/en/shop/service/-12_28"
     },
     "autodoc-ie-knipex-8603250": {
