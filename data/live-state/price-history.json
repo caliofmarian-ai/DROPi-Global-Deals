@@ -1,8 +1,20 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-21T02:25:05.802Z",
+  "generatedAt": "2026-11-21T04:23:36.182Z",
   "products": {
     "__shipping__": [
+      {
+        "sourceId": "reichelt-shipping-ie-dhl-10kg",
+        "offerKind": "shipping_tariff",
+        "checkedAt": "2026-11-21T04:23:34.658Z",
+        "eventType": "changed",
+        "monitorStatus": "http_500",
+        "price": null,
+        "currency": "EUR",
+        "availability": "n/a",
+        "shippingToIreland": 9.95,
+        "contentHash": "c19073f5da83ab05dc1aeb2dc2e0b10ab1bee01ed38a501c12fe01c4898bc89f"
+      },
       {
         "sourceId": "reichelt-shipping-ie-dhl-10kg",
         "offerKind": "shipping_tariff",
@@ -191,6 +203,18 @@
       }
     ],
     "knipex-8603250": [
+      {
+        "sourceId": "reichelt-ie-knipex-8603250",
+        "offerKind": "source_offer",
+        "checkedAt": "2026-11-21T04:23:36.182Z",
+        "eventType": "changed",
+        "monitorStatus": "http_500",
+        "price": 53.85,
+        "currency": "EUR",
+        "availability": "unknown",
+        "shippingToIreland": null,
+        "contentHash": "a2efa32bf350fb21042cf5f900a2211d0cd8fbd149d1cb31af42e8f7f1a505c5"
+      },
       {
         "sourceId": "reichelt-ie-knipex-8603250",
         "offerKind": "source_offer",
