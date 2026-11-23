@@ -1,7 +1,42 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-23T01:22:59.931Z",
+  "generatedAt": "2026-11-23T02:28:15.919Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-11-23T02:28:11.061Z",
+      "finishedAt": "2026-11-23T02:28:15.919Z",
+      "sourcesDue": 3,
+      "checked": 3,
+      "changed": 0,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "toolfix-ie-knipex-8603250",
+          "status": "ok",
+          "changed": false,
+          "price": 81.95,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "canyon-ie-csr8000-11-30",
+          "status": "ok",
+          "changed": false,
+          "price": 49.99,
+          "shippingToIreland": null,
+          "error": null
+        },
+        {
+          "sourceId": "reichelt-ie-knipex-8603250",
+          "status": "ok",
+          "changed": false,
+          "price": 53.85,
+          "shippingToIreland": null,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-11-23T01:22:58.119Z",
@@ -2237,41 +2272,6 @@
           "price": 53.85,
           "shippingToIreland": null,
           "error": null
-        }
-      ]
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-11-18T22:22:04.641Z",
-      "finishedAt": "2026-11-18T22:22:07.985Z",
-      "sourcesDue": 3,
-      "checked": 3,
-      "changed": 1,
-      "failed": 1,
-      "results": [
-        {
-          "sourceId": "toolfix-ie-knipex-8603250",
-          "status": "ok",
-          "changed": false,
-          "price": 81.95,
-          "shippingToIreland": null,
-          "error": null
-        },
-        {
-          "sourceId": "canyon-ie-csr8000-11-30",
-          "status": "ok",
-          "changed": false,
-          "price": 49.99,
-          "shippingToIreland": null,
-          "error": null
-        },
-        {
-          "sourceId": "reichelt-ie-knipex-8603250",
-          "status": "http_500",
-          "changed": true,
-          "price": null,
-          "shippingToIreland": null,
-          "error": "HTTP 500"
         }
       ]
     }
