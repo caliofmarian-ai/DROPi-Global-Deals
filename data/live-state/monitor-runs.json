@@ -1,7 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T13:22:22.934Z",
+  "generatedAt": "2026-11-24T14:23:39.965Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-11-24T14:23:36.350Z",
+      "finishedAt": "2026-11-24T14:23:39.965Z",
+      "sourcesDue": 1,
+      "checked": 1,
+      "changed": 0,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "reichelt-shipping-ie-dhl-10kg",
+          "status": "ok",
+          "changed": false,
+          "price": null,
+          "shippingToIreland": 9.95,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-11-24T13:22:21.256Z",
@@ -2244,25 +2263,6 @@
       "changed": 0,
       "failed": 0,
       "results": []
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-11-20T10:22:31.631Z",
-      "finishedAt": "2026-11-20T10:22:32.757Z",
-      "sourcesDue": 1,
-      "checked": 1,
-      "changed": 0,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "halfords-ie-cnhg701-116",
-          "status": "ok",
-          "changed": false,
-          "price": 25.17,
-          "shippingToIreland": null,
-          "error": null
-        }
-      ]
     }
   ]
 }
