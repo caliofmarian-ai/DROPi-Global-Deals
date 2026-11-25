@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-25T07:24:26.349Z",
+  "generatedAt": "2026-11-25T08:26:30.746Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-11-25T08:26:30.746Z",
+      "finishedAt": "2026-11-25T08:26:30.746Z",
+      "sourcesDue": 0,
+      "checked": 0,
+      "changed": 0,
+      "failed": 0,
+      "results": []
+    },
     {
       "status": "completed",
       "startedAt": "2026-11-25T07:24:26.349Z",
@@ -2236,41 +2246,6 @@
           "price": 25.17,
           "shippingToIreland": null,
           "error": null
-        }
-      ]
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-11-21T04:23:33.885Z",
-      "finishedAt": "2026-11-21T04:23:37.344Z",
-      "sourcesDue": 3,
-      "checked": 3,
-      "changed": 2,
-      "failed": 2,
-      "results": [
-        {
-          "sourceId": "canyon-shipping-ie-gear",
-          "status": "ok",
-          "changed": false,
-          "price": null,
-          "shippingToIreland": 9.95,
-          "error": null
-        },
-        {
-          "sourceId": "reichelt-shipping-ie-dhl-10kg",
-          "status": "http_500",
-          "changed": true,
-          "price": null,
-          "shippingToIreland": null,
-          "error": "HTTP 500"
-        },
-        {
-          "sourceId": "reichelt-ie-knipex-8603250",
-          "status": "http_500",
-          "changed": true,
-          "price": null,
-          "shippingToIreland": null,
-          "error": "HTTP 500"
         }
       ]
     }
