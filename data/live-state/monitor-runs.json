@@ -1,7 +1,26 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-26T00:41:34.145Z",
+  "generatedAt": "2026-11-26T01:22:40.042Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-11-26T01:22:39.338Z",
+      "finishedAt": "2026-11-26T01:22:40.042Z",
+      "sourcesDue": 1,
+      "checked": 1,
+      "changed": 0,
+      "failed": 0,
+      "results": [
+        {
+          "sourceId": "canyon-shipping-ie-gear",
+          "status": "ok",
+          "changed": false,
+          "price": null,
+          "shippingToIreland": 9.95,
+          "error": null
+        }
+      ]
+    },
     {
       "status": "completed",
       "startedAt": "2026-11-26T00:41:28.439Z",
@@ -2221,33 +2240,6 @@
       "changed": 0,
       "failed": 0,
       "results": []
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-11-21T21:22:29.206Z",
-      "finishedAt": "2026-11-21T21:22:32.157Z",
-      "sourcesDue": 2,
-      "checked": 2,
-      "changed": 0,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "reichelt-shipping-ie-dhl-10kg",
-          "status": "ok",
-          "changed": false,
-          "price": null,
-          "shippingToIreland": 9.95,
-          "error": null
-        },
-        {
-          "sourceId": "halfords-ie-cnhg701-116",
-          "status": "ok",
-          "changed": false,
-          "price": 25.17,
-          "shippingToIreland": null,
-          "error": null
-        }
-      ]
     }
   ]
 }
