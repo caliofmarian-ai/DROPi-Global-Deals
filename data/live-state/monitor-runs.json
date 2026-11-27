@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T10:23:04.460Z",
+  "generatedAt": "2026-11-27T11:22:46.033Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-11-27T11:22:46.033Z",
+      "finishedAt": "2026-11-27T11:22:46.033Z",
+      "sourcesDue": 0,
+      "checked": 0,
+      "changed": 0,
+      "failed": 0,
+      "results": []
+    },
     {
       "status": "completed",
       "startedAt": "2026-11-27T10:23:02.335Z",
@@ -2199,25 +2209,6 @@
       "changed": 0,
       "failed": 0,
       "results": []
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-11-23T07:25:25.024Z",
-      "finishedAt": "2026-11-23T07:25:25.942Z",
-      "sourcesDue": 1,
-      "checked": 1,
-      "changed": 0,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "canyon-shipping-ie-gear",
-          "status": "ok",
-          "changed": false,
-          "price": null,
-          "shippingToIreland": 9.95,
-          "error": null
-        }
-      ]
     }
   ]
 }
