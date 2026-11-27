@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-27T03:25:58.163Z",
+  "generatedAt": "2026-11-27T04:25:14.207Z",
   "sources": {
     "bike24-shipping-ie": {
       "sourceId": "bike24-shipping-ie",
@@ -245,8 +245,8 @@
         "shippingSourceId": "canyon-shipping-ie-gear",
         "enabled": true
       },
-      "lastCheckedAt": "2026-11-27T00:42:25.801Z",
-      "lastSuccessAt": "2026-11-27T00:42:25.801Z",
+      "lastCheckedAt": "2026-11-27T04:25:13.182Z",
+      "lastSuccessAt": "2026-11-27T04:25:13.182Z",
       "lastChangedAt": "2026-11-24T02:27:18.611Z",
       "monitorStatus": "ok",
       "price": 49.99,
@@ -423,8 +423,8 @@
         "shippingSourceId": "reichelt-shipping-ie-dhl-10kg",
         "enabled": true
       },
-      "lastCheckedAt": "2026-11-27T00:42:27.358Z",
-      "lastSuccessAt": "2026-11-27T00:42:27.358Z",
+      "lastCheckedAt": "2026-11-27T04:25:14.207Z",
+      "lastSuccessAt": "2026-11-27T04:25:14.207Z",
       "lastChangedAt": "2026-11-21T06:29:59.484Z",
       "monitorStatus": "ok",
       "price": 53.85,
@@ -434,7 +434,7 @@
       "shipsToIreland": true,
       "identityStatus": "verified",
       "httpStatus": 200,
-      "contentHash": "f0275cc24c84300433db8d2cd4a95e719f6ed4783537b2d88eb3af289752efc6",
+      "contentHash": "0c3ce25d3725c110dcf96a7ff8e7db46f8887e51a73a71dd734f4340b3e7d7ec",
       "consecutiveFailures": 0,
       "errorText": null,
       "responseUrl": "https://www.reichelt.com/ie/en/shop/product/pliers_wrench_250_mm_sw_up_to_46_mm-29233",
@@ -470,8 +470,8 @@
         "comparisonEligible": true,
         "enabled": true
       },
-      "lastCheckedAt": "2026-11-27T00:42:24.302Z",
-      "lastSuccessAt": "2026-11-27T00:42:24.302Z",
+      "lastCheckedAt": "2026-11-27T04:25:11.494Z",
+      "lastSuccessAt": "2026-11-27T04:25:11.494Z",
       "lastChangedAt": "2026-10-07T08:41:16.011Z",
       "monitorStatus": "ok",
       "price": 81.95,
