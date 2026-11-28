@@ -1,7 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-28T13:22:18.544Z",
+  "generatedAt": "2026-11-28T14:22:24.150Z",
   "runs": [
+    {
+      "status": "completed",
+      "startedAt": "2026-11-28T14:22:24.149Z",
+      "finishedAt": "2026-11-28T14:22:24.150Z",
+      "sourcesDue": 0,
+      "checked": 0,
+      "changed": 0,
+      "failed": 0,
+      "results": []
+    },
     {
       "status": "completed",
       "startedAt": "2026-11-28T13:22:18.544Z",
@@ -2196,33 +2206,6 @@
       "changed": 0,
       "failed": 0,
       "results": []
-    },
-    {
-      "status": "completed",
-      "startedAt": "2026-11-24T10:21:52.199Z",
-      "finishedAt": "2026-11-24T10:21:54.881Z",
-      "sourcesDue": 2,
-      "checked": 2,
-      "changed": 0,
-      "failed": 0,
-      "results": [
-        {
-          "sourceId": "canyon-shipping-ie-gear",
-          "status": "ok",
-          "changed": false,
-          "price": null,
-          "shippingToIreland": 9.95,
-          "error": null
-        },
-        {
-          "sourceId": "canyon-ie-csr8000-11-30",
-          "status": "ok",
-          "changed": false,
-          "price": 49.99,
-          "shippingToIreland": null,
-          "error": null
-        }
-      ]
     }
   ]
 }
